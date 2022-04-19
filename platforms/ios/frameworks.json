@@ -1,0 +1,12 @@
+{
+    "ImageIO.framework": 2,
+    "CoreLocation.framework": 2,
+    "AVFoundation.framework": 1,
+    "UIKit.framework": 1,
+    "Foundation.framework": 1,
+    "QuartzCore.framework": 1,
+    "MessageUI.framework": 1,
+    "WebKit.framework": 1,
+    "UserNotifications.framework": 1,
+    "SystemConfiguration.framework": 1
+}

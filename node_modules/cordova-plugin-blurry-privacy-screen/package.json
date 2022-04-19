@@ -1,0 +1,56 @@
+{
+  "_from": "git+https://github.com/lifeofcoding/cordova-blur-app-privacy-screen.git",
+  "_id": "cordova-plugin-blurry-privacy-screen@0.0.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-blurry-privacy-screen",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/lifeofcoding/cordova-blur-app-privacy-screen.git",
+    "rawSpec": "https://github.com/lifeofcoding/cordova-blur-app-privacy-screen.git",
+    "saveSpec": "git+https://github.com/lifeofcoding/cordova-blur-app-privacy-screen.git",
+    "fetchSpec": "https://github.com/lifeofcoding/cordova-blur-app-privacy-screen.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "git+https://github.com/lifeofcoding/cordova-blur-app-privacy-screen.git#e9a69742542f2c8c8b8434fa53d862cffd2f98e5",
+  "_spec": "https://github.com/lifeofcoding/cordova-blur-app-privacy-screen.git",
+  "_where": "/Users/mackbookc5/Desktop/chatCorpoJan",
+  "author": {
+    "name": "Jimmy Rousseau"
+  },
+  "bugs": {
+    "url": "https://github.com/lifeofcoding/cordova-blur-app-privacy-screen/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-blur-app-privacy-screen",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Blurs your app when put into the background to prevent iOS snapshot feature from showing sensitive information.",
+  "homepage": "https://github.com/lifeofcoding/cordova-blur-app-privacy-screen#readme",
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "hipaa",
+    "privacy",
+    "snapshot",
+    "switcher",
+    "secure"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-blurry-privacy-screen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lifeofcoding/cordova-blur-app-privacy-screen.git"
+  },
+  "version": "0.0.1"
+}

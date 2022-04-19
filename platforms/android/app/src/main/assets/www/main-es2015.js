@@ -1,0 +1,3720 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
+
+/***/ "./$$_lazy_route_resource lazy recursive":
+/*!******************************************************!*\
+  !*** ./$$_lazy_route_resource lazy namespace object ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./pages/chat-admin/chat-admin.module": [
+		"./src/app/pages/chat-admin/chat-admin.module.ts",
+		"pages-chat-admin-chat-admin-module"
+	],
+	"./pages/login/login.module": [
+		"./src/app/pages/login/login.module.ts",
+		"pages-login-login-module"
+	],
+	"./pages/reenvia-grupo/reenvia-grupo.module": [
+		"./src/app/pages/reenvia-grupo/reenvia-grupo.module.ts",
+		"pages-reenvia-grupo-reenvia-grupo-module"
+	]
+};
+function webpackAsyncContext(req) {
+	if(!__webpack_require__.o(map, req)) {
+		return Promise.resolve().then(function() {
+			var e = new Error("Cannot find module '" + req + "'");
+			e.code = 'MODULE_NOT_FOUND';
+			throw e;
+		});
+	}
+
+	var ids = map[req], id = ids[0];
+	return __webpack_require__.e(ids[1]).then(function() {
+		return __webpack_require__(id);
+	});
+}
+webpackAsyncContext.keys = function webpackAsyncContextKeys() {
+	return Object.keys(map);
+};
+webpackAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
+module.exports = webpackAsyncContext;
+
+/***/ }),
+
+/***/ "./node_modules/@ionic/core/dist/esm lazy recursive ^\\.\\/.*\\.entry\\.js$ include: \\.entry\\.js$ exclude: \\.system\\.entry\\.js$":
+/*!*****************************************************************************************************************************************!*\
+  !*** ./node_modules/@ionic/core/dist/esm lazy ^\.\/.*\.entry\.js$ include: \.entry\.js$ exclude: \.system\.entry\.js$ namespace object ***!
+  \*****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./ion-action-sheet-controller_8.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-action-sheet-controller_8.entry.js",
+		"common",
+		1
+	],
+	"./ion-action-sheet-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-action-sheet-ios.entry.js",
+		"common",
+		2
+	],
+	"./ion-action-sheet-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-action-sheet-md.entry.js",
+		"common",
+		3
+	],
+	"./ion-alert-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-alert-ios.entry.js",
+		"common",
+		4
+	],
+	"./ion-alert-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-alert-md.entry.js",
+		"common",
+		5
+	],
+	"./ion-app_8-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-app_8-ios.entry.js",
+		"common",
+		6
+	],
+	"./ion-app_8-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-app_8-md.entry.js",
+		"common",
+		7
+	],
+	"./ion-avatar_3-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-avatar_3-ios.entry.js",
+		"common",
+		8
+	],
+	"./ion-avatar_3-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-avatar_3-md.entry.js",
+		"common",
+		9
+	],
+	"./ion-back-button-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-back-button-ios.entry.js",
+		"common",
+		10
+	],
+	"./ion-back-button-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-back-button-md.entry.js",
+		"common",
+		11
+	],
+	"./ion-backdrop-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-backdrop-ios.entry.js",
+		12
+	],
+	"./ion-backdrop-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-backdrop-md.entry.js",
+		13
+	],
+	"./ion-button_2-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-button_2-ios.entry.js",
+		"common",
+		14
+	],
+	"./ion-button_2-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-button_2-md.entry.js",
+		"common",
+		15
+	],
+	"./ion-card_5-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-card_5-ios.entry.js",
+		"common",
+		16
+	],
+	"./ion-card_5-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-card_5-md.entry.js",
+		"common",
+		17
+	],
+	"./ion-checkbox-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-checkbox-ios.entry.js",
+		"common",
+		18
+	],
+	"./ion-checkbox-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-checkbox-md.entry.js",
+		"common",
+		19
+	],
+	"./ion-chip-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-chip-ios.entry.js",
+		"common",
+		20
+	],
+	"./ion-chip-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-chip-md.entry.js",
+		"common",
+		21
+	],
+	"./ion-col_3.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-col_3.entry.js",
+		22
+	],
+	"./ion-datetime_3-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-datetime_3-ios.entry.js",
+		"common",
+		23
+	],
+	"./ion-datetime_3-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-datetime_3-md.entry.js",
+		"common",
+		24
+	],
+	"./ion-fab_3-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-fab_3-ios.entry.js",
+		"common",
+		25
+	],
+	"./ion-fab_3-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-fab_3-md.entry.js",
+		"common",
+		26
+	],
+	"./ion-img.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-img.entry.js",
+		27
+	],
+	"./ion-infinite-scroll_2-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-infinite-scroll_2-ios.entry.js",
+		"common",
+		28
+	],
+	"./ion-infinite-scroll_2-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-infinite-scroll_2-md.entry.js",
+		"common",
+		29
+	],
+	"./ion-input-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-input-ios.entry.js",
+		"common",
+		30
+	],
+	"./ion-input-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-input-md.entry.js",
+		"common",
+		31
+	],
+	"./ion-item-option_3-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-item-option_3-ios.entry.js",
+		"common",
+		32
+	],
+	"./ion-item-option_3-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-item-option_3-md.entry.js",
+		"common",
+		33
+	],
+	"./ion-item_8-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-item_8-ios.entry.js",
+		"common",
+		34
+	],
+	"./ion-item_8-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-item_8-md.entry.js",
+		"common",
+		35
+	],
+	"./ion-loading-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-loading-ios.entry.js",
+		"common",
+		36
+	],
+	"./ion-loading-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-loading-md.entry.js",
+		"common",
+		37
+	],
+	"./ion-menu_4-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-menu_4-ios.entry.js",
+		"common",
+		38
+	],
+	"./ion-menu_4-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-menu_4-md.entry.js",
+		"common",
+		39
+	],
+	"./ion-modal-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-modal-ios.entry.js",
+		"common",
+		40
+	],
+	"./ion-modal-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-modal-md.entry.js",
+		"common",
+		41
+	],
+	"./ion-nav_4.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-nav_4.entry.js",
+		0
+	],
+	"./ion-nav_5.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-nav_5.entry.js",
+		"common",
+		42
+	],
+	"./ion-popover-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-popover-ios.entry.js",
+		"common",
+		43
+	],
+	"./ion-popover-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-popover-md.entry.js",
+		"common",
+		44
+	],
+	"./ion-progress-bar-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-progress-bar-ios.entry.js",
+		"common",
+		45
+	],
+	"./ion-progress-bar-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-progress-bar-md.entry.js",
+		"common",
+		46
+	],
+	"./ion-radio_2-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-radio_2-ios.entry.js",
+		"common",
+		47
+	],
+	"./ion-radio_2-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-radio_2-md.entry.js",
+		"common",
+		48
+	],
+	"./ion-range-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-range-ios.entry.js",
+		"common",
+		49
+	],
+	"./ion-range-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-range-md.entry.js",
+		"common",
+		50
+	],
+	"./ion-refresher_2-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-refresher_2-ios.entry.js",
+		"common",
+		51
+	],
+	"./ion-refresher_2-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-refresher_2-md.entry.js",
+		"common",
+		52
+	],
+	"./ion-reorder_2-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-reorder_2-ios.entry.js",
+		"common",
+		53
+	],
+	"./ion-reorder_2-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-reorder_2-md.entry.js",
+		"common",
+		54
+	],
+	"./ion-ripple-effect.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-ripple-effect.entry.js",
+		55
+	],
+	"./ion-route_4.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-route_4.entry.js",
+		"common",
+		56
+	],
+	"./ion-searchbar-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-searchbar-ios.entry.js",
+		"common",
+		57
+	],
+	"./ion-searchbar-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-searchbar-md.entry.js",
+		"common",
+		58
+	],
+	"./ion-segment_2-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-segment_2-ios.entry.js",
+		"common",
+		59
+	],
+	"./ion-segment_2-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-segment_2-md.entry.js",
+		"common",
+		60
+	],
+	"./ion-select_3-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-select_3-ios.entry.js",
+		"common",
+		61
+	],
+	"./ion-select_3-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-select_3-md.entry.js",
+		"common",
+		62
+	],
+	"./ion-slide_2-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-slide_2-ios.entry.js",
+		63
+	],
+	"./ion-slide_2-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-slide_2-md.entry.js",
+		64
+	],
+	"./ion-spinner.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-spinner.entry.js",
+		"common",
+		65
+	],
+	"./ion-split-pane-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-split-pane-ios.entry.js",
+		66
+	],
+	"./ion-split-pane-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-split-pane-md.entry.js",
+		67
+	],
+	"./ion-tab-bar_2-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-tab-bar_2-ios.entry.js",
+		"common",
+		68
+	],
+	"./ion-tab-bar_2-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-tab-bar_2-md.entry.js",
+		"common",
+		69
+	],
+	"./ion-tab_2.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-tab_2.entry.js",
+		"common",
+		70
+	],
+	"./ion-text.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-text.entry.js",
+		"common",
+		71
+	],
+	"./ion-textarea-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-textarea-ios.entry.js",
+		"common",
+		72
+	],
+	"./ion-textarea-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-textarea-md.entry.js",
+		"common",
+		73
+	],
+	"./ion-toast-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-toast-ios.entry.js",
+		"common",
+		74
+	],
+	"./ion-toast-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-toast-md.entry.js",
+		"common",
+		75
+	],
+	"./ion-toggle-ios.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-toggle-ios.entry.js",
+		"common",
+		76
+	],
+	"./ion-toggle-md.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-toggle-md.entry.js",
+		"common",
+		77
+	],
+	"./ion-virtual-scroll.entry.js": [
+		"./node_modules/@ionic/core/dist/esm/ion-virtual-scroll.entry.js",
+		78
+	]
+};
+function webpackAsyncContext(req) {
+	if(!__webpack_require__.o(map, req)) {
+		return Promise.resolve().then(function() {
+			var e = new Error("Cannot find module '" + req + "'");
+			e.code = 'MODULE_NOT_FOUND';
+			throw e;
+		});
+	}
+
+	var ids = map[req], id = ids[0];
+	return Promise.all(ids.slice(1).map(__webpack_require__.e)).then(function() {
+		return __webpack_require__(id);
+	});
+}
+webpackAsyncContext.keys = function webpackAsyncContextKeys() {
+	return Object.keys(map);
+};
+webpackAsyncContext.id = "./node_modules/@ionic/core/dist/esm lazy recursive ^\\.\\/.*\\.entry\\.js$ include: \\.entry\\.js$ exclude: \\.system\\.entry\\.js$";
+module.exports = webpackAsyncContext;
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/app.component.html":
+/*!**************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/app.component.html ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<ion-app>\n  <ion-router-outlet></ion-router-outlet>\n</ion-app>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/components/chat/chat.page.html":
+/*!**************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/components/chat/chat.page.html ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n\n<ion-header>\n    <ion-toolbar>\n        <ion-button slot=\"start\" fill=\"clear\" (click)=\"closeChat()\" >\n            <ion-icon style=\"color:rgb(104, 88, 88); font-size: 25px\" name=\"arrow-round-back\"> </ion-icon>\n          </ion-button>\n<!--\n   <ion-button fill=\"clear\" (click)=\"zoom(true)\">\n              <ion-icon name=\"add-circle-outline\"></ion-icon>\n            </ion-button>\n\n          <ion-button fill=\"clear\" (click)=\"zoom(false)\">\n              <ion-icon name=\"remove-circle-outline\"></ion-icon>\n            </ion-button>\n-->\n         \n\n      <ion-title> Imagen </ion-title>\n    </ion-toolbar>\n</ion-header>\n\n\n\n\n<ion-content  color=\"dark\" fullscreen=\"true\">\n<ion-slides >\n  <ion-slide >\n    <div  class=\"swiper-zoom-container\"><img class=\"img\" src=\"{{url}}/mensajes/{{indice}}\"></div>\n  </ion-slide>\n</ion-slides>\n\n<!--\n        <img class=\"img\" src=\"http://10.11.124.235:2000/mensajes/{{indice}}\"> \n\n        <img class=\"img\" src=\"http://189.211.127.34:8080/mensajes/{{indice}}\">\n-->\n     \n\n</ion-content>\n\n\n\n\n\n\n\n\n\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/pages/chat-admin/chat-admin.page.html":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/pages/chat-admin/chat-admin.page.html ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n\n<ion-header  >\n\n  <ion-toolbar color=\"light\">\n      <ion-button slot=\"start\" fill=\"clear\" (click)=\"closeChat()\"  >\n          <ion-icon style=\"color:rgb(104, 88, 88); font-size: 25px\" name=\"arrow-round-back\"> </ion-icon>\n      </ion-button>         \n    <ion-title > Admin <b>{{grup}}</b> </ion-title>\n    \n\n\n    <!-- Para versiones iOS-->\n      \n      <ion-fab-button color=\"danger\" (click)=\"open()\" slot=\"end\" ><ion-icon  name=\"ios-images\"></ion-icon></ion-fab-button>\n      <ion-fab-button color=\"primary\" (click)=\"fileChooseriOS()\" slot=\"end\"> <ion-icon name=\"ios-document\"> </ion-icon></ion-fab-button>\n  \n\n\n  </ion-toolbar>  \n\n  <!--Para versiones MD\n  <div>\n    <ion-fab vertical=\"center\" horizontal=\"end\" edge  slot=\"fixed\"   >\n      <ion-fab-button  color=\"grey\">\n        <ion-icon  style=\"font-size: 25px\" name=\"md-add-circle\"></ion-icon>\n      </ion-fab-button>\n\n      <ion-fab-list side=\"back\" >\n          <ion-fab-button color=\"danger\" (click)=\"galeria()\" ><ion-icon  name=\"ios-images\"></ion-icon></ion-fab-button>\n         Valida que el Grupo sea (** Cordinadores ) y usuario 01 para poder enviar archivos\n           *ngIf=\"userType === '01' && grup === 'Relevantes' \" \n          \n          \n          <ion-fab-button color=\"primary\" (click)=\"fileChooser()\"> <ion-icon name=\"ios-document\"> </ion-icon></ion-fab-button>\n          \n\n      </ion-fab-list>\n  </ion-fab>\n\n  </div>\n-->\n\n</ion-header>\n\n<!--\n  <div  id=\"chat-messagess\" >\n    <ion-card mode=\"ios\" slot=\"start\" >\n      <ion-icon slot=\"start\" color=\"dark\" name=\"pin\"></ion-icon> \n        <ion-card-content>\n        adasd\n        </ion-card-content>\n        </ion-card>\n      </div>  \n-->\n\n    <div class=\"ion-padding\" class=\"msg_history\" id=\"chat-mensaje\" >\n    <div *ngFor=\"let msg of mensajes\" >\n\n\n      <!-- \n        MENSAJES DE SALIDA  --------------------------------------------------------------------------\n      -->\n      <div class=\"outgoing_msg\" *ngIf=\"msg.usuario.email === email && (msg.texto)\" >\n        \n          <div class=\"sent_msg\" *ngIf=\"msg.eliminar\">\n            <span class=\"time_date\"><b>{{msg.usuario.nombre}}</b></span>\n            <p>Mensaje Eliminado</p>            \n            <span class=\"time_date\">{{msg.created | date: 'medium'}}</span> \n          </div>\n\n          <div class=\"sent_msg\" id=\"dropdownBasic1\" ngbDropdownToggle *ngIf=\"!msg.eliminar\">\n            <span class=\"time_date\"> <b> {{msg.usuario.nombre}}</b></span>\n            \n            <!-- MUESTRA TODO EL CUADRO DE MENSAJE RESPONDIDO-->\n            <div class=\"send_res\" *ngIf=\"msg.responder\">\n              <!--USUARIO AL QUE SE LE RESPONDIO MENSAJE-->\n                <span class=\"time_date_res\"> <b> {{msg.responder.usuario.nombre}}</b></span>\n                \n                <!-- cuando se responde un mensaje de reenvio o de otro usuario-->\n                <img\n                  *ngIf=\"msg.responder.img.length > 0 && !msg.responder.reenviar\"\n                  (click)=\"presentActionSheetImage(msg.responder.usuario._id+'/'+msg.responder.img,msg._id)\"\n                  src=\"{{url}}/mensajes/{{msg.responder.usuario._id}}/{{msg.responder.img}}\" >\n\n\n                  <!-- Cuado se responde un mensaje propio-->\n                <img\n                  *ngIf=\"msg.responder.img.length > 0 && msg.responder.reenviar\"\n                  (click)=\"presentActionSheetImage(msg.responder.reenviar+'/'+msg.responder.img,msg._id)\"\n                  src=\"{{url}}/mensajes/{{msg.responder.reenviar}}/{{msg.responder.img}}\" >\n\n                <!--TEXTO QUE SE RESPONDIO-->\n                <div [innerHTML]=\"msg.responder.texto\"></div>\n\n                <!-- DOCUMENTO QUE SE RESPONDIO-->\n                <div class=\"time_date2\"\n                (click)=\"presentActionSheetDocument(msg.usuario._id+'/'+msg.responder.doc,msg._id)\"\n                >{{msg.responder.doc}}</div>\n                \n            </div>\n            <p (click)=\"presentActionSheet(msg._id)\" [innerHTML]=\"msg.texto\"></p>\n            <span class=\"time_date\"> {{msg.created | date: 'medium'}} </span> \n          </div>\n      </div>\n\n      \n\n      <!----------------------ENVIO DE DOCUMENTOS -- VISTA ------------------->\n      <div class=\"outgoing_msg\" *ngIf=\"msg.usuario.email === email && !msg.texto && msg.doc.length \">\n        <div class=\"sent_msg\" *ngIf=\"msg.eliminar\">\n          <span class=\"time_date\"> <b> {{msg.usuario.nombre}}</b></span>\n          <p>Mensaje Eliminado</p>\n          <span class=\"time_date\"> {{msg.created | date: 'medium'}} </span>\n        </div>\n\n        <ion-card class=\"example-card sent_img\" *ngIf=\"!msg.eliminar\" >\n          <span class=\"time_date\"> <b> {{msg.usuario.nombre }}</b></span>\n          <img mat-card-image *ngIf=\"!msg.reenviar\"\n          (click)=\"presentActionSheetDocument(msg.usuario._id+'/'+msg.doc,msg._id,msg.doc)\"\n          src=\"assets/icon/icon_pdf.png\"\n          height=\"100\" width=\"50\"\n          alt=\"Error al cargar imagen rn\">\n      \n          <img *ngIf=\"msg.reenviar\"\n          (click)=\"presentActionSheetDocument(msg.reenviar+'/'+msg.doc,msg._id,msg.doc)\"\n          src=\"assets/icon/icon_pdf.png\"\n          height=\"100\" width=\"50\"\n          alt=\"Error al cargar imagen\">\n          <span class=\"time_date2\"> {{msg.doc }}</span>\n          <span class=\"time_date\"> {{msg.created | date: 'medium'}} </span>\n        </ion-card>\n      </div>  \n     \n      <!--\n        Envio de Imagen          ------------------------------------------------------------------------\n      -->\n      \n      \n\n        <div class=\"outgoing_msg\" *ngIf=\"msg.usuario.email === email && !msg.texto && msg.img.length\">\n          <div class=\"sent_msg\" *ngIf=\"msg.eliminar\">\n              <span class=\"time_date\"> <b>{{msg.usuario.nombre}}</b></span>\n              <p>Mensaje Eliminado</p>\n              <span class=\"time_date\"> {{msg.created | date: 'medium'}} </span>\n          </div>\n\n          <ion-card class=\"example-card sent_img\" *ngIf=\"!msg.eliminar\" >\n            \n            <span class=\"time_date\"> <b>{{msg.usuario.nombre}}</b></span>\n\n            <img mat-card-image *ngIf=\"!msg.reenviar\" \n            (click)=\"presentActionSheetImage(msg.usuario._id+'/'+msg.img,msg._id)\"\n            src=\"{{url}}/mensajes/{{msg.usuario._id}}/{{msg.img}}\"\n                 height=\"200\" width=\"200\"\n                 alt=\"Error al cargar imagen rn\">\n\n\n            <img *ngIf=\"msg.reenviar\"\n            (click)=\"presentActionSheetImage(msg.reenviar+'/'+msg.img,msg._id)\"\n            src=\"{{url}}/mensajes/{{msg.reenviar}}/{{msg.img}}\"\n                 height=\"200\" width=\"200\"\n                 alt=\"Error al cargar imagen\">\n\n            <span class=\"time_date\"> {{msg.created | date: 'medium'}} </span>\n          </ion-card>\n      </div> \n\n      \n         \n      <!-- \n        MENSAJES DE LLEGADA ---------------------------------------------------------------------------------------------------------------------------------------------\n      -->\n      <div class=\"incoming_msg\"  *ngIf=\"msg.usuario.email !== email && msg.texto\" >\n       <!-- <div class=\"incoming_msg_img\"> <img src=\"/assets/icon/imagen1.png\" alt=\"sunil\"> </div> -->\n        <div class=\"received_msg\">\n\n            <div class=\"received_withd_msg\" *ngIf=\"msg.eliminar\">\n                <span class=\"time_date\"> <b>{{msg.usuario.nombre}}</b></span>\n                <p>Mensaje Eliminado</p>\n                <span class=\"time_date\"> {{msg.created | date: 'medium'}}</span>\n            </div>\n                <!--Mensaje de respuesta-->\n          <div class=\"received_withd_msg\" *ngIf=\"!msg.eliminar\">\n            <span class=\"time_date\"> <b>{{msg.usuario.nombre}}</b></span>\n            \n            <!--Mensaje imagen que se respondio-->\n\n            <!-- src=\"{{url}}/mensajes/{{msg.responder.reenviar}}/{{msg.responder.img}}\" >   ---------------------------------------------------  -->\n            <div class=\"received_withd_msg_res\" *ngIf=\"msg.responder\">\n                <span class=\"time_date\"> <b>{{msg.responder.usuario.nombre}}</b></span>\n\n                <!--Imagen con respuesta -->\n                <img\n                  *ngIf=\"msg.responder.img.length > 0 && !msg.responder.reenviar\"\n                  (click)=\"presentActionSheetImage(msg.responder.usuario._id+'/'+msg.responder.img,msg._id)\"\n                  src=\"{{url}}/mensajes/{{msg.responder.usuario._id}}/{{msg.responder.img}}\" >\n                  \n                <img\n                  *ngIf=\"msg.responder.img.length > 0 && msg.responder.reenviar\"\n                  (click)=\"presentActionSheetImage(msg.responder.reenviar+'/'+msg.responder.img,msg._id)\"\n                  src=\"{{url}}/mensajes/{{msg.responder.reenviar}}/{{msg.responder.img}}\" >\n\n               <!--TEXTO QUE SE RESPONDIO-->\n                <div class=\"time_date\" [innerHTML]=\"msg.responder.texto\"></div>\n\n                <!-- DOCUMENTO QUE SE RESPONDIO-->\n                <div class=\"time_date2\"\n                (click)=\"presentActionSheetDocument(msg.usuario._id+'/'+msg.responder.doc,msg._id)\"\n                >{{msg.responder.doc}}</div>\n\n            </div>\n            <p (click)=\"presentActionSheetMsgLlegada(msg._id)\" [innerHTML]=\"msg.texto\"></p>\n            <span class=\"time_date\"> {{msg.created | date: 'medium'}}</span>\n          </div>\n        </div>\n      </div>\n\n      <!----------------------RECEPCION DE DOCUMENTOS -- VISTA ------------------->\n      <div *ngIf=\"msg.usuario.email !== email && !msg.texto && msg.doc.length \">\n          <div class=\"incoming_msg_img\"></div>\n          <div class=\"received_msg\">\n        <!--          --------------Mensaje de eliminado------------        -->\n              <div class=\"received_withd_msg\" *ngIf=\"msg.eliminar\">\n                  <span class=\"time_date\"> <b>{{msg.usuario.nombre}}</b></span>\n                  <p>Mensaje Eliminado</p>\n                  <span class=\"time_date\"> {{msg.created | date: 'medium'}} </span>\n              </div>\n        <!--          --------------Muestra imagen------------        -->      \n            <ion-card class=\"example-card received_withd_msg\" *ngIf=\"!msg.eliminar\">\n                <span class=\"time_date\"> <b>{{msg.usuario.nombre}}</b></span>   \n                <!-- Valida imagen y abre Action Sheet -->             \n                <img mat-card-image *ngIf=\"!msg.reenviar\"\n                (click)=\"presentActionSheetDocumentRecive(msg.usuario._id+'/'+msg.doc,msg._id,msg.doc)\"\n                src=\"assets/icon/icon_pdf.png\"\n                height=\"100\" width=\"50\"\n                alt=\"Error al cargar imagen rn\">\n\n                <img *ngIf=\"msg.reenviar\"\n                (click)=\"presentActionSheetDocumentRecive(msg.reenviar+'/'+msg.doc,msg._id,msg.doc)\"\n                src=\"assets/icon/icon_pdf.png\"\n                alt=\"Error al cargar imagen\">  \n\n                <span class=\"time_date2\"> {{msg.doc }}</span>\n                <span class=\"time_date\"> {{msg.created | date: 'medium'}} </span>\n            </ion-card>\n          </div>\n  \n            \n        </div>\n\n      <!--          --------------Recepcion de Imagen------------ ----------------------------------       -->\n      <div *ngIf=\"msg.usuario.email !== email && !msg.texto && msg.img.length\">\n        <div class=\"incoming_msg_img\"></div>\n        <div class=\"received_msg\">\n      <!--          --------------Mensaje de eliminado------------        -->\n            <div class=\"received_withd_msg\" *ngIf=\"msg.eliminar\">\n                <span class=\"time_date\"><b>{{msg.usuario.nombre}}</b></span>\n                <p>Mensaje Eliminado</p>\n                <span class=\"time_date\"> {{msg.created | date: 'medium'}} </span>\n            </div>\n      <!--          --------------Muestra imagen------------        -->      \n          <ion-card class=\"example-card received_withd_msg\" *ngIf=\"!msg.eliminar\">\n              <span class=\"time_date\"><b>{{msg.usuario.nombre}}</b></span>   \n              <!-- Valida imagen y abre Action Sheet -->             \n              <img *ngIf=\"!msg.reenviar\"\n              (click)=\"presentActionSheetImgLlegada(msg.usuario._id+'/'+msg.img,msg._id)\"\n              src=\"{{url}}/mensajes/{{msg.usuario._id}}/{{msg.img}}\"\n                 height=\"200\" width=\"200\"\n                 alt=\"Error al cargar imagen\">\n              <img *ngIf=\"msg.reenviar\"\n              (click)=\"presentActionSheetImgLlegada(msg.reenviar+'/'+msg.img,msg._id)\"\n              src=\"{{url}}/mensajes/{{msg.reenviar}}/{{msg.img}}\" \n              height=\"200\" width=\"200\"\n              alt=\"Error al cargar imagen\">  \n                 \n              \n              <span class=\"time_date\"> {{msg.created | date: 'medium'}} </span>\n          </ion-card>\n        </div>\n\n          \n      </div>\n\n    </div>\n    </div>\n\n    \n<ion-footer class=\"ion-padding\">\n<ion-toolbar>\n <ion-item>\n    <ion-textarea [(ngModel)]=\"msgg\" (keypress)=\"escribir($event)\" placeholder=\"Mensaje....\"></ion-textarea> \n    <ion-button color=\"success\" (click)=\"enviar()\">\n     <ion-icon name=\"send\"></ion-icon>\n   </ion-button>\n\n </ion-item>\n</ion-toolbar>\n\n\n\n\n</ion-footer>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/pages/reenvia-grupo/reenvia-grupo.page.html":
+/*!***************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/pages/reenvia-grupo/reenvia-grupo.page.html ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n<ion-header>\n    <ion-toolbar>\n        <ion-button slot=\"start\" fill=\"clear\" (click)=\"close()\" >\n            <ion-icon style=\"color:rgb(104, 88, 88); font-size: 25px\" name=\"arrow-round-back\"> Cancelar </ion-icon>\n          </ion-button>\n         \n\n      <ion-title> Reenviar </ion-title>\n    </ion-toolbar>\n</ion-header>\n\n<ion-content>\n\n  \n    <ion-label> Grupos A Enviar</ion-label>\n    <ion-select color=\"danger\" [(ngModel)]=\"userGrupos\" multiple=\"true\" placeholder=\"Selecciona los grupos a reenviar\">\n      <ion-select-option  *ngFor=\"let grupos of usuarioGrupos\" [value]=\"grupos._id\">{{grupos.nombre}}</ion-select-option>\n    </ion-select>\n  \n<ion-button class=\"top-20\" expand=\"full\" fill=\"solid\" (click)=\"enviarGrupo()\" >Enviar\n    <ion-icon name=\"send\"></ion-icon>\n</ion-button>\n\n</ion-content>\n\n\n<!--  \n    <ion-list>\n      <ion-item  *ngFor=\"let grupos of usuarioGrupos\" (click)=\"onClick(grupos)\"  >\n          <ion-label>{{grupos.nombre}}</ion-label>\n          <ion-checkbox   [(ngModel)]=\"userGrupos\"  name=\"userGrupos\" value=\"grupos._id\"></ion-checkbox>\n      </ion-item>\n    </ion-list>\n        \n-->"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/tab1/tab1.page.html":
+/*!***************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/tab1/tab1.page.html ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<ion-header>\n  <ion-toolbar>\n    <ion-title color=\"light\">\n      Sala De Chats\n    </ion-title>\n    <ion-button (click)=\"salir()\" slot=\"end\"   fill=\"outline\">\n      <ion-icon ios=\"ios-log-out\" md=\"md-log-out\">\n      </ion-icon>\n    </ion-button>\n  </ion-toolbar>\n</ion-header>\n\n\n\n<ion-content class=\"ion-padding\"  >\n\n    <ion-list class=\"ion_list\" >      \n      <div  class=\"chat_list\" *ngFor=\"let grupo of grupos\">\n          <ion-item class=\"chat_people\"    (click)=\"openChat(grupo._id,grupo.nombre)\"  >\n              <ion-avatar   slot=\"start\">\n                <ion-img src=\"/assets/icon/imagen1.png\"></ion-img>\n              </ion-avatar>          \n                <ion-label>\n                  <h2 [id]=\"grupo._id\"> <b>  {{grupo.nombre}} </b> </h2>\n                  <p ><span  class=\"chat_date text-success hidden\" [id]=\"grupo._id + 1\">Escribiendo....</span></p>\n                </ion-label>\n         \n          </ion-item>\n      </div>\n        \n\n    </ion-list>\n \n   \n  \n\n\n \n\n\n</ion-content>\n\n\n\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/tab2/tab2.page.html":
+/*!***************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/tab2/tab2.page.html ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n\n<ion-header class=\"ion_toolbar\"  >\n\n    <ion-toolbar color=\"light\" >\n        <ion-button slot=\"start\" fill=\"clear\" (click)=\"closeChat()\"  >\n            <ion-icon style=\"color:rgb(104, 88, 88); font-size: 25px\" name=\"arrow-round-back\"> </ion-icon>\n        </ion-button>         \n      <ion-title>Chat <b>{{grup}}</b> </ion-title>\n\n      <ion-fab-button color=\"danger\" (click)=\"galeria()\" slot=\"end\" ><ion-icon  name=\"ios-images\"></ion-icon></ion-fab-button>\n\n    </ion-toolbar>\n<!--\n<ion-fab vertical=\"center\" horizontal=\"end\" edge  slot=\"fixed\"   >\n        <ion-fab-button  color=\"grey\">\n          <ion-icon  style=\"font-size: 25px\" name=\"md-add-circle\"></ion-icon>\n        </ion-fab-button>\n\n        <ion-fab-list side=\"back\">\n            <ion-fab-button color=\"danger\" (click)=\"galeria()\" ><ion-icon  name=\"ios-images\"> </ion-icon></ion-fab-button>\n        </ion-fab-list>\n    </ion-fab>\n\n-->\n    \n\n</ion-header>\n\n\n<!--\n    <div  id=\"chat-messagess\" >\n      <ion-card mode=\"ios\" slot=\"start\" >\n        <ion-icon slot=\"start\" color=\"dark\" name=\"pin\"></ion-icon> \n          <ion-card-content>\n          adasd\n          </ion-card-content>\n          </ion-card>\n  </div>  \n-->\n\n\n      <div  padding class=\"msg_history\" id=\"chat-mensaje\"  >\n      <div *ngFor=\"let msg of mensajes\" >\n\n\n          \n\n\n        <!-- \n          MENSAJES DE SALIDA  --------------------------------------------------------------------------\n        -->\n        <div class=\"outgoing_msg\" *ngIf=\"msg.usuario.email === email && msg.texto\" >\n          \n            <div class=\"sent_msg\" *ngIf=\"msg.eliminar\">\n              <span class=\"time_date\"><b>{{msg.usuario.nombre}}</b></span>\n              <p>Mensaje Eliminado</p>            \n              <span class=\"time_date\">{{msg.created | date: 'medium'}}</span> \n            </div>\n  \n            <div class=\"sent_msg\" id=\"dropdownBasic1\" ngbDropdownToggle *ngIf=\"!msg.eliminar\">\n              <span class=\"time_date\"><b>{{msg.usuario.nombre}}</b></span>\n              <div class=\"send_res\" *ngIf=\"msg.responder\">\n                  <span class=\"time_date_res\"><b>{{msg.responder.usuario.nombre}}</b></span>\n                  <!-- cuando se responde un mensaje de reenvio o de otro usuario-->\n                  <img\n                    *ngIf=\"msg.responder.img.length > 0 && !msg.responder.reenviar\"\n                    (click)=\"presentActionSheetImage(msg.responder.usuario._id+'/'+msg.responder.img,msg._id)\"\n                    src=\"{{url}}/mensajes/{{msg.responder.usuario._id}}/{{msg.responder.img}}\" >\n\n\n                    <!-- Cuado se responde un mensaje propio-->\n                  <img\n                    *ngIf=\"msg.responder.img.length > 0 && msg.responder.reenviar\"\n                    (click)=\"presentActionSheetImage(msg.responder.reenviar+'/'+msg.responder.img,msg._id)\"\n                    src=\"{{url}}/mensajes/{{msg.responder.reenviar}}/{{msg.responder.img}}\" >\n\n                     <!--TEXTO QUE SE RESPONDIO-->\n                <div [innerHTML]=\"msg.responder.texto\"></div>\n\n                <!-- DOCUMENTO QUE SE RESPONDIO-->\n                <div class=\"time_date2\"\n                (click)=\"presentActionSheetDocument(msg.responder.usuario._id+'/'+msg.responder.doc,msg._id, msg.doc)\"\n                >{{msg.responder.doc}}</div>\n                \n              </div>\n              <p (click)=\"presentActionSheet(msg._id)\" [innerHTML]=\"msg.texto\"></p>\n              <span class=\"time_date\"> {{msg.created | date: 'medium'}} </span> \n            </div>\n        </div>\n\n        <!--\n\n          \n                <b>MOTIVO:</b> NOTIFICACION DE CIBER INCIDENTE \n                <b>FECHA:</b> 07/01/2020\n                <b>HORA:</b> 09:42:36\n                <b>DIRECCION:</b> \n                <b>COLONIA:</b> COL JUAN LIRA BRACHO, \n                <b>CALLE:</b> EDUARDO RUIZ, \n                <b>Y ENTRE CALLE:</b> ANDRES MELLADO\n                <b>DESCRIPCION:</b> VIVIRIDIANA DELGADO LOERA SE PASA LLAMADA A POLICIA CIBERNETICA \n        -->\n\n         <!----------------------ENVIO DE DOCUMENTOS -- VISTA ------------------->\n      <div class=\"outgoing_msg\" *ngIf=\"msg.usuario.email === email && !msg.texto && msg.doc.length \">\n          <div class=\"sent_msg\" *ngIf=\"msg.eliminar\">\n            <span class=\"time_date\"><b>{{msg.usuario.nombre}}</b></span>\n            <p>Mensaje Eliminado</p>\n            <span class=\"time_date\"> {{msg.created | date: 'medium'}} </span>\n          </div>\n  \n          <ion-card class=\"example-card sent_img\" *ngIf=\"!msg.eliminar\" >\n            <span class=\"time_date\"><b>{{msg.usuario.nombre }}</b></span>\n            <img mat-card-image *ngIf=\"!msg.reenviar\"\n            (click)=\"presentActionSheetDocument(msg.usuario._id+'/'+msg.doc,msg._id, msg.doc)\"\n            src=\"assets/icon/icon_pdf.png\"\n            height=\"100\" width=\"50\"\n            alt=\"Error al cargar imagen rn\">\n        \n            <img *ngIf=\"msg.reenviar\"\n            (click)=\"presentActionSheetDocument(msg.reenviar+'/'+msg.doc,msg._id, msg.doc)\"\n            src=\"assets/icon/icon_pdf.png\"\n            height=\"100\" width=\"50\"\n            alt=\"Error al cargar imagen\">\n            <span class=\"time_date2\"> {{msg.doc }}</span>\n            <span class=\"time_date\"> {{msg.created | date: 'medium'}} </span>\n          </ion-card>\n        </div>  \n\n        \n        <!--\n          Envio de Imagen          ------------------------------------------------------------------------\n        -->\n\n\n        <div class=\"outgoing_msg\" *ngIf=\"msg.usuario.email === email && !msg.texto\">\n            <div class=\"sent_msg\" *ngIf=\"msg.eliminar\">\n                <span class=\"time_date\"><b>{{msg.usuario.nombre}}</b></span>\n                <p>Mensaje Eliminado</p>\n                <span class=\"time_date\"> {{msg.created | date: 'medium'}} </span>\n            </div>\n\n            <ion-card class=\"example-card sent_img\" *ngIf=\"!msg.eliminar\" >\n              \n              <span class=\"time_date\"><b>{{msg.usuario.nombre}}</b></span>\n              <img mat-card-image *ngIf=\"!msg.reenviar\" \n              (click)=\"presentActionSheetImage(msg.usuario._id+'/'+msg.img,msg._id)\"\n              src=\"{{url}}/mensajes/{{msg.usuario._id}}/{{msg.img}}\"\n                   height=\"200\" width=\"200\"\n                   alt=\"Error al cargar imagen reen\">\n              <img *ngIf=\"msg.reenviar\"\n              (click)=\"presentActionSheetImage(msg.reenviar+'/'+msg.img,msg._id)\"\n              src=\"{{url}}/mensajes/{{msg.reenviar}}/{{msg.img}}\"\n                   height=\"200\" width=\"200\"\n                   alt=\"Error al cargar imagen\">\n\n              <span class=\"time_date\"> {{msg.created | date: 'medium'}} </span>\n            </ion-card>\n        </div>    \n        <!-- \n          MENSAJES DE LLEGADA ---------------------------------------------------------------------------------------------------------------------------------------------\n        -->\n        <div class=\"incoming_msg\"  *ngIf=\"msg.usuario.email !== email && msg.texto\" >\n         <!-- <div class=\"incoming_msg_img\"> <img src=\"/assets/icon/imagen1.png\" alt=\"sunil\"> </div>-->\n          <div class=\"received_msg\">\n\n              <div class=\"received_withd_msg\" *ngIf=\"msg.eliminar\">\n                  <span class=\"time_date\"><b>{{msg.usuario.nombre}}</b></span>\n                  <p>Mensaje Eliminado</p>\n                  <span class=\"time_date\"> {{msg.created | date: 'medium'}}</span>\n              </div>\n                  <!--Mensaje de respuesta-->\n            <div class=\"received_withd_msg\" *ngIf=\"!msg.eliminar\">\n              <span class=\"time_date\"><b>{{msg.usuario.nombre}}</b></span>\n              \n              <!--Mensaje imagen que se respondio-->\n\n              <!--                    src=\"{{url}}/mensajes/{{msg.responder.reenviar}}/{{msg.responder.img}}\" >   ---------------------------------------------------  -->\n              <div class=\"received_withd_msg_res\" *ngIf=\"msg.responder\">\n                  <span class=\"time_date\"><b>{{msg.responder.usuario.nombre}}</b></span>\n\n                  <!--Imagen con respuesta -->\n                  <img\n                    *ngIf=\"msg.responder.img.length > 0 && !msg.responder.reenviar\"\n                    (click)=\"presentActionSheetImage(msg.responder.usuario._id+'/'+msg.responder.img,msg._id)\"\n                    src=\"{{url}}/mensajes/{{msg.responder.usuario._id}}/{{msg.responder.img}}\" >\n                    \n                  <img\n                    *ngIf=\"msg.responder.img.length > 0 && msg.responder.reenviar\"\n                    (click)=\"presentActionSheetImage(msg.responder.reenviar+'/'+msg.responder.img,msg._id)\"\n                    src=\"{{url}}/mensajes/{{msg.responder.reenviar}}/{{msg.responder.img}}\" >\n                    \n                    <!--TEXTO QUE SE RESPONDIO-->\n                    <div class=\"time_date\" [innerHTML]=\"msg.responder.texto\"></div>\n                \n                    <!-- DOCUMENTO QUE SE RESPONDIO-->\n                    <div class=\"time_date2\"\n                    (click)=\"presentActionSheetDocumentRecive(msg.usuario._id+'/'+msg.responder.doc,msg._id)\"\n                    >{{msg.responder.doc}}</div>\n              </div>\n              <p (click)=\"presentActionSheetMsgLlegada(msg._id)\" [innerHTML]=\"msg.texto\"></p>\n              <span class=\"time_date\"> {{msg.created | date: 'medium'}}</span>\n            </div>\n          </div>\n        </div>\n\n        <!----------------------RECEPCION DE DOCUMENTOS -- VISTA ------------------->\n      <div *ngIf=\"msg.usuario.email !== email && !msg.texto && msg.doc.length \">\n          <div class=\"incoming_msg_img\"></div>\n          <div class=\"received_msg\">\n        <!--          --------------Mensaje de eliminado------------        -->\n              <div class=\"received_withd_msg\" *ngIf=\"msg.eliminar\">\n                  <span class=\"time_date\"><b>{{msg.usuario.nombre}}</b></span>\n                  <p>Mensaje Eliminado</p>\n                  <span class=\"time_date\"> {{msg.created | date: 'medium'}} </span>\n              </div>\n        <!--          --------------Muestra imagen------------        -->      \n            <ion-card class=\"example-card received_withd_msg\" *ngIf=\"!msg.eliminar\">\n                <span class=\"time_date\"><b>{{msg.usuario.nombre}}</b></span>   \n                <!-- Valida imagen y abre Action Sheet -->             \n                <img mat-card-image *ngIf=\"!msg.reenviar\"\n                (click)=\"presentActionSheetDocumentRecive(msg.usuario._id+'/'+msg.doc,msg._id,msg.doc)\"\n                src=\"assets/icon/icon_pdf.png\"\n                height=\"100\" width=\"50\"\n                alt=\"Error al cargar imagen rn\">\n\n                <img *ngIf=\"msg.reenviar\"\n                (click)=\"presentActionSheetDocumentRecive(msg.reenviar+'/'+msg.doc,msg._id,msg.doc)\"\n                src=\"assets/icon/icon_pdf.png\"\n                alt=\"Error al cargar imagen\">  \n\n                <span class=\"time_date2\"> {{msg.doc }}</span>\n                <span class=\"time_date\"> {{msg.created | date: 'medium'}} </span>\n            </ion-card>\n          </div>\n        </div>\n\n\n        <!--          --------------Recepcion de Imagen------------  -----------------------------------------      -->\n        <div *ngIf=\"msg.usuario.email !== email && !msg.texto && msg.img.length\">\n          <div class=\"incoming_msg_img\"></div>\n          <div class=\"received_msg\">\n        <!--          --------------Mensaje de eliminado------------        -->\n              <div class=\"received_withd_msg\" *ngIf=\"msg.eliminar\">\n                  <span class=\"time_date\"><b>{{msg.usuario.nombre}}</b></span>\n                  <p>Mensaje Eliminado</p>\n                  <span class=\"time_date\"> {{msg.created | date: 'medium'}} </span>\n              </div>\n        <!--          --------------Muestra imagen------------        -->      \n            <ion-card class=\"example-card received_withd_msg\" *ngIf=\"!msg.eliminar\">\n                <span class=\"time_date\"><b>{{msg.usuario.nombre}}</b></span>   \n                <!-- Valida imagen y abre Action Sheet -->             \n                <img *ngIf=\"!msg.reenviar\"\n                (click)=\"presentActionSheetImgLlegada(msg.usuario._id+'/'+msg.img,msg._id)\"\n                src=\"{{url}}/mensajes/{{msg.usuario._id}}/{{msg.img}}\"\n                   height=\"200\" width=\"200\"\n                   alt=\"Error al cargar imagen\">\n                <img *ngIf=\"msg.reenviar\"\n                (click)=\"presentActionSheetImgLlegada(msg.reenviar+'/'+msg.img,msg._id)\"\n                src=\"{{url}}/mensajes/{{msg.reenviar}}/{{msg.img}}\" \n                height=\"200\" width=\"200\"\n                alt=\"Error al cargar imagen\">  \n                   \n                \n                <span class=\"time_date\"> {{msg.created | date: 'medium'}} </span>\n            </ion-card>\n          </div>\n\n            \n        </div>\n\n      </div>\n      </div >\n\n      \n<ion-footer class=\"ion-padding\">\n  <ion-toolbar>\n   <ion-item>\n      <ion-textarea [(ngModel)]=\"msgg\" (keypress)=\"escribir($event)\" placeholder=\"Mensaje....\"></ion-textarea> \n      <ion-button color=\"success\" (click)=\"enviar()\">\n       <ion-icon name=\"send\"></ion-icon>\n     </ion-button>\n\n   </ion-item>\n</ion-toolbar>\n\n\n\n  \n</ion-footer>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<!-- <button class=\"msg_send_btn\" type=\"button\"><i class=\"fa fa-paper-plane-o\" aria-hidden=\"true\"></i></button> \n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n-->\n\n<!--\n    <div class=\"type_msg\">\n        <div class=\"input_msg_write\">\n            <form (ngSubmit)=\"enviar()\">\n               <input type=\"text\" class=\"write_msg\" name=\"texto\" (ngModel)=\"texto\" (keypress)=\"escribir($event)\" placeholder=\"Mensaje....\" autofocus autocomplete=\"off\" />\n               \n            </form>\n          \n          \n        </div>\n      </div>\n      -->\n      \n\n\n\n<!--\n\n<ion-header>\n  <ion-toolbar>\n    <ion-title>\n      Tab Two\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content></ion-content>\n\n-->\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/tab3/tab3.page.html":
+/*!***************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/tab3/tab3.page.html ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/app-routing.module.ts":
+/*!***************************************!*\
+  !*** ./src/app/app-routing.module.ts ***!
+  \***************************************/
+/*! exports provided: routes, ProjectRoutes, AppRoutingModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "routes", function() { return routes; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectRoutes", function() { return ProjectRoutes; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _tab2_tab2_page__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./tab2/tab2.page */ "./src/app/tab2/tab2.page.ts");
+/* harmony import */ var _tab3_tab3_page__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./tab3/tab3.page */ "./src/app/tab3/tab3.page.ts");
+/* harmony import */ var _guards_usuario_guard__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./guards/usuario.guard */ "./src/app/guards/usuario.guard.ts");
+
+
+
+
+
+
+const routes = [
+    { path: 'main',
+        loadChildren: () => __webpack_require__.e(/*! import() | tabs-tabs-module */ "tabs-tabs-module").then(__webpack_require__.bind(null, /*! ./tabs/tabs.module */ "./src/app/tabs/tabs.module.ts")).then(m => m.TabsPageModule),
+        // canActivate: [UsuarioGuard]},
+        canLoad: [_guards_usuario_guard__WEBPACK_IMPORTED_MODULE_5__["UsuarioGuard"]] },
+    { path: 'login', loadChildren: './pages/login/login.module#LoginPageModule' },
+    { path: '', pathMatch: 'full', redirectTo: 'main/tabs/tab1' },
+    { path: 'reenvia-grupo', loadChildren: './pages/reenvia-grupo/reenvia-grupo.module#ReenviaGrupoPageModule' },
+    { path: 'chat-admin', loadChildren: './pages/chat-admin/chat-admin.module#ChatAdminPageModule' }
+];
+const ProjectRoutes = [
+    { path: 'chat', component: _tab2_tab2_page__WEBPACK_IMPORTED_MODULE_3__["Tab2Page"] },
+    { path: 'imagen', component: _tab3_tab3_page__WEBPACK_IMPORTED_MODULE_4__["Tab3Page"] }
+];
+let AppRoutingModule = class AppRoutingModule {
+};
+AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+        imports: [
+            _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes, { preloadingStrategy: _angular_router__WEBPACK_IMPORTED_MODULE_2__["PreloadAllModules"] })
+        ],
+        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
+    })
+], AppRoutingModule);
+
+// Vanessa Rivas
+
+
+/***/ }),
+
+/***/ "./src/app/app.component.scss":
+/*!************************************!*\
+  !*** ./src/app/app.component.scss ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJ9 */"
+
+/***/ }),
+
+/***/ "./src/app/app.component.ts":
+/*!**********************************!*\
+  !*** ./src/app/app.component.ts ***!
+  \**********************************/
+/*! exports provided: AppComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ionic/angular */ "./node_modules/@ionic/angular/dist/fesm5.js");
+/* harmony import */ var _ionic_native_splash_screen_ngx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ionic-native/splash-screen/ngx */ "./node_modules/@ionic-native/splash-screen/ngx/index.js");
+/* harmony import */ var _ionic_native_status_bar_ngx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ionic-native/status-bar/ngx */ "./node_modules/@ionic-native/status-bar/ngx/index.js");
+/* harmony import */ var _services_push_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./services/push.service */ "./src/app/services/push.service.ts");
+
+
+
+
+
+
+let AppComponent = class AppComponent {
+    constructor(platform, splashScreen, statusBar, pushService) {
+        this.platform = platform;
+        this.splashScreen = splashScreen;
+        this.statusBar = statusBar;
+        this.pushService = pushService;
+        this.initializeApp();
+    }
+    initializeApp() {
+        this.platform.ready().then(() => {
+            // let status bar overlay webview
+            this.statusBar.overlaysWebView(false);
+            // set status bar to white
+            this.statusBar.backgroundColorByHexString('#33000000');
+            this.splashScreen.hide();
+            this.pushService.configuracionInicial();
+        });
+    }
+};
+AppComponent.ctorParameters = () => [
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["Platform"] },
+    { type: _ionic_native_splash_screen_ngx__WEBPACK_IMPORTED_MODULE_3__["SplashScreen"] },
+    { type: _ionic_native_status_bar_ngx__WEBPACK_IMPORTED_MODULE_4__["StatusBar"] },
+    { type: _services_push_service__WEBPACK_IMPORTED_MODULE_5__["PushService"] }
+];
+AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-root',
+        template: __webpack_require__(/*! raw-loader!./app.component.html */ "./node_modules/raw-loader/index.js!./src/app/app.component.html"),
+        styles: [__webpack_require__(/*! ./app.component.scss */ "./src/app/app.component.scss")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_ionic_angular__WEBPACK_IMPORTED_MODULE_2__["Platform"],
+        _ionic_native_splash_screen_ngx__WEBPACK_IMPORTED_MODULE_3__["SplashScreen"],
+        _ionic_native_status_bar_ngx__WEBPACK_IMPORTED_MODULE_4__["StatusBar"],
+        _services_push_service__WEBPACK_IMPORTED_MODULE_5__["PushService"]])
+], AppComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/app.module.ts":
+/*!*******************************!*\
+  !*** ./src/app/app.module.ts ***!
+  \*******************************/
+/*! exports provided: AppModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ionic/angular */ "./node_modules/@ionic/angular/dist/fesm5.js");
+/* harmony import */ var _ionic_native_splash_screen_ngx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ionic-native/splash-screen/ngx */ "./node_modules/@ionic-native/splash-screen/ngx/index.js");
+/* harmony import */ var _ionic_native_status_bar_ngx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ionic-native/status-bar/ngx */ "./node_modules/@ionic-native/status-bar/ngx/index.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var _ionic_storage__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @ionic/storage */ "./node_modules/@ionic/storage/fesm2015/ionic-storage.js");
+/* harmony import */ var ngx_socket_io__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ngx-socket-io */ "./node_modules/ngx-socket-io/fesm2015/ngx-socket-io.js");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var _tab2_tab2_page__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./tab2/tab2.page */ "./src/app/tab2/tab2.page.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm2015/forms.js");
+/* harmony import */ var _ionic_native_local_notifications_ngx__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @ionic-native/local-notifications/ngx */ "./node_modules/@ionic-native/local-notifications/ngx/index.js");
+/* harmony import */ var _ionic_native_screenshot_ngx__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @ionic-native/screenshot/ngx */ "./node_modules/@ionic-native/screenshot/ngx/index.js");
+/* harmony import */ var _ionic_native_camera_ngx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @ionic-native/camera/ngx */ "./node_modules/@ionic-native/camera/ngx/index.js");
+/* harmony import */ var _ionic_native_full_screen_image_ngx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @ionic-native/full-screen-image/ngx */ "./node_modules/@ionic-native/full-screen-image/ngx/index.js");
+/* harmony import */ var _ionic_native_file_transfer_ngx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @ionic-native/file-transfer/ngx */ "./node_modules/@ionic-native/file-transfer/ngx/index.js");
+/* harmony import */ var _pipes_image_sanitizer_pipe__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./pipes/image-sanitizer.pipe */ "./src/app/pipes/image-sanitizer.pipe.ts");
+/* harmony import */ var _components_chat_chat_page__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/chat/chat.page */ "./src/app/components/chat/chat.page.ts");
+/* harmony import */ var _tab1_tab1_page__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./tab1/tab1.page */ "./src/app/tab1/tab1.page.ts");
+/* harmony import */ var _ionic_native_onesignal_ngx__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @ionic-native/onesignal/ngx */ "./node_modules/@ionic-native/onesignal/ngx/index.js");
+/* harmony import */ var _pages_reenvia_grupo_reenvia_grupo_page__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./pages/reenvia-grupo/reenvia-grupo.page */ "./src/app/pages/reenvia-grupo/reenvia-grupo.page.ts");
+/* harmony import */ var _pages_chat_admin_chat_admin_page__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./pages/chat-admin/chat-admin.page */ "./src/app/pages/chat-admin/chat-admin.page.ts");
+/* harmony import */ var _ionic_native_file_chooser_ngx__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! @ionic-native/file-chooser/ngx */ "./node_modules/@ionic-native/file-chooser/ngx/index.js");
+/* harmony import */ var _ionic_native_file_ngx__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! @ionic-native/file/ngx */ "./node_modules/@ionic-native/file/ngx/index.js");
+/* harmony import */ var _ionic_native_file_path_ngx__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! @ionic-native/file-path/ngx */ "./node_modules/@ionic-native/file-path/ngx/index.js");
+/* harmony import */ var _ionic_native_document_viewer_ngx__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! @ionic-native/document-viewer/ngx */ "./node_modules/@ionic-native/document-viewer/ngx/index.js");
+/* harmony import */ var _ionic_native_file_opener_ngx__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! @ionic-native/file-opener/ngx */ "./node_modules/@ionic-native/file-opener/ngx/index.js");
+/* harmony import */ var _ionic_native_chooser_ngx__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! @ionic-native/chooser/ngx */ "./node_modules/@ionic-native/chooser/ngx/index.js");
+/* harmony import */ var _ionic_native_file_picker_ngx__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! @ionic-native/file-picker/ngx */ "./node_modules/@ionic-native/file-picker/ngx/index.js");
+/* harmony import */ var _ionic_native_document_picker_ngx__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! @ionic-native/document-picker/ngx */ "./node_modules/@ionic-native/document-picker/ngx/index.js");
+
+
+
+
+
+
+
+
+
+
+
+
+
+// importaciones de componentes y modulos
+
+
+
+
+
+
+//import { BackgroundMode } from '@ionic-native/background-mode/ngx';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const config = { url: _environments_environment__WEBPACK_IMPORTED_MODULE_12__["environment"].url, options: {} };
+let AppModule = class AppModule {
+};
+AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+        declarations: [
+            _app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"], _tab2_tab2_page__WEBPACK_IMPORTED_MODULE_13__["Tab2Page"], _pipes_image_sanitizer_pipe__WEBPACK_IMPORTED_MODULE_20__["ImageSanitizerPipe"], _components_chat_chat_page__WEBPACK_IMPORTED_MODULE_21__["ChatPage"], _pages_reenvia_grupo_reenvia_grupo_page__WEBPACK_IMPORTED_MODULE_24__["ReenviaGrupoPage"], _pages_chat_admin_chat_admin_page__WEBPACK_IMPORTED_MODULE_25__["ChatAdminPage"]
+        ],
+        entryComponents: [_tab2_tab2_page__WEBPACK_IMPORTED_MODULE_13__["Tab2Page"], _components_chat_chat_page__WEBPACK_IMPORTED_MODULE_21__["ChatPage"], _pages_reenvia_grupo_reenvia_grupo_page__WEBPACK_IMPORTED_MODULE_24__["ReenviaGrupoPage"], _pages_chat_admin_chat_admin_page__WEBPACK_IMPORTED_MODULE_25__["ChatAdminPage"]],
+        imports: [
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["BrowserModule"],
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClientModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_14__["FormsModule"],
+            _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["IonicModule"].forRoot(),
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_7__["AppRoutingModule"],
+            _ionic_storage__WEBPACK_IMPORTED_MODULE_10__["IonicStorageModule"].forRoot(),
+            ngx_socket_io__WEBPACK_IMPORTED_MODULE_11__["SocketIoModule"].forRoot(config)
+        ],
+        exports: [],
+        providers: [
+            _tab1_tab1_page__WEBPACK_IMPORTED_MODULE_22__["Tab1Page"],
+            _tab2_tab2_page__WEBPACK_IMPORTED_MODULE_13__["Tab2Page"],
+            _pages_chat_admin_chat_admin_page__WEBPACK_IMPORTED_MODULE_25__["ChatAdminPage"],
+            _components_chat_chat_page__WEBPACK_IMPORTED_MODULE_21__["ChatPage"],
+            _ionic_native_status_bar_ngx__WEBPACK_IMPORTED_MODULE_6__["StatusBar"],
+            _ionic_native_splash_screen_ngx__WEBPACK_IMPORTED_MODULE_5__["SplashScreen"],
+            _ionic_native_full_screen_image_ngx__WEBPACK_IMPORTED_MODULE_18__["FullScreenImage"],
+            _ionic_native_local_notifications_ngx__WEBPACK_IMPORTED_MODULE_15__["LocalNotifications"],
+            _ionic_native_screenshot_ngx__WEBPACK_IMPORTED_MODULE_16__["Screenshot"],
+            _ionic_native_camera_ngx__WEBPACK_IMPORTED_MODULE_17__["Camera"],
+            _ionic_native_file_transfer_ngx__WEBPACK_IMPORTED_MODULE_19__["FileTransfer"],
+            _ionic_native_file_chooser_ngx__WEBPACK_IMPORTED_MODULE_26__["FileChooser"],
+            //BackgroundMode,
+            _ionic_native_onesignal_ngx__WEBPACK_IMPORTED_MODULE_23__["OneSignal"],
+            _ionic_native_file_path_ngx__WEBPACK_IMPORTED_MODULE_28__["FilePath"],
+            _ionic_native_file_ngx__WEBPACK_IMPORTED_MODULE_27__["File"],
+            _ionic_native_file_opener_ngx__WEBPACK_IMPORTED_MODULE_30__["FileOpener"],
+            _ionic_native_chooser_ngx__WEBPACK_IMPORTED_MODULE_31__["Chooser"],
+            _ionic_native_document_viewer_ngx__WEBPACK_IMPORTED_MODULE_29__["DocumentViewer"],
+            _ionic_native_file_picker_ngx__WEBPACK_IMPORTED_MODULE_32__["IOSFilePicker"],
+            _ionic_native_document_picker_ngx__WEBPACK_IMPORTED_MODULE_33__["DocumentPicker"],
+            { provide: _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouteReuseStrategy"], useClass: _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["IonicRouteStrategy"] }
+        ],
+        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"]]
+    })
+], AppModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/chat/chat.page.scss":
+/*!************************************************!*\
+  !*** ./src/app/components/chat/chat.page.scss ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".incoming_msg_img {\n  display: inline-block;\n  width: 6%;\n  margin: 0px 0px 0px;\n  padding: 27px 0px 20px 0;\n}\n\n.received_msg {\n  display: inline-block;\n  padding: 0 0 0 10px;\n  vertical-align: top;\n  width: 92%;\n}\n\n.received_withd_msg p {\n  background: #ebebeb none repeat scroll 0 0;\n  border-radius: 20px;\n  color: #646464;\n  font-size: 14px;\n  margin: 0;\n  padding: 5px 10px 5px 12px;\n  width: 100%;\n}\n\n.time_date {\n  color: #747474;\n  display: block;\n  font-size: 12px;\n  font-style: italic;\n  margin: 8px 14px 0;\n}\n\n.received_withd_msg {\n  width: 80%;\n}\n\n.mesgs {\n  float: left;\n  width: 70%;\n}\n\n.sent_msg p {\n  background: #05728f none repeat scroll 0 0;\n  border-radius: 20px;\n  font-size: 14px;\n  margin: 0;\n  color: #fff;\n  padding: 5px 10px 5px 12px;\n  width: 100%;\n}\n\n.outgoing_msg {\n  overflow: hidden;\n  margin: 26px 0 26px;\n}\n\n.sent_msg {\n  float: right;\n  width: 70%;\n}\n\n.input_msg_write input {\n  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;\n  border: medium none;\n  color: #4c4c4c;\n  font-size: 15px;\n  min-height: 48px;\n  width: 100%;\n}\n\n.type_msg {\n  border-top: 1px solid #c4c4c4;\n  position: relative;\n}\n\n.msg_send_btn {\n  background: #05728f none repeat scroll 0 0;\n  border: medium none;\n  border-radius: 50%;\n  color: #fff;\n  cursor: pointer;\n  font-size: 17px;\n  height: 33px;\n  position: absolute;\n  right: 0;\n  top: 11px;\n  width: 33px;\n}\n\n.messaging {\n  padding: 0 0 50px 0;\n}\n\n.msg_history {\n  height: 750px;\n  overflow-y: auto;\n}\n\n.hidden {\n  display: none;\n}\n\n.botones {\n  margin-top: 20%;\n  --background: transparent;\n}\n\n.botones ion-icon {\n  font-size: 30px;\n  color: #000;\n}\n\n.center {\n  margin-left: auto;\n  margin-right: auto;\n  display: block;\n}\n\n.fondo {\n  background: #05728f none repeat scroll 0 0;\n}\n\n.img {\n  height: 100vh;\n  width: auto;\n  margin: auto;\n  display: block;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jaGF0L0M6XFxVc2Vyc1xcYWRtX3VzclxcRG9jdW1lbnRzXFxVU0ItTWVtb3JpYVxcY2hhdENvcnBvSmFuL3NyY1xcYXBwXFxjb21wb25lbnRzXFxjaGF0XFxjaGF0LnBhZ2Uuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9jaGF0L2NoYXQucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBO0VBQ0kscUJBQUE7RUFDQSxTQUFBO0VBQ0EsbUJBQUE7RUFDQSx3QkFBQTtBQ0FKOztBREVFO0VBQ0UscUJBQUE7RUFDQSxtQkFBQTtFQUNBLG1CQUFBO0VBQ0EsVUFBQTtBQ0NKOztBRENHO0VBQ0MsMENBQUE7RUFDQSxtQkFBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0VBQ0EsU0FBQTtFQUNBLDBCQUFBO0VBQ0EsV0FBQTtBQ0VKOztBREFFO0VBQ0UsY0FBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxrQkFBQTtBQ0dKOztBRERFO0VBQXNCLFVBQUE7QUNLeEI7O0FESkU7RUFDRSxXQUFBO0VBQ0EsVUFBQTtBQ09KOztBREpHO0VBQ0MsMENBQUE7RUFDQSxtQkFBQTtFQUNBLGVBQUE7RUFDQSxTQUFBO0VBQVcsV0FBQTtFQUNYLDBCQUFBO0VBQ0EsV0FBQTtBQ1FKOztBRE5FO0VBQWUsZ0JBQUE7RUFBaUIsbUJBQUE7QUNXbEM7O0FEVkU7RUFDRSxZQUFBO0VBQ0EsVUFBQTtBQ2FKOztBRFhFO0VBQ0UsbURBQUE7RUFDQSxtQkFBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxXQUFBO0FDY0o7O0FEWEU7RUFBVyw2QkFBQTtFQUE4QixrQkFBQTtBQ2dCM0M7O0FEZkU7RUFDRSwwQ0FBQTtFQUNBLG1CQUFBO0VBQ0Esa0JBQUE7RUFDQSxXQUFBO0VBQ0EsZUFBQTtFQUNBLGVBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxRQUFBO0VBQ0EsU0FBQTtFQUNBLFdBQUE7QUNrQko7O0FEaEJFO0VBQWEsbUJBQUE7QUNvQmY7O0FEbkJFO0VBQ0UsYUFBQTtFQUNBLGdCQUFBO0FDc0JKOztBRG5CRTtFQUNFLGFBQUE7QUNzQko7O0FEakJFO0VBTUUsZUFBQTtFQUNBLHlCQUFBO0FDZUo7O0FEcEJJO0VBQ0ksZUFBQTtFQUNBLFdBQUE7QUNzQlI7O0FEaEJBO0VBQ0UsaUJBQUE7RUFDRSxrQkFBQTtFQUNBLGNBQUE7QUNtQko7O0FEaEJBO0VBQ0UsMENBQUE7QUNtQkY7O0FEaEJBO0VBQ0UsYUFBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0QsY0FBQTtBQ21CRCIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY2hhdC9jaGF0LnBhZ2Uuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIlxyXG4uaW5jb21pbmdfbXNnX2ltZyB7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICB3aWR0aDogNiU7XHJcbiAgICBtYXJnaW46IDBweCAwcHggMHB4O1xyXG4gICAgcGFkZGluZzogMjdweCAwcHggMjBweCAwO1xyXG4gIH1cclxuICAucmVjZWl2ZWRfbXNnIHtcclxuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgIHBhZGRpbmc6IDAgMCAwIDEwcHg7XHJcbiAgICB2ZXJ0aWNhbC1hbGlnbjogdG9wO1xyXG4gICAgd2lkdGg6IDkyJTtcclxuICAgfVxyXG4gICAucmVjZWl2ZWRfd2l0aGRfbXNnIHAge1xyXG4gICAgYmFja2dyb3VuZDogI2ViZWJlYiBub25lIHJlcGVhdCBzY3JvbGwgMCAwO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMjBweDtcclxuICAgIGNvbG9yOiAjNjQ2NDY0O1xyXG4gICAgZm9udC1zaXplOiAxNHB4O1xyXG4gICAgbWFyZ2luOiAwO1xyXG4gICAgcGFkZGluZzogNXB4IDEwcHggNXB4IDEycHg7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICB9XHJcbiAgLnRpbWVfZGF0ZSB7XHJcbiAgICBjb2xvcjogIzc0NzQ3NDtcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgZm9udC1zaXplOiAxMnB4O1xyXG4gICAgZm9udC1zdHlsZTogaXRhbGljO1xyXG4gICAgbWFyZ2luOiA4cHggMTRweCAwO1xyXG4gIH1cclxuICAucmVjZWl2ZWRfd2l0aGRfbXNnIHsgd2lkdGg6IDgwJTt9XHJcbiAgLm1lc2dzIHtcclxuICAgIGZsb2F0OiBsZWZ0O1xyXG4gICAgd2lkdGg6IDcwJTtcclxuICB9XHJcbiAgXHJcbiAgIC5zZW50X21zZyBwIHtcclxuICAgIGJhY2tncm91bmQ6ICMwNTcyOGYgbm9uZSByZXBlYXQgc2Nyb2xsIDAgMDtcclxuICAgIGJvcmRlci1yYWRpdXM6IDIwcHg7XHJcbiAgICBmb250LXNpemU6IDE0cHg7XHJcbiAgICBtYXJnaW46IDA7IGNvbG9yOiNmZmY7XHJcbiAgICBwYWRkaW5nOiA1cHggMTBweCA1cHggMTJweDtcclxuICAgIHdpZHRoOjEwMCU7XHJcbiAgfVxyXG4gIC5vdXRnb2luZ19tc2d7IG92ZXJmbG93OmhpZGRlbjsgbWFyZ2luOjI2cHggMCAyNnB4O31cclxuICAuc2VudF9tc2cge1xyXG4gICAgZmxvYXQ6IHJpZ2h0O1xyXG4gICAgd2lkdGg6IDcwJTtcclxuICB9XHJcbiAgLmlucHV0X21zZ193cml0ZSBpbnB1dCB7XHJcbiAgICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDApIG5vbmUgcmVwZWF0IHNjcm9sbCAwIDA7XHJcbiAgICBib3JkZXI6IG1lZGl1bSBub25lO1xyXG4gICAgY29sb3I6ICM0YzRjNGM7XHJcbiAgICBmb250LXNpemU6IDE1cHg7XHJcbiAgICBtaW4taGVpZ2h0OiA0OHB4O1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgfVxyXG4gIFxyXG4gIC50eXBlX21zZyB7Ym9yZGVyLXRvcDogMXB4IHNvbGlkICNjNGM0YzQ7cG9zaXRpb246IHJlbGF0aXZlO31cclxuICAubXNnX3NlbmRfYnRuIHtcclxuICAgIGJhY2tncm91bmQ6ICMwNTcyOGYgbm9uZSByZXBlYXQgc2Nyb2xsIDAgMDtcclxuICAgIGJvcmRlcjogbWVkaXVtIG5vbmU7XHJcbiAgICBib3JkZXItcmFkaXVzOiA1MCU7XHJcbiAgICBjb2xvcjogI2ZmZjtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICAgIGZvbnQtc2l6ZTogMTdweDtcclxuICAgIGhlaWdodDogMzNweDtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHJpZ2h0OiAwO1xyXG4gICAgdG9wOiAxMXB4O1xyXG4gICAgd2lkdGg6IDMzcHg7XHJcbiAgfVxyXG4gIC5tZXNzYWdpbmcgeyBwYWRkaW5nOiAwIDAgNTBweCAwO31cclxuICAubXNnX2hpc3Rvcnkge1xyXG4gICAgaGVpZ2h0OiA3NTBweDtcclxuICAgIG92ZXJmbG93LXk6IGF1dG87XHJcbiAgfVxyXG4gIFxyXG4gIC5oaWRkZW4ge1xyXG4gICAgZGlzcGxheTogbm9uZTtcclxuICB9XHJcbiAgXHJcblxyXG5cclxuICAuYm90b25lc3tcclxuXHJcbiAgICBpb24taWNvbntcclxuICAgICAgICBmb250LXNpemU6IDMwcHg7XHJcbiAgICAgICAgY29sb3I6ICMwMDBcclxuICAgIH1cclxuICAgIG1hcmdpbi10b3A6IDIwJTtcclxuICAgIC0tYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7XHJcbn1cclxuXHJcbi5jZW50ZXJ7XHJcbiAgbWFyZ2luLWxlZnQ6IGF1dG87XHJcbiAgICBtYXJnaW4tcmlnaHQ6IGF1dG87XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxufVxyXG5cclxuLmZvbmRve1xyXG4gIGJhY2tncm91bmQ6ICMwNTcyOGYgbm9uZSByZXBlYXQgc2Nyb2xsIDAgMDtcclxufVxyXG5cclxuLmltZ3tcclxuICBoZWlnaHQ6IDEwMHZoO1xyXG4gIHdpZHRoOiBhdXRvO1xyXG4gIG1hcmdpbjogYXV0bztcclxuIGRpc3BsYXk6IGJsb2NrO1xyXG4gIH1cclxuIiwiLmluY29taW5nX21zZ19pbWcge1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIHdpZHRoOiA2JTtcbiAgbWFyZ2luOiAwcHggMHB4IDBweDtcbiAgcGFkZGluZzogMjdweCAwcHggMjBweCAwO1xufVxuXG4ucmVjZWl2ZWRfbXNnIHtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBwYWRkaW5nOiAwIDAgMCAxMHB4O1xuICB2ZXJ0aWNhbC1hbGlnbjogdG9wO1xuICB3aWR0aDogOTIlO1xufVxuXG4ucmVjZWl2ZWRfd2l0aGRfbXNnIHAge1xuICBiYWNrZ3JvdW5kOiAjZWJlYmViIG5vbmUgcmVwZWF0IHNjcm9sbCAwIDA7XG4gIGJvcmRlci1yYWRpdXM6IDIwcHg7XG4gIGNvbG9yOiAjNjQ2NDY0O1xuICBmb250LXNpemU6IDE0cHg7XG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogNXB4IDEwcHggNXB4IDEycHg7XG4gIHdpZHRoOiAxMDAlO1xufVxuXG4udGltZV9kYXRlIHtcbiAgY29sb3I6ICM3NDc0NzQ7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICBmb250LXNpemU6IDEycHg7XG4gIGZvbnQtc3R5bGU6IGl0YWxpYztcbiAgbWFyZ2luOiA4cHggMTRweCAwO1xufVxuXG4ucmVjZWl2ZWRfd2l0aGRfbXNnIHtcbiAgd2lkdGg6IDgwJTtcbn1cblxuLm1lc2dzIHtcbiAgZmxvYXQ6IGxlZnQ7XG4gIHdpZHRoOiA3MCU7XG59XG5cbi5zZW50X21zZyBwIHtcbiAgYmFja2dyb3VuZDogIzA1NzI4ZiBub25lIHJlcGVhdCBzY3JvbGwgMCAwO1xuICBib3JkZXItcmFkaXVzOiAyMHB4O1xuICBmb250LXNpemU6IDE0cHg7XG4gIG1hcmdpbjogMDtcbiAgY29sb3I6ICNmZmY7XG4gIHBhZGRpbmc6IDVweCAxMHB4IDVweCAxMnB4O1xuICB3aWR0aDogMTAwJTtcbn1cblxuLm91dGdvaW5nX21zZyB7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIG1hcmdpbjogMjZweCAwIDI2cHg7XG59XG5cbi5zZW50X21zZyB7XG4gIGZsb2F0OiByaWdodDtcbiAgd2lkdGg6IDcwJTtcbn1cblxuLmlucHV0X21zZ193cml0ZSBpbnB1dCB7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMCkgbm9uZSByZXBlYXQgc2Nyb2xsIDAgMDtcbiAgYm9yZGVyOiBtZWRpdW0gbm9uZTtcbiAgY29sb3I6ICM0YzRjNGM7XG4gIGZvbnQtc2l6ZTogMTVweDtcbiAgbWluLWhlaWdodDogNDhweDtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbi50eXBlX21zZyB7XG4gIGJvcmRlci10b3A6IDFweCBzb2xpZCAjYzRjNGM0O1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG59XG5cbi5tc2dfc2VuZF9idG4ge1xuICBiYWNrZ3JvdW5kOiAjMDU3MjhmIG5vbmUgcmVwZWF0IHNjcm9sbCAwIDA7XG4gIGJvcmRlcjogbWVkaXVtIG5vbmU7XG4gIGJvcmRlci1yYWRpdXM6IDUwJTtcbiAgY29sb3I6ICNmZmY7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgZm9udC1zaXplOiAxN3B4O1xuICBoZWlnaHQ6IDMzcHg7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgcmlnaHQ6IDA7XG4gIHRvcDogMTFweDtcbiAgd2lkdGg6IDMzcHg7XG59XG5cbi5tZXNzYWdpbmcge1xuICBwYWRkaW5nOiAwIDAgNTBweCAwO1xufVxuXG4ubXNnX2hpc3Rvcnkge1xuICBoZWlnaHQ6IDc1MHB4O1xuICBvdmVyZmxvdy15OiBhdXRvO1xufVxuXG4uaGlkZGVuIHtcbiAgZGlzcGxheTogbm9uZTtcbn1cblxuLmJvdG9uZXMge1xuICBtYXJnaW4tdG9wOiAyMCU7XG4gIC0tYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7XG59XG4uYm90b25lcyBpb24taWNvbiB7XG4gIGZvbnQtc2l6ZTogMzBweDtcbiAgY29sb3I6ICMwMDA7XG59XG5cbi5jZW50ZXIge1xuICBtYXJnaW4tbGVmdDogYXV0bztcbiAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xuICBkaXNwbGF5OiBibG9jaztcbn1cblxuLmZvbmRvIHtcbiAgYmFja2dyb3VuZDogIzA1NzI4ZiBub25lIHJlcGVhdCBzY3JvbGwgMCAwO1xufVxuXG4uaW1nIHtcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgd2lkdGg6IGF1dG87XG4gIG1hcmdpbjogYXV0bztcbiAgZGlzcGxheTogYmxvY2s7XG59Il19 */"
+
+/***/ }),
+
+/***/ "./src/app/components/chat/chat.page.ts":
+/*!**********************************************!*\
+  !*** ./src/app/components/chat/chat.page.ts ***!
+  \**********************************************/
+/*! exports provided: ChatPage */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ChatPage", function() { return ChatPage; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ionic/angular */ "./node_modules/@ionic/angular/dist/fesm5.js");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../environments/environment */ "./src/environments/environment.ts");
+
+
+
+
+/*
+
+CLASE DESTINADA PARA ABRIR NUESTRAS IMAGENES,
+CARGANDOLA EN NUESTRO HTML
+
+*/
+let ChatPage = class ChatPage {
+    constructor(modal, navparams, loadingController) {
+        /*this.loadingController.create({
+          message: 'Cargando imagen'
+        }).then(loading => loading.present());*/
+        this.modal = modal;
+        this.navparams = navparams;
+        this.loadingController = loadingController;
+        this.url = _environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].url;
+        this.indice = this.navparams.get('imagen');
+        // console.log('imagen ---------' +'http://10.11.124.235:2000/mensajes/'+this.indice);
+    }
+    /* CIERRE DE MODAL  */
+    closeChat() {
+        this.modal.dismiss();
+    }
+    ngOnInit() {
+    }
+};
+ChatPage.ctorParameters = () => [
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ModalController"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["NavParams"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["LoadingController"] }
+];
+ChatPage = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-chat',
+        template: __webpack_require__(/*! raw-loader!./chat.page.html */ "./node_modules/raw-loader/index.js!./src/app/components/chat/chat.page.html"),
+        styles: [__webpack_require__(/*! ./chat.page.scss */ "./src/app/components/chat/chat.page.scss")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ModalController"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["NavParams"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["LoadingController"]])
+], ChatPage);
+
+
+
+/***/ }),
+
+/***/ "./src/app/guards/usuario.guard.ts":
+/*!*****************************************!*\
+  !*** ./src/app/guards/usuario.guard.ts ***!
+  \*****************************************/
+/*! exports provided: UsuarioGuard */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UsuarioGuard", function() { return UsuarioGuard; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _services_usuario_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/usuario.service */ "./src/app/services/usuario.service.ts");
+
+
+
+let UsuarioGuard = 
+/** NOS AYUDA A VALIDAR NUESTRO TOKEN, AL ENTRAR EN DIFERENTES VENTANAS. ASI COMO A LA APLICACION. */
+class UsuarioGuard {
+    constructor(usuarioService) {
+        this.usuarioService = usuarioService;
+    }
+    canLoad() {
+        return this.usuarioService.validaToken();
+    }
+};
+UsuarioGuard.ctorParameters = () => [
+    { type: _services_usuario_service__WEBPACK_IMPORTED_MODULE_2__["UsuarioService"] }
+];
+UsuarioGuard = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+        providedIn: 'root'
+    })
+    /** NOS AYUDA A VALIDAR NUESTRO TOKEN, AL ENTRAR EN DIFERENTES VENTANAS. ASI COMO A LA APLICACION. */
+    ,
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_services_usuario_service__WEBPACK_IMPORTED_MODULE_2__["UsuarioService"]])
+], UsuarioGuard);
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/chat-admin/chat-admin.page.scss":
+/*!*******************************************************!*\
+  !*** ./src/app/pages/chat-admin/chat-admin.page.scss ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".incoming_msg_img {\n  display: inline-block;\n  width: 6%;\n  margin: 0px 0px 0px;\n  padding: 27px 0px 20px 0;\n}\n\n.received_msg {\n  display: inline-block;\n  padding: 0 0 0 10px;\n  vertical-align: top;\n  width: 70%;\n}\n\n.received_withd_msg p {\n  background: #ebebeb none repeat scroll 0 0;\n  border-radius: 10px;\n  color: #646464;\n  font-size: 14px;\n  margin: 0;\n  padding: 5px 10px 5px 12px;\n  width: 100%;\n}\n\n.time_date {\n  color: #747474;\n  display: block;\n  font-size: 12px;\n  font-style: italic;\n  margin: 8px 14px 0;\n}\n\n.time_date2 {\n  color: red;\n  display: block;\n  font-size: 12px;\n  font-style: normal;\n  margin: 8px 14px 0;\n}\n\n.received_withd_msg {\n  width: 115%;\n}\n\n.mesgs {\n  float: left;\n  width: 70%;\n}\n\n.sent_msg p {\n  background: #05728f none repeat scroll 0 0;\n  border-radius: 20px;\n  font-size: 14px;\n  margin: 0;\n  color: #fff;\n  padding: 5px 10px 5px 12px;\n  width: 100%;\n}\n\n.outgoing_msg {\n  overflow: hidden;\n  margin: 26px 0 26px;\n}\n\n.sent_msg {\n  float: right;\n  width: 70%;\n}\n\n.input_msg_write input {\n  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;\n  border: medium none;\n  color: #4c4c4c;\n  font-size: 15px;\n  min-height: 48px;\n  width: 100%;\n}\n\n.type_msg {\n  border-top: 1px solid #c4c4c4;\n  position: relative;\n}\n\n.msg_send_btn {\n  background: #05728f none repeat scroll 0 0;\n  border: medium none;\n  border-radius: 50%;\n  color: #fff;\n  cursor: pointer;\n  font-size: 17px;\n  height: 33px;\n  position: absolute;\n  right: 0;\n  top: 11px;\n  width: 33px;\n}\n\n.messaging {\n  padding: 0 0 50px 0;\n}\n\n.msg_history {\n  overflow-y: auto;\n}\n\n.hidden {\n  display: none;\n}\n\n.incoming_msg_img {\n  display: inline-block;\n  width: 6%;\n}\n\n.example-card {\n  max-width: 200px;\n  max-height: 300px;\n}\n\n.sent_img {\n  float: right;\n}\n\n.sent_msg p {\n  background: #05728f none repeat scroll 0 0;\n  border-radius: 10px;\n  font-size: 14px;\n  margin: 0;\n  color: #fff;\n  padding: 5px 20px 5px 12px;\n  width: 100%;\n}\n\n.sent_msg {\n  float: right;\n  width: 80%;\n}\n\n.time_date_res {\n  color: rgba(255, 255, 255, 0.74);\n  display: block;\n  font-size: 12px;\n  margin: 1px 0 2px;\n}\n\n.rojo span, .rojo .sc-ion-action-sheet-md {\n  color: red !important;\n}\n\n.send_res {\n  background: #05718fcb none repeat scroll 0 0;\n  border-radius: 10px;\n  font-size: 14px;\n  margin: 0;\n  color: rgba(255, 255, 255, 0.74);\n  padding: 5px 10px 5px 12px;\n  width: 100%;\n  border: 5px solid #05728f;\n}\n\n.received_withd_msg_res {\n  background: #ebebeb28 none repeat scroll 0 0;\n  border-radius: 10px;\n  font-size: 14px;\n  margin: 0;\n  color: #646464d7;\n  padding: 5px 10px 5px 12px;\n  width: 100%;\n  border: 5px solid #ebebeb;\n}\n\n.fab-color {\n  /*border-style: solid;\n  border-radius: 50%;\n  border-width: 2px;\n  border-color: rgba(24, 170, 36, 0.712);*/\n  width: 30px !important;\n  height: 30px !important;\n  top: 100px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvY2hhdC1hZG1pbi9DOlxcVXNlcnNcXGFkbV91c3JcXERvY3VtZW50c1xcVVNCLU1lbW9yaWFcXGNoYXRDb3Jwb0phbi9zcmNcXGFwcFxccGFnZXNcXGNoYXQtYWRtaW5cXGNoYXQtYWRtaW4ucGFnZS5zY3NzIiwic3JjL2FwcC9wYWdlcy9jaGF0LWFkbWluL2NoYXQtYWRtaW4ucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBO0VBQ0kscUJBQUE7RUFDQSxTQUFBO0VBQ0EsbUJBQUE7RUFDQSx3QkFBQTtBQ0FKOztBREVFO0VBQ0UscUJBQUE7RUFDQSxtQkFBQTtFQUNBLG1CQUFBO0VBRUEsVUFBQTtBQ0FKOztBREVHO0VBQ0MsMENBQUE7RUFDQSxtQkFBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0VBQ0EsU0FBQTtFQUNBLDBCQUFBO0VBQ0EsV0FBQTtBQ0NKOztBRENFO0VBQ0UsY0FBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7RUFFQSxrQkFBQTtBQ0NKOztBRENFO0VBQ0UsVUFBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxrQkFBQTtBQ0VKOztBRENFO0VBQXNCLFdBQUE7QUNHeEI7O0FERkU7RUFDRSxXQUFBO0VBQ0EsVUFBQTtBQ0tKOztBREZHO0VBQ0MsMENBQUE7RUFDQSxtQkFBQTtFQUNBLGVBQUE7RUFDQSxTQUFBO0VBQVcsV0FBQTtFQUNYLDBCQUFBO0VBQ0EsV0FBQTtBQ01KOztBREpFO0VBQWUsZ0JBQUE7RUFBaUIsbUJBQUE7QUNTbEM7O0FEUEU7RUFDRSxZQUFBO0VBQ0EsVUFBQTtBQ1VKOztBRFJFO0VBQ0UsbURBQUE7RUFDQSxtQkFBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxXQUFBO0FDV0o7O0FEUkU7RUFBVyw2QkFBQTtFQUE4QixrQkFBQTtBQ2EzQzs7QURaRTtFQUNFLDBDQUFBO0VBQ0EsbUJBQUE7RUFDQSxrQkFBQTtFQUNBLFdBQUE7RUFDQSxlQUFBO0VBQ0EsZUFBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLFFBQUE7RUFDQSxTQUFBO0VBQ0EsV0FBQTtBQ2VKOztBRGJFO0VBQWEsbUJBQUE7QUNpQmY7O0FEZkU7RUFDRSxnQkFBQTtBQ2tCSjs7QURmRTtFQUNFLGFBQUE7QUNrQko7O0FEYkU7RUFDRSxxQkFBQTtFQUNBLFNBQUE7QUNnQko7O0FEWkU7RUFDRSxnQkFBQTtFQUNBLGlCQUFBO0FDZUo7O0FEWEU7RUFDRSxZQUFBO0FDY0o7O0FEVkU7RUFDRSwwQ0FBQTtFQUNBLG1CQUFBO0VBQ0EsZUFBQTtFQUNBLFNBQUE7RUFBVyxXQUFBO0VBQ1gsMEJBQUE7RUFDQSxXQUFBO0FDY0o7O0FEWEU7RUFDRSxZQUFBO0VBQ0EsVUFBQTtBQ2NKOztBRFhFO0VBQ0UsZ0NBQUE7RUFDQSxjQUFBO0VBQ0EsZUFBQTtFQUNBLGlCQUFBO0FDY0o7O0FEWEU7RUFDRSxxQkFBQTtBQ2NKOztBRFhBO0VBQ0UsNENBQUE7RUFDQSxtQkFBQTtFQUNBLGVBQUE7RUFDQSxTQUFBO0VBQ0EsZ0NBQUE7RUFDQSwwQkFBQTtFQUNBLFdBQUE7RUFDQSx5QkFBQTtBQ2NGOztBRFZBO0VBQ0UsNENBQUE7RUFDQSxtQkFBQTtFQUNBLGVBQUE7RUFDQSxTQUFBO0VBQ0EsZ0JBQUE7RUFDQSwwQkFBQTtFQUNBLFdBQUE7RUFDQSx5QkFBQTtBQ2FGOztBRFZBO0VBQ007OzswQ0FBQTtFQUtBLHNCQUFBO0VBQ0EsdUJBQUE7RUFDQSxVQUFBO0FDWU4iLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9jaGF0LWFkbWluL2NoYXQtYWRtaW4ucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbi5pbmNvbWluZ19tc2dfaW1nIHtcclxuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgIHdpZHRoOiA2JTtcclxuICAgIG1hcmdpbjogMHB4IDBweCAwcHg7XHJcbiAgICBwYWRkaW5nOiAyN3B4IDBweCAyMHB4IDA7XHJcbiAgfVxyXG4gIC5yZWNlaXZlZF9tc2cge1xyXG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgcGFkZGluZzogMCAwIDAgMTBweDtcclxuICAgIHZlcnRpY2FsLWFsaWduOiB0b3A7XHJcbiAgICAvLyBhbmNobyBkZSBtZW5zYWplIGRlIGxsZWdhZGEuLlxyXG4gICAgd2lkdGg6IDcwJTtcclxuICAgfVxyXG4gICAucmVjZWl2ZWRfd2l0aGRfbXNnIHAge1xyXG4gICAgYmFja2dyb3VuZDogI2ViZWJlYiBub25lIHJlcGVhdCBzY3JvbGwgMCAwO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuICAgIGNvbG9yOiAjNjQ2NDY0O1xyXG4gICAgZm9udC1zaXplOiAxNHB4O1xyXG4gICAgbWFyZ2luOiAwO1xyXG4gICAgcGFkZGluZzogNXB4IDEwcHggNXB4IDEycHg7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICB9XHJcbiAgLnRpbWVfZGF0ZSB7XHJcbiAgICBjb2xvcjogIzc0NzQ3NDtcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgZm9udC1zaXplOiAxMnB4O1xyXG4gICAgZm9udC1zdHlsZTogaXRhbGljO1xyXG4gICAgXHJcbiAgICBtYXJnaW46IDhweCAxNHB4IDA7XHJcbiAgfVxyXG4gIC50aW1lX2RhdGUyIHtcclxuICAgIGNvbG9yOiByZWQ7XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICAgIGZvbnQtc2l6ZTogMTJweDtcclxuICAgIGZvbnQtc3R5bGU6IG5vcm1hbDtcclxuICAgIG1hcmdpbjogOHB4IDE0cHggMDtcclxuICAgIFxyXG4gIH1cclxuICAucmVjZWl2ZWRfd2l0aGRfbXNnIHsgd2lkdGg6IDExNSU7fVxyXG4gIC5tZXNncyB7XHJcbiAgICBmbG9hdDogbGVmdDtcclxuICAgIHdpZHRoOiA3MCU7XHJcbiAgfVxyXG4gIFxyXG4gICAuc2VudF9tc2cgcCB7XHJcbiAgICBiYWNrZ3JvdW5kOiAjMDU3MjhmIG5vbmUgcmVwZWF0IHNjcm9sbCAwIDA7XHJcbiAgICBib3JkZXItcmFkaXVzOiAyMHB4O1xyXG4gICAgZm9udC1zaXplOiAxNHB4O1xyXG4gICAgbWFyZ2luOiAwOyBjb2xvcjojZmZmO1xyXG4gICAgcGFkZGluZzogNXB4IDEwcHggNXB4IDEycHg7XHJcbiAgICB3aWR0aDoxMDAlO1xyXG4gIH1cclxuICAub3V0Z29pbmdfbXNneyBvdmVyZmxvdzpoaWRkZW47IG1hcmdpbjoyNnB4IDAgMjZweDt9XHJcbiAgXHJcbiAgLnNlbnRfbXNnIHtcclxuICAgIGZsb2F0OiByaWdodDtcclxuICAgIHdpZHRoOiA3MCU7XHJcbiAgfVxyXG4gIC5pbnB1dF9tc2dfd3JpdGUgaW5wdXQge1xyXG4gICAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwKSBub25lIHJlcGVhdCBzY3JvbGwgMCAwO1xyXG4gICAgYm9yZGVyOiBtZWRpdW0gbm9uZTtcclxuICAgIGNvbG9yOiAjNGM0YzRjO1xyXG4gICAgZm9udC1zaXplOiAxNXB4O1xyXG4gICAgbWluLWhlaWdodDogNDhweDtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gIH1cclxuICBcclxuICAudHlwZV9tc2cge2JvcmRlci10b3A6IDFweCBzb2xpZCAjYzRjNGM0O3Bvc2l0aW9uOiByZWxhdGl2ZTt9XHJcbiAgLm1zZ19zZW5kX2J0biB7XHJcbiAgICBiYWNrZ3JvdW5kOiAjMDU3MjhmIG5vbmUgcmVwZWF0IHNjcm9sbCAwIDA7XHJcbiAgICBib3JkZXI6IG1lZGl1bSBub25lO1xyXG4gICAgYm9yZGVyLXJhZGl1czogNTAlO1xyXG4gICAgY29sb3I6ICNmZmY7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICBmb250LXNpemU6IDE3cHg7XHJcbiAgICBoZWlnaHQ6IDMzcHg7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICByaWdodDogMDtcclxuICAgIHRvcDogMTFweDtcclxuICAgIHdpZHRoOiAzM3B4O1xyXG4gIH1cclxuICAubWVzc2FnaW5nIHsgcGFkZGluZzogMCAwIDUwcHggMDt9XHJcbiAgXHJcbiAgLm1zZ19oaXN0b3J5IHtcclxuICAgIG92ZXJmbG93LXk6IGF1dG87XHJcbiAgfVxyXG4gIFxyXG4gIC5oaWRkZW4ge1xyXG4gICAgZGlzcGxheTogbm9uZTtcclxuICB9XHJcbiAgXHJcblxyXG5cclxuICAuaW5jb21pbmdfbXNnX2ltZyB7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICB3aWR0aDogNiU7XHJcbiAgfVxyXG5cclxuXHJcbiAgLmV4YW1wbGUtY2FyZCB7XHJcbiAgICBtYXgtd2lkdGg6IDIwMHB4O1xyXG4gICAgbWF4LWhlaWdodDogMzAwcHg7XHJcbiAgfVxyXG4gIFxyXG5cclxuICAuc2VudF9pbWcge1xyXG4gICAgZmxvYXQ6IHJpZ2h0O1xyXG4gIH1cclxuXHJcbi8vLy8vIE51ZXZvIGVudmlvIGRlIG1lbnNhamVcclxuICAuc2VudF9tc2cgcCB7XHJcbiAgICBiYWNrZ3JvdW5kOiAjMDU3MjhmIG5vbmUgcmVwZWF0IHNjcm9sbCAwIDA7XHJcbiAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xyXG4gICAgZm9udC1zaXplOiAxNHB4O1xyXG4gICAgbWFyZ2luOiAwOyBjb2xvcjojZmZmO1xyXG4gICAgcGFkZGluZzogNXB4IDIwcHggNXB4IDEycHg7XHJcbiAgICB3aWR0aDoxMDAlO1xyXG4gIH1cclxuLy8gQW5jaG8gZGUgbWVuc2FqZSBkZSBzYWxpZGFcclxuICAuc2VudF9tc2cge1xyXG4gICAgZmxvYXQ6IHJpZ2h0O1xyXG4gICAgd2lkdGg6IDgwJTtcclxuICB9XHJcblxyXG4gIC50aW1lX2RhdGVfcmVzIHtcclxuICAgIGNvbG9yOiByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuNzQpO1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICBmb250LXNpemU6IDEycHg7XHJcbiAgICBtYXJnaW46IDFweCAwIDJweDtcclxuICB9XHJcblxyXG4gIC5yb2pvIHNwYW4sIC5yb2pvIC5zYy1pb24tYWN0aW9uLXNoZWV0LW1kIHtcclxuICAgIGNvbG9yOiByZWQgIWltcG9ydGFudDtcclxufVxyXG5cclxuLnNlbmRfcmVzIHtcclxuICBiYWNrZ3JvdW5kOiAjMDU3MThmY2Igbm9uZSByZXBlYXQgc2Nyb2xsIDAgMDtcclxuICBib3JkZXItcmFkaXVzOiAxMHB4O1xyXG4gIGZvbnQtc2l6ZTogMTRweDtcclxuICBtYXJnaW46IDA7IFxyXG4gIGNvbG9yOnJnYmEoMjU1LCAyNTUsIDI1NSwgMC43NCk7XHJcbiAgcGFkZGluZzogNXB4IDEwcHggNXB4IDEycHg7XHJcbiAgd2lkdGg6MTAwJTtcclxuICBib3JkZXI6IDVweCBzb2xpZCAjMDU3MjhmO1xyXG59XHJcblxyXG5cclxuLnJlY2VpdmVkX3dpdGhkX21zZ19yZXMge1xyXG4gIGJhY2tncm91bmQ6ICNlYmViZWIyOCBub25lIHJlcGVhdCBzY3JvbGwgMCAwO1xyXG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbiAgZm9udC1zaXplOiAxNHB4O1xyXG4gIG1hcmdpbjogMDsgIFxyXG4gIGNvbG9yOiAjNjQ2NDY0ZDc7XHJcbiAgcGFkZGluZzogNXB4IDEwcHggNXB4IDEycHg7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgYm9yZGVyOiA1cHggc29saWQgI2ViZWJlYjtcclxufVxyXG5cclxuLmZhYi1jb2xvcntcclxuICAgICAgLypib3JkZXItc3R5bGU6IHNvbGlkO1xyXG4gICAgICBib3JkZXItcmFkaXVzOiA1MCU7XHJcbiAgICAgIGJvcmRlci13aWR0aDogMnB4O1xyXG4gICAgICBib3JkZXItY29sb3I6IHJnYmEoMjQsIDE3MCwgMzYsIDAuNzEyKTsqL1xyXG4gICAgIC8vc2l6ZTogMTAlO1xyXG4gICAgICB3aWR0aDogMzBweCAhaW1wb3J0YW50O1xyXG4gICAgICBoZWlnaHQ6IDMwcHggIWltcG9ydGFudDtcclxuICAgICAgdG9wOiAxMDBweDtcclxuICAgICAvLyBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI0LCAxNzAsIDM2LCAwLjcxMik7XHJcbn0iLCIuaW5jb21pbmdfbXNnX2ltZyB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgd2lkdGg6IDYlO1xuICBtYXJnaW46IDBweCAwcHggMHB4O1xuICBwYWRkaW5nOiAyN3B4IDBweCAyMHB4IDA7XG59XG5cbi5yZWNlaXZlZF9tc2cge1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIHBhZGRpbmc6IDAgMCAwIDEwcHg7XG4gIHZlcnRpY2FsLWFsaWduOiB0b3A7XG4gIHdpZHRoOiA3MCU7XG59XG5cbi5yZWNlaXZlZF93aXRoZF9tc2cgcCB7XG4gIGJhY2tncm91bmQ6ICNlYmViZWIgbm9uZSByZXBlYXQgc2Nyb2xsIDAgMDtcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgY29sb3I6ICM2NDY0NjQ7XG4gIGZvbnQtc2l6ZTogMTRweDtcbiAgbWFyZ2luOiAwO1xuICBwYWRkaW5nOiA1cHggMTBweCA1cHggMTJweDtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbi50aW1lX2RhdGUge1xuICBjb2xvcjogIzc0NzQ3NDtcbiAgZGlzcGxheTogYmxvY2s7XG4gIGZvbnQtc2l6ZTogMTJweDtcbiAgZm9udC1zdHlsZTogaXRhbGljO1xuICBtYXJnaW46IDhweCAxNHB4IDA7XG59XG5cbi50aW1lX2RhdGUyIHtcbiAgY29sb3I6IHJlZDtcbiAgZGlzcGxheTogYmxvY2s7XG4gIGZvbnQtc2l6ZTogMTJweDtcbiAgZm9udC1zdHlsZTogbm9ybWFsO1xuICBtYXJnaW46IDhweCAxNHB4IDA7XG59XG5cbi5yZWNlaXZlZF93aXRoZF9tc2cge1xuICB3aWR0aDogMTE1JTtcbn1cblxuLm1lc2dzIHtcbiAgZmxvYXQ6IGxlZnQ7XG4gIHdpZHRoOiA3MCU7XG59XG5cbi5zZW50X21zZyBwIHtcbiAgYmFja2dyb3VuZDogIzA1NzI4ZiBub25lIHJlcGVhdCBzY3JvbGwgMCAwO1xuICBib3JkZXItcmFkaXVzOiAyMHB4O1xuICBmb250LXNpemU6IDE0cHg7XG4gIG1hcmdpbjogMDtcbiAgY29sb3I6ICNmZmY7XG4gIHBhZGRpbmc6IDVweCAxMHB4IDVweCAxMnB4O1xuICB3aWR0aDogMTAwJTtcbn1cblxuLm91dGdvaW5nX21zZyB7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIG1hcmdpbjogMjZweCAwIDI2cHg7XG59XG5cbi5zZW50X21zZyB7XG4gIGZsb2F0OiByaWdodDtcbiAgd2lkdGg6IDcwJTtcbn1cblxuLmlucHV0X21zZ193cml0ZSBpbnB1dCB7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMCkgbm9uZSByZXBlYXQgc2Nyb2xsIDAgMDtcbiAgYm9yZGVyOiBtZWRpdW0gbm9uZTtcbiAgY29sb3I6ICM0YzRjNGM7XG4gIGZvbnQtc2l6ZTogMTVweDtcbiAgbWluLWhlaWdodDogNDhweDtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbi50eXBlX21zZyB7XG4gIGJvcmRlci10b3A6IDFweCBzb2xpZCAjYzRjNGM0O1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG59XG5cbi5tc2dfc2VuZF9idG4ge1xuICBiYWNrZ3JvdW5kOiAjMDU3MjhmIG5vbmUgcmVwZWF0IHNjcm9sbCAwIDA7XG4gIGJvcmRlcjogbWVkaXVtIG5vbmU7XG4gIGJvcmRlci1yYWRpdXM6IDUwJTtcbiAgY29sb3I6ICNmZmY7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgZm9udC1zaXplOiAxN3B4O1xuICBoZWlnaHQ6IDMzcHg7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgcmlnaHQ6IDA7XG4gIHRvcDogMTFweDtcbiAgd2lkdGg6IDMzcHg7XG59XG5cbi5tZXNzYWdpbmcge1xuICBwYWRkaW5nOiAwIDAgNTBweCAwO1xufVxuXG4ubXNnX2hpc3Rvcnkge1xuICBvdmVyZmxvdy15OiBhdXRvO1xufVxuXG4uaGlkZGVuIHtcbiAgZGlzcGxheTogbm9uZTtcbn1cblxuLmluY29taW5nX21zZ19pbWcge1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIHdpZHRoOiA2JTtcbn1cblxuLmV4YW1wbGUtY2FyZCB7XG4gIG1heC13aWR0aDogMjAwcHg7XG4gIG1heC1oZWlnaHQ6IDMwMHB4O1xufVxuXG4uc2VudF9pbWcge1xuICBmbG9hdDogcmlnaHQ7XG59XG5cbi5zZW50X21zZyBwIHtcbiAgYmFja2dyb3VuZDogIzA1NzI4ZiBub25lIHJlcGVhdCBzY3JvbGwgMCAwO1xuICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICBmb250LXNpemU6IDE0cHg7XG4gIG1hcmdpbjogMDtcbiAgY29sb3I6ICNmZmY7XG4gIHBhZGRpbmc6IDVweCAyMHB4IDVweCAxMnB4O1xuICB3aWR0aDogMTAwJTtcbn1cblxuLnNlbnRfbXNnIHtcbiAgZmxvYXQ6IHJpZ2h0O1xuICB3aWR0aDogODAlO1xufVxuXG4udGltZV9kYXRlX3JlcyB7XG4gIGNvbG9yOiByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuNzQpO1xuICBkaXNwbGF5OiBibG9jaztcbiAgZm9udC1zaXplOiAxMnB4O1xuICBtYXJnaW46IDFweCAwIDJweDtcbn1cblxuLnJvam8gc3BhbiwgLnJvam8gLnNjLWlvbi1hY3Rpb24tc2hlZXQtbWQge1xuICBjb2xvcjogcmVkICFpbXBvcnRhbnQ7XG59XG5cbi5zZW5kX3JlcyB7XG4gIGJhY2tncm91bmQ6ICMwNTcxOGZjYiBub25lIHJlcGVhdCBzY3JvbGwgMCAwO1xuICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICBmb250LXNpemU6IDE0cHg7XG4gIG1hcmdpbjogMDtcbiAgY29sb3I6IHJnYmEoMjU1LCAyNTUsIDI1NSwgMC43NCk7XG4gIHBhZGRpbmc6IDVweCAxMHB4IDVweCAxMnB4O1xuICB3aWR0aDogMTAwJTtcbiAgYm9yZGVyOiA1cHggc29saWQgIzA1NzI4Zjtcbn1cblxuLnJlY2VpdmVkX3dpdGhkX21zZ19yZXMge1xuICBiYWNrZ3JvdW5kOiAjZWJlYmViMjggbm9uZSByZXBlYXQgc2Nyb2xsIDAgMDtcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgZm9udC1zaXplOiAxNHB4O1xuICBtYXJnaW46IDA7XG4gIGNvbG9yOiAjNjQ2NDY0ZDc7XG4gIHBhZGRpbmc6IDVweCAxMHB4IDVweCAxMnB4O1xuICB3aWR0aDogMTAwJTtcbiAgYm9yZGVyOiA1cHggc29saWQgI2ViZWJlYjtcbn1cblxuLmZhYi1jb2xvciB7XG4gIC8qYm9yZGVyLXN0eWxlOiBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNTAlO1xuICBib3JkZXItd2lkdGg6IDJweDtcbiAgYm9yZGVyLWNvbG9yOiByZ2JhKDI0LCAxNzAsIDM2LCAwLjcxMik7Ki9cbiAgd2lkdGg6IDMwcHggIWltcG9ydGFudDtcbiAgaGVpZ2h0OiAzMHB4ICFpbXBvcnRhbnQ7XG4gIHRvcDogMTAwcHg7XG59Il19 */"
+
+/***/ }),
+
+/***/ "./src/app/pages/chat-admin/chat-admin.page.ts":
+/*!*****************************************************!*\
+  !*** ./src/app/pages/chat-admin/chat-admin.page.ts ***!
+  \*****************************************************/
+/*! exports provided: ChatAdminPage */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ChatAdminPage", function() { return ChatAdminPage; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ionic/angular */ "./node_modules/@ionic/angular/dist/fesm5.js");
+/* harmony import */ var _ionic_native_local_notifications_ngx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ionic-native/local-notifications/ngx */ "./node_modules/@ionic-native/local-notifications/ngx/index.js");
+/* harmony import */ var _ionic_native_camera_ngx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ionic-native/camera/ngx */ "./node_modules/@ionic-native/camera/ngx/index.js");
+/* harmony import */ var _services_chat_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../services/chat.service */ "./src/app/services/chat.service.ts");
+/* harmony import */ var _services_usuario_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../services/usuario.service */ "./src/app/services/usuario.service.ts");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var _reenvia_grupo_reenvia_grupo_page__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../reenvia-grupo/reenvia-grupo.page */ "./src/app/pages/reenvia-grupo/reenvia-grupo.page.ts");
+/* harmony import */ var _components_chat_chat_page__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/chat/chat.page */ "./src/app/components/chat/chat.page.ts");
+/* harmony import */ var _ionic_native_file_chooser_ngx__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @ionic-native/file-chooser/ngx */ "./node_modules/@ionic-native/file-chooser/ngx/index.js");
+/* harmony import */ var _ionic_native_file_path_ngx__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @ionic-native/file-path/ngx */ "./node_modules/@ionic-native/file-path/ngx/index.js");
+/* harmony import */ var _ionic_native_document_viewer_ngx__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @ionic-native/document-viewer/ngx */ "./node_modules/@ionic-native/document-viewer/ngx/index.js");
+/* harmony import */ var _ionic_native_chooser_ngx__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @ionic-native/chooser/ngx */ "./node_modules/@ionic-native/chooser/ngx/index.js");
+/* harmony import */ var _ionic_native_file_picker_ngx__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @ionic-native/file-picker/ngx */ "./node_modules/@ionic-native/file-picker/ngx/index.js");
+/* harmony import */ var _ionic_native_document_picker_ngx__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @ionic-native/document-picker/ngx */ "./node_modules/@ionic-native/document-picker/ngx/index.js");
+/* harmony import */ var _ionic_native_file_opener_ngx__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @ionic-native/file-opener/ngx */ "./node_modules/@ionic-native/file-opener/ngx/index.js");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let ChatAdminPage = class ChatAdminPage {
+    constructor(ptl, modals, modal, modalService, chatService, usuarioService, camera, localNotifications, alertController, actionSheerCtrl, loadingCtrl, fileChoosere, filePath, toastController, documentViewer, chooser, iOSFilePicker, fileOpener, docPicker) {
+        this.ptl = ptl;
+        this.modals = modals;
+        this.modal = modal;
+        this.modalService = modalService;
+        this.chatService = chatService;
+        this.usuarioService = usuarioService;
+        this.camera = camera;
+        this.localNotifications = localNotifications;
+        this.alertController = alertController;
+        this.actionSheerCtrl = actionSheerCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.fileChoosere = fileChoosere;
+        this.filePath = filePath;
+        this.toastController = toastController;
+        this.documentViewer = documentViewer;
+        this.chooser = chooser;
+        this.iOSFilePicker = iOSFilePicker;
+        this.fileOpener = fileOpener;
+        this.docPicker = docPicker;
+        this.url = _environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].url;
+        this.returnpath = "";
+        this.tempImages = [];
+        this.mensajes = [];
+        this.grupos = []; // encargado de almacenar los grupos
+        this.email = localStorage.getItem('email');
+        this.mensajeNuevo = '';
+        this.grup = localStorage.getItem('nombreGpo');
+        this.userType = localStorage.getItem('userType');
+        // url = '';
+        this.imagen = '';
+        this.archivo = null;
+        // VARIABLES NUEVAS
+        this.usuarioRes = '';
+        this.referencia = '';
+        this.imagenRes = [];
+        this.idRes = '';
+        this.respuesta = '';
+        this.usuarioGrupos = [];
+        this.mensajeReenviar = '';
+        this.imagenReenviar = [];
+        this.documentoReenviar = [];
+        this.idRen = '';
+        if (this.ptl.is('android')) {
+            this.platform = 'android';
+            // tslint:disable-next-line: align
+        }
+        if (this.ptl.is('ios')) {
+            this.platform = 'ios';
+        }
+        //  console.log(this.grup);
+    }
+    // ,private tab1: Tab1Page
+    /** ES NECESARIO BORRAR EL LOCAL STORAGE UNA VEZ QUE SE CIERRE EL GRUPO */
+    closeChat() {
+        this.modal.dismiss();
+        localStorage.setItem('grupo', localStorage.getItem('0000'));
+        localStorage.setItem('nombreGpo', localStorage.getItem('0000'));
+    }
+    ngOnInit() {
+        // this.backgroundMode.enable();
+        this.chatService.getEscribiendo().subscribe(esc => {
+            this.mensajeNew = document.getElementById(esc.toString());
+            //  console.log(this.mensajeNew.id + 1);
+            this.span = document.getElementById(this.mensajeNew.id + 1);
+            this.span.className = 'chat_date text-success';
+            setTimeout(() => {
+                this.span.className = 'chat_date text-success hidden';
+            }, 1000);
+            if (this.span !== null) {
+                this.ecribiendo = 'escr';
+                // console.log(this.ecribiendo);
+            }
+            else {
+                console.log('vacio');
+            }
+        });
+        this.chatService.getMessages().subscribe(msg => {
+            const grupo = msg['grupo'];
+            if (this.mensajeNew == null) {
+                return;
+            }
+            else {
+                this.mensajeNew = document.getElementById(grupo['_id']);
+                ///////// Llamar la notificacion de un nuevo mensaje
+            }
+        });
+        /////////////////////////////////////
+        this.usuarioService.traerGruposUsuario(localStorage.getItem('email')).subscribe(resp => {
+            if (resp['ok']) {
+                const usuarioStorage = resp['usuario'];
+                this.grupos = usuarioStorage['grupos'];
+                //    console.log(this.grupos);
+            }
+        });
+        this.elemento = document.getElementById('chat-mensaje');
+        // console.log('ELEMENTO'+this.elemento);
+        this.mensajesSubscription = this.chatService.getMessages().subscribe(msg => {
+            const mensaje = msg['grupo'];
+            // console.log(mensaje['_id']);
+            const grupo = mensaje['id'];
+            if (localStorage.getItem('grupo') === mensaje['_id']) {
+                this.mensajes.push(msg);
+                //  console.log(this.mensajes);
+            }
+            this.mensajeNew = mensaje['id'];
+            // Movimiento del scroll
+            setTimeout(() => {
+                this.elemento.scrollTop = this.elemento.scrollHeight;
+            }, 50);
+            ///////// Llamar la notificacion de un nuevo mensaje
+            // this.newMessage();
+        });
+        //////////////// Mensajes almacenados
+        this.chatService.oldMessages(localStorage.getItem('grupo')).subscribe(msg => {
+            this.mensajes = msg['mensajes'];
+            // console.log(this.mensajes);
+            // Movimiento del scroll
+            setTimeout(() => {
+                this.elemento.scrollTop = this.elemento.scrollHeight;
+            }, 50);
+        });
+        this.chatService.getMessages().subscribe(msg => {
+            const grupo = msg['grupo'];
+        });
+    } // ngOnInit
+    /** NOTIFICACION DE NUEVO MENSAJE, NO UTILIZADA */
+    newMessage() {
+        if (this.mensajeNew.id !== localStorage.getItem['grupo']) {
+            this.localNotifications.schedule([{
+                    id: 2,
+                    title: 'Nuevo Mensaje',
+                    text: '',
+                    icon: '/assets/icon/imagen1.png'
+                }]);
+        }
+        else {
+            return;
+        }
+    }
+    ngOnDestroy() {
+        this.mensajesSubscription.unsubscribe();
+    }
+    // ENVIO DE MENSAJE  A TRAVES DE LA VARIABLE MSGG
+    enviar() {
+        const grp = localStorage;
+        const q = grp['grupo'];
+        if (this.msgg.trim().length === 0) {
+            return;
+        }
+        // console.log(this.msgg);
+        this.chatService.sendMessage(this.msgg, localStorage.getItem('grupo'));
+        this.usuarioService.buscarUsuarios(localStorage.getItem('grupo'));
+        this.msgg = '';
+    }
+    escribir(event) {
+        this.chatService.emitEscribiendo(localStorage.getItem('grupo'));
+        // console.log(event);
+    }
+    /** ABRIMOS LAS OPCIONES PARA IMAGENES */
+    galeria() {
+        const options = {
+            quality: 70,
+            destinationType: this.camera.DestinationType.FILE_URI,
+            encodingType: this.camera.EncodingType.JPEG,
+            mediaType: this.camera.MediaType.PICTURE,
+            correctOrientation: true,
+            sourceType: this.camera.PictureSourceType.PHOTOLIBRARY
+        };
+        this.procesarImagen(options);
+    }
+    /** PROCESAMOS NUESTRA IMAGEN PARA SER ENVIADA */
+    procesarImagen(options) {
+        this.camera.getPicture(options).then((imageData) => {
+            // imageData is either a base64 encoded string or a file URI
+            // If it's base64 (DATA_URL):
+            // ruta!
+            // console.log('IMAGEN 2' + imageData);
+            // const img = window.Ionic.WebView.convertFileSrc( imageData );
+            // console.log(img);
+            // SUBIMOS LA DATA DE LA IMAGEN
+            this.chatService.subirImagen(imageData);
+            // NOS AYUDA A ENCONTRAR LOS USUARIOS DE EL GRUPO AL QUE ENVIAMOS
+            this.usuarioService.buscarUsuarios(localStorage.getItem('grupo'));
+            // console.log(imageData);
+            // console.log('CHECK I -' + imageData);
+            // console.log('CHECK II -' + img);
+            // this.tempImages.push( img );
+        }, (err) => {
+            console.log('ERROR ----  ' + err);
+        });
+    }
+    open() {
+        this.fileOpener.open(this.returnpath, 'application/pdf');
+    }
+    // FileChooser IOS
+    fileChooseriOS() {
+        this.chooser.getFile().then((value) => {
+            this.filePath.resolveNativePath(value.uri).then((resolveNativePath) => {
+                this.returnpath = resolveNativePath;
+                console.log('AQUI:: ::: ::: ::: :::: >>>>>' + this.returnpath);
+                /*     // EXTRAEMOS SU TIPO DE ARCHIVO PARA VALIDAR
+                      const extension = this.returnpath.substr(-3);
+              
+                     // console.log(extension);
+              
+                      if (extension !== 'pdf') {
+                        console.log(extension);
+                        this.presentToast();
+                      } else {
+                        // SUBIMOS NUESTRO ARCHIVO CON SU PATH
+                        console.log('ok');
+                        this.chatService.subirArchivo(this.returnpath);
+                      }
+              */
+            });
+        }, (err) => {
+            console.log(JSON.stringify(err));
+        });
+    }
+    // FileChooser
+    // BUSCAMOS EL ARCHIVO A SER ENVIADO
+    fileChooser() {
+        this.fileChoosere.open().then((fileuri) => {
+            this.filePath.resolveNativePath(fileuri).then((resolveNativePath) => {
+                this.returnpath = resolveNativePath;
+                console.log(this.returnpath);
+                // EXTRAEMOS SU TIPO DE ARCHIVO PARA VALIDAR
+                const extension = this.returnpath.substr(-3);
+                // console.log(extension);
+                if (extension !== 'pdf') {
+                    this.presentToast();
+                }
+                else {
+                    // SUBIMOS NUESTRO ARCHIVO CON SU PATH
+                    this.chatService.subirArchivo(this.returnpath);
+                }
+            });
+        }, (err) => {
+            console.log(JSON.stringify(err));
+        });
+        // uri => console.log(uri)).catch(e => console.log(e));
+    }
+    // MENSAJE DE ERROR POR ENVIO DE ARCHIVO ERRONEO
+    presentToast() {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            const toast = yield this.toastController.create({
+                message: 'Archivo incorrecto. Seleccionar un PDF.',
+                duration: 4000
+            });
+            toast.present();
+        });
+    }
+    //////////// METODO DE RESPONDER MENSAJE /////////////
+    presentActionSheet(id) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            console.log(id);
+            this.chatService.mensajePorId(id).subscribe(resp => {
+                if (resp['ok']) {
+                    const mensaje = resp['mensaje'][0];
+                    this.referencia = mensaje.texto;
+                    if (mensaje.reenviar) {
+                        this.usuarioRes = mensaje.reenviar;
+                    }
+                    else {
+                        this.usuarioRes = mensaje.usuario;
+                    }
+                    this.imagenRes = mensaje.img;
+                    this.idRes = mensaje._id;
+                }
+            });
+            const actionSheet = yield this.actionSheerCtrl.create({
+                // sirve para obligar a seleccionar una opcion
+                // si no lo tuviera puedes tocar afuera del las
+                // opciones y cerrar el cuatro. (FALSE)
+                backdropDismiss: false,
+                header: 'Action Mensaje',
+                buttons: [{
+                        text: 'Responder',
+                        icon: 'send',
+                        handler: () => {
+                            this.presentMensaje(this.referencia);
+                        }
+                    },
+                    {
+                        text: 'Reenviar',
+                        icon: 'share',
+                        handler: () => {
+                            this.reenviarMsj(id);
+                        }
+                    }, {
+                        text: 'Eliminar',
+                        role: 'destructive',
+                        icon: 'trash',
+                        // agrega css al boton, la propiedas se guardan
+                        // en el archivo .scss
+                        cssClass: 'rojo',
+                        handler: () => {
+                            this.eliminar(id);
+                        }
+                    }, {
+                        text: 'Cancel',
+                        icon: 'close',
+                        role: 'cancel',
+                        handler: () => {
+                            console.log('Cancel clicked');
+                        }
+                    }]
+            });
+            yield actionSheet.present();
+        });
+    }
+    // Meoto que muestra cuadro de dialogo para respuesta de texto
+    presentMensaje(referencia) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            const alert = yield this.alertController.create({
+                header: 'Mensaje a Responder',
+                subHeader: referencia,
+                inputs: [
+                    {
+                        name: 'txtRespuesta',
+                        type: 'text',
+                        placeholder: 'Respuesta'
+                    },
+                ],
+                buttons: [
+                    {
+                        text: 'Cancelar',
+                        role: 'cancel',
+                        cssClass: 'secondary',
+                        handler: () => {
+                            console.log('Confirmar cancelar');
+                        }
+                    }, {
+                        text: 'Enviar',
+                        handler: (data) => {
+                            /* Mensaje, CARGANDO para esperar que cargue la imagen al responder */
+                            this.respuesta = data.txtRespuesta;
+                            setTimeout(() => {
+                                this.loading.dismiss();
+                                this.enviarRespuesta();
+                            }, 1500);
+                            this.presentLoading('Cargando');
+                        }
+                    }
+                ]
+            });
+            yield alert.present();
+        });
+    }
+    // Metodo de para enviar Respuesta
+    enviarRespuesta() {
+        if (this.respuesta.trim().length === 0) {
+            return;
+        }
+        this.chatService.emitRespuesta(this.idRes, this.respuesta, localStorage.getItem('grupo'));
+        this.referencia = '';
+        this.usuarioRes = '';
+        this.imagenRes = [];
+        this.idRes = '';
+        this.respuesta = '';
+        this.usuarioService.buscarUsuarios(localStorage.getItem('grupo'));
+    }
+    // Metodo que muestra grupos a Reenviar el mensaje
+    reenviarMsj(id) {
+        // console.log('ID OBTENER ' +id);
+        this.chatService.obtenerUsuario().subscribe(resp => {
+            if (resp['ok']) {
+                this.usuarioGrupos = resp['userDB']['grupos'];
+                this.id = resp['userDB']._id;
+            }
+        });
+        this.chatService.mensajePorId(id).subscribe(resp => {
+            if (resp['ok']) {
+                const mensaje = resp['mensaje'][0];
+                // console.log(mensaje.doc);
+                this.mensajeReenviar = mensaje.texto || '';
+                this.imagenReenviar = mensaje.img;
+                // console.log('IMAGEN' + this.imagenReenviar);
+                this.documentoReenviar = mensaje.doc;
+                // console.log('DOCUMENTO ' + this.documentoReenviar);
+                if (mensaje.reenviar) {
+                    this.idRen = mensaje.reenviar;
+                }
+                else {
+                    this.idRen = mensaje.usuario;
+                }
+                this.abrirModal(id);
+            }
+            else {
+                console.log('no encontrado');
+            }
+        });
+    }
+    abrirModal(idGrup) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            const modal = yield this.modalService.create({
+                cssClass: 'my-custom-modal-css',
+                component: _reenvia_grupo_reenvia_grupo_page__WEBPACK_IMPORTED_MODULE_8__["ReenviaGrupoPage"],
+                componentProps: {
+                    id: idGrup,
+                    _id: this.id,
+                    reenviar: this.idRen,
+                    img: this.imagenReenviar,
+                    texto: this.mensajeReenviar,
+                    doc: this.documentoReenviar
+                }
+            });
+            yield modal.present();
+        });
+    }
+    /** OPCIONES DE ELIMINAR */
+    eliminar(id) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            const alert = this.alertController.create({
+                header: 'Confirmar',
+                message: '¿Estas seguro que deseas <strong>eliminarlo</strong>?',
+                buttons: [
+                    {
+                        text: 'No, Cancelar',
+                        role: 'cancel',
+                        cssClass: 'secondary',
+                        handler: (blah) => {
+                            return;
+                        }
+                    }, {
+                        text: 'Si, Borrarlo',
+                        handler: () => {
+                            this.chatService.eliminar(id).subscribe(resp => {
+                                this.mensajes = [];
+                                if (resp['ok']) {
+                                    this.mensajes = resp['mensajes'];
+                                }
+                            });
+                        }
+                    }
+                ]
+            });
+            (yield alert).present();
+        });
+    }
+    /// RESPONDE IMAGEN OPCIONES
+    presentActionSheetImage(imgId, msgId) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            // console.log(imgId); // ruta de imagen
+            // console.log(msgId); // Id de imagen
+            this.chatService.mensajePorId(msgId).subscribe(resp => {
+                if (resp['ok']) {
+                    const mensaje = resp['mensaje'][0];
+                    this.referencia = mensaje.texto;
+                    if (mensaje.reenviar) {
+                        this.usuarioRes = mensaje.reenviar;
+                    }
+                    else {
+                        this.usuarioRes = mensaje.usuario;
+                    }
+                    this.imagenRes = mensaje.img;
+                    this.idRes = mensaje._id;
+                }
+            });
+            const actionSheet = yield this.actionSheerCtrl.create({
+                // sirve para obligar a seleccionar una opcion
+                // si no lo tuviera puedes tocar afuera del las
+                // opciones y cerrar el cuatro. (FALSE)
+                backdropDismiss: false,
+                header: 'Action Mensaje - Imagen',
+                buttons: [{
+                        text: 'Abrir Imagen',
+                        icon: 'image',
+                        handler: () => {
+                            this.openImage(imgId);
+                        }
+                    }, {
+                        text: 'Responder',
+                        icon: 'send',
+                        handler: () => {
+                            this.presentMensaje(this.referencia);
+                        }
+                    }, {
+                        text: 'Reenviar',
+                        icon: 'share',
+                        handler: () => {
+                            this.reenviarMsj(msgId);
+                        }
+                    }, {
+                        text: 'Eliminar',
+                        role: 'destructive',
+                        icon: 'trash',
+                        // agrega css al boton, la propiedas se guardan
+                        // en el archivo .scss
+                        cssClass: 'rojo',
+                        handler: () => {
+                            this.eliminar(msgId);
+                        }
+                    }, {
+                        text: 'Cancel',
+                        icon: 'close',
+                        role: 'cancel',
+                        handler: () => {
+                            //    console.log('Cancel clicked');
+                        }
+                    }]
+            });
+            yield actionSheet.present();
+        });
+    }
+    presentLoading(message) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            this.loading = yield this.loadingCtrl.create({
+                message
+                //  duration: 2000
+            });
+            return this.loading.present();
+        });
+    }
+    // Metodo para abrir imagen
+    openImage(images) {
+        //  console.log('IMAGEN' + images);
+        this.modals.create({
+            component: _components_chat_chat_page__WEBPACK_IMPORTED_MODULE_9__["ChatPage"],
+            componentProps: {
+                imagen: images
+            }
+        }).then(modal => modal.present());
+    }
+    // tslint:disable-next-line: max-line-length
+    /* --------------- PRESENTACTIONSHEET DOCUMENTO DE ENVIADO (DE SALIDA) ------------------------------------------------------------------------------ */
+    presentActionSheetDocument(docId, msgId, msgDoc) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            //  console.log(docId); // ruta de imagen
+            //  console.log(msgId); // Id de imagen
+            console.log(msgDoc);
+            this.chatService.mensajePorId(msgId).subscribe(resp => {
+                if (resp['ok']) {
+                    const mensaje = resp['mensaje'][0];
+                    this.referencia = mensaje.texto;
+                    if (mensaje.reenviar) {
+                        this.usuarioRes = mensaje.reenviar;
+                    }
+                    else {
+                        this.usuarioRes = mensaje.usuario;
+                    }
+                    this.imagenRes = mensaje.img;
+                    this.idRes = mensaje._id;
+                }
+            });
+            const actionSheet = yield this.actionSheerCtrl.create({
+                // sirve para obligar a seleccionar una opcion
+                // si no lo tuviera puedes tocar afuera del las
+                // opciones y cerrar el cuatro. (FALSE)
+                backdropDismiss: false,
+                header: 'Action Mensaje - Documento',
+                buttons: [{
+                        text: 'Ver Documento',
+                        icon: 'document',
+                        handler: () => {
+                            this.chatService.dowloandOpenDocument(docId, msgDoc);
+                        }
+                    },
+                    {
+                        text: 'Responder',
+                        icon: 'send',
+                        handler: () => {
+                            this.presentMensaje(this.referencia);
+                        }
+                    },
+                    {
+                        text: 'Eliminar',
+                        role: 'destructive',
+                        icon: 'trash',
+                        // agrega css al boton, la propiedas se guardan
+                        // en el archivo .scss
+                        cssClass: 'rojo',
+                        handler: () => {
+                            this.eliminar(msgId);
+                        }
+                    }, {
+                        text: 'Cancel',
+                        icon: 'close',
+                        role: 'cancel',
+                        handler: () => {
+                            //    console.log('Cancel clicked');
+                        }
+                    }]
+            });
+            yield actionSheet.present();
+        });
+    }
+    /** MENSAJE DOCUMENTO DE LLEGADA, ACCIONES A TOMAR */
+    presentActionSheetDocumentRecive(docId, msgId, msgDoc) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            //  console.log(docId); // ruta de imagen
+            //  console.log(msgId); // Id de imagen
+            this.chatService.mensajePorId(msgId).subscribe(resp => {
+                if (resp['ok']) {
+                    const mensaje = resp['mensaje'][0];
+                    this.referencia = mensaje.texto;
+                    if (mensaje.reenviar) {
+                        this.usuarioRes = mensaje.reenviar;
+                    }
+                    else {
+                        this.usuarioRes = mensaje.usuario;
+                    }
+                    this.imagenRes = mensaje.img;
+                    this.idRes = mensaje._id;
+                }
+            });
+            const actionSheet = yield this.actionSheerCtrl.create({
+                // sirve para obligar a seleccionar una opcion
+                // si no lo tuviera puedes tocar afuera del las
+                // opciones y cerrar el cuatro. (FALSE)
+                backdropDismiss: false,
+                header: 'Action Mensaje - Documento',
+                buttons: [{
+                        text: 'Ver Documento',
+                        icon: 'document',
+                        handler: () => {
+                            this.chatService.dowloandOpenDocument(docId, msgDoc);
+                        }
+                    },
+                    {
+                        text: 'Responder',
+                        icon: 'send',
+                        handler: () => {
+                            this.presentMensaje(this.referencia);
+                        }
+                    },
+                    {
+                        text: 'Cancel',
+                        icon: 'close',
+                        role: 'cancel',
+                        handler: () => {
+                            //    console.log('Cancel clicked');
+                        }
+                    }]
+            });
+            yield actionSheet.present();
+        });
+    }
+    /********************* OPCIONES PARA LOS MENSAJES DE LLEGADA*****************************/
+    presentActionSheetMsgLlegada(msgId) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            this.chatService.mensajePorId(msgId).subscribe(resp => {
+                if (resp['ok']) {
+                    const mensaje = resp['mensaje'][0];
+                    this.referencia = mensaje.texto;
+                    if (mensaje.reenviar) {
+                        this.usuarioRes = mensaje.reenviar;
+                    }
+                    else {
+                        this.usuarioRes = mensaje.usuario;
+                    }
+                    this.imagenRes = mensaje.img;
+                    this.idRes = mensaje._id;
+                }
+            });
+            const actionSheet = yield this.actionSheerCtrl.create({
+                // sirve para obligar a seleccionar una opcion
+                // si no lo tuviera puedes tocar afuera del las
+                // opciones y cerrar el cuatro. (FALSE)
+                backdropDismiss: false,
+                header: 'Action Mensaje - Recepcion',
+                buttons: [{
+                        text: 'Responder',
+                        icon: 'send',
+                        handler: () => {
+                            this.presentMensaje(this.referencia);
+                        }
+                    }, {
+                        text: 'Reenviar',
+                        icon: 'share',
+                        handler: () => {
+                            this.reenviarMsj(msgId);
+                        }
+                    }, {
+                        text: 'Cancel',
+                        icon: 'close',
+                        role: 'cancel',
+                        handler: () => {
+                            console.log('Cancel clicked');
+                        }
+                    }]
+            });
+            yield actionSheet.present();
+        });
+    }
+    /** OPCIONES IMAGEN DE LLEGADA */
+    presentActionSheetImgLlegada(imgId, msgId) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            //console.log(imgId);
+            //console.log(msgId);
+            this.chatService.mensajePorId(msgId).subscribe(resp => {
+                if (resp['ok']) {
+                    const mensaje = resp['mensaje'][0];
+                    this.referencia = mensaje.texto;
+                    if (mensaje.reenviar) {
+                        this.usuarioRes = mensaje.reenviar;
+                    }
+                    else {
+                        this.usuarioRes = mensaje.usuario;
+                    }
+                    this.imagenRes = mensaje.img;
+                    this.idRes = mensaje._id;
+                }
+            });
+            const actionSheet = yield this.actionSheerCtrl.create({
+                // sirve para obligar a seleccionar una opcion
+                // si no lo tuviera puedes tocar afuera del las
+                // opciones y cerrar el cuatro. (FALSE)
+                backdropDismiss: false,
+                header: 'Action Mensaje - Recepcion',
+                buttons: [{
+                        text: 'Abrir Imagen',
+                        icon: 'image',
+                        handler: () => {
+                            this.openImage(imgId);
+                        }
+                    }, {
+                        text: 'Responder',
+                        icon: 'send',
+                        handler: () => {
+                            this.presentMensaje(this.referencia);
+                        }
+                    }, {
+                        text: 'Reenviar',
+                        icon: 'share',
+                        handler: () => {
+                            this.reenviarMsj(msgId);
+                        }
+                    }, {
+                        text: 'Cancel',
+                        icon: 'close',
+                        role: 'cancel',
+                        handler: () => {
+                            console.log('Cancel clicked');
+                        }
+                    }]
+            });
+            yield actionSheet.present();
+        });
+    }
+};
+ChatAdminPage.ctorParameters = () => [
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["Platform"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ModalController"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ModalController"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ModalController"] },
+    { type: _services_chat_service__WEBPACK_IMPORTED_MODULE_5__["ChatService"] },
+    { type: _services_usuario_service__WEBPACK_IMPORTED_MODULE_6__["UsuarioService"] },
+    { type: _ionic_native_camera_ngx__WEBPACK_IMPORTED_MODULE_4__["Camera"] },
+    { type: _ionic_native_local_notifications_ngx__WEBPACK_IMPORTED_MODULE_3__["LocalNotifications"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["AlertController"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ActionSheetController"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["LoadingController"] },
+    { type: _ionic_native_file_chooser_ngx__WEBPACK_IMPORTED_MODULE_10__["FileChooser"] },
+    { type: _ionic_native_file_path_ngx__WEBPACK_IMPORTED_MODULE_11__["FilePath"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ToastController"] },
+    { type: _ionic_native_document_viewer_ngx__WEBPACK_IMPORTED_MODULE_12__["DocumentViewer"] },
+    { type: _ionic_native_chooser_ngx__WEBPACK_IMPORTED_MODULE_13__["Chooser"] },
+    { type: _ionic_native_file_picker_ngx__WEBPACK_IMPORTED_MODULE_14__["IOSFilePicker"] },
+    { type: _ionic_native_file_opener_ngx__WEBPACK_IMPORTED_MODULE_16__["FileOpener"] },
+    { type: _ionic_native_document_picker_ngx__WEBPACK_IMPORTED_MODULE_15__["DocumentPicker"] }
+];
+ChatAdminPage = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-chat-admin',
+        template: __webpack_require__(/*! raw-loader!./chat-admin.page.html */ "./node_modules/raw-loader/index.js!./src/app/pages/chat-admin/chat-admin.page.html"),
+        styles: [__webpack_require__(/*! ./chat-admin.page.scss */ "./src/app/pages/chat-admin/chat-admin.page.scss")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_ionic_angular__WEBPACK_IMPORTED_MODULE_2__["Platform"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ModalController"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ModalController"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ModalController"],
+        _services_chat_service__WEBPACK_IMPORTED_MODULE_5__["ChatService"],
+        _services_usuario_service__WEBPACK_IMPORTED_MODULE_6__["UsuarioService"],
+        _ionic_native_camera_ngx__WEBPACK_IMPORTED_MODULE_4__["Camera"],
+        _ionic_native_local_notifications_ngx__WEBPACK_IMPORTED_MODULE_3__["LocalNotifications"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["AlertController"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ActionSheetController"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["LoadingController"],
+        _ionic_native_file_chooser_ngx__WEBPACK_IMPORTED_MODULE_10__["FileChooser"],
+        _ionic_native_file_path_ngx__WEBPACK_IMPORTED_MODULE_11__["FilePath"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ToastController"],
+        _ionic_native_document_viewer_ngx__WEBPACK_IMPORTED_MODULE_12__["DocumentViewer"],
+        _ionic_native_chooser_ngx__WEBPACK_IMPORTED_MODULE_13__["Chooser"],
+        _ionic_native_file_picker_ngx__WEBPACK_IMPORTED_MODULE_14__["IOSFilePicker"],
+        _ionic_native_file_opener_ngx__WEBPACK_IMPORTED_MODULE_16__["FileOpener"],
+        _ionic_native_document_picker_ngx__WEBPACK_IMPORTED_MODULE_15__["DocumentPicker"]])
+], ChatAdminPage);
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/reenvia-grupo/reenvia-grupo.page.scss":
+/*!*************************************************************!*\
+  !*** ./src/app/pages/reenvia-grupo/reenvia-grupo.page.scss ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".list_grupo {\n  overflow-y: auto;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvcmVlbnZpYS1ncnVwby9DOlxcVXNlcnNcXGFkbV91c3JcXERvY3VtZW50c1xcVVNCLU1lbW9yaWFcXGNoYXRDb3Jwb0phbi9zcmNcXGFwcFxccGFnZXNcXHJlZW52aWEtZ3J1cG9cXHJlZW52aWEtZ3J1cG8ucGFnZS5zY3NzIiwic3JjL2FwcC9wYWdlcy9yZWVudmlhLWdydXBvL3JlZW52aWEtZ3J1cG8ucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksZ0JBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3JlZW52aWEtZ3J1cG8vcmVlbnZpYS1ncnVwby5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubGlzdF9ncnVwbyB7XHJcbiAgICBvdmVyZmxvdy15OiBhdXRvO1xyXG4gIH0iLCIubGlzdF9ncnVwbyB7XG4gIG92ZXJmbG93LXk6IGF1dG87XG59Il19 */"
+
+/***/ }),
+
+/***/ "./src/app/pages/reenvia-grupo/reenvia-grupo.page.ts":
+/*!***********************************************************!*\
+  !*** ./src/app/pages/reenvia-grupo/reenvia-grupo.page.ts ***!
+  \***********************************************************/
+/*! exports provided: ReenviaGrupoPage */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReenviaGrupoPage", function() { return ReenviaGrupoPage; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ionic/angular */ "./node_modules/@ionic/angular/dist/fesm5.js");
+/* harmony import */ var _services_chat_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/chat.service */ "./src/app/services/chat.service.ts");
+/* harmony import */ var _services_usuario_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/usuario.service */ "./src/app/services/usuario.service.ts");
+
+var ReenviaGrupoPage_1;
+
+
+
+
+let ReenviaGrupoPage = ReenviaGrupoPage_1 = class ReenviaGrupoPage {
+    constructor(modal, chatService, navParams, usuarioService) {
+        this.modal = modal;
+        this.chatService = chatService;
+        this.navParams = navParams;
+        this.usuarioService = usuarioService;
+        this.usuarioGrupos = [];
+        this.userGrupos = '';
+        this.reenviar(this.id);
+        this.documentoReenviar = this.navParams.get('doc');
+        this.mensajeReenviar = this.navParams.get('texto');
+        this.imagenReenviar = this.navParams.get('img');
+        this.idRen = this.navParams.get('reenviar');
+        this.id = this.navParams.get('id');
+    }
+    openMyModal() {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            const myModal = yield this.modal.create({
+                component: ReenviaGrupoPage_1,
+                cssClass: 'my-custom-modal-css'
+            });
+            return yield myModal.present();
+        });
+    }
+    ngOnInit() {
+    }
+    close() {
+        this.modal.dismiss();
+    }
+    reenviar(id) {
+        // OBTIENE USUARIOS PARA SER ENVIADO EL MENSAJE
+        this.chatService.obtenerUsuario().subscribe(resp => {
+            if (resp['ok']) {
+                this.usuarioGrupos = resp['userDB']['grupos'];
+                this.id = resp['userDB']._id;
+            }
+        });
+        this.chatService.mensajePorId(id).subscribe(resp => {
+            if (resp['ok']) {
+                const mensaje = resp['mensaje'][0];
+                this.mensajeReenviar = mensaje.texto || '';
+                this.imagenReenviar = mensaje.img;
+                this.documentoReenviar = mensaje.doc;
+                console.log('DOCUMENTO 2 ' + this.documentoReenviar);
+                if (mensaje.reenviar) {
+                    this.idRen = mensaje.reenviar;
+                }
+                else {
+                    this.idRen = mensaje.usuario;
+                }
+            }
+        });
+    }
+    enviarGrupo() {
+        for (let i = 0; i < this.userGrupos.length; i++) {
+            const element = this.userGrupos[i];
+            const payload = {
+                texto: this.mensajeReenviar,
+                img: this.imagenReenviar,
+                doc: this.documentoReenviar,
+                reenviar: this.idRen,
+                _id: this.id,
+                grupo: element
+            };
+            // console.log(payload);
+            // ALERTA DE MENSAJES PARA ENVIO A GRUPOS
+            // this.usuarioService.buscarUsuarios(localStorage.getItem('grupo'));
+            /* NOTIFICACION DE REENVIO DE MENSAJE */
+            this.usuarioService.buscarUsuarios(localStorage.getItem('grupo'));
+            this.chatService.sendReenviar(payload);
+        }
+        this.mensajeReenviar = '';
+        this.imagenReenviar = [];
+        this.documentoReenviar = [];
+        this.idRen = '';
+        this.id = '';
+        this.userGrupos = '';
+        this.usuarioGrupos = [];
+        this.modal.dismiss();
+    }
+};
+ReenviaGrupoPage.ctorParameters = () => [
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ModalController"] },
+    { type: _services_chat_service__WEBPACK_IMPORTED_MODULE_3__["ChatService"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["NavParams"] },
+    { type: _services_usuario_service__WEBPACK_IMPORTED_MODULE_4__["UsuarioService"] }
+];
+ReenviaGrupoPage = ReenviaGrupoPage_1 = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-reenvia-grupo',
+        template: __webpack_require__(/*! raw-loader!./reenvia-grupo.page.html */ "./node_modules/raw-loader/index.js!./src/app/pages/reenvia-grupo/reenvia-grupo.page.html"),
+        styles: [__webpack_require__(/*! ./reenvia-grupo.page.scss */ "./src/app/pages/reenvia-grupo/reenvia-grupo.page.scss")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ModalController"],
+        _services_chat_service__WEBPACK_IMPORTED_MODULE_3__["ChatService"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["NavParams"],
+        _services_usuario_service__WEBPACK_IMPORTED_MODULE_4__["UsuarioService"]])
+], ReenviaGrupoPage);
+
+
+
+/***/ }),
+
+/***/ "./src/app/pipes/image-sanitizer.pipe.ts":
+/*!***********************************************!*\
+  !*** ./src/app/pipes/image-sanitizer.pipe.ts ***!
+  \***********************************************/
+/*! exports provided: ImageSanitizerPipe */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ImageSanitizerPipe", function() { return ImageSanitizerPipe; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+
+
+
+let ImageSanitizerPipe = class ImageSanitizerPipe {
+    constructor(domSanitizer) {
+        this.domSanitizer = domSanitizer;
+    }
+    transform(img, ...args) {
+        return this.domSanitizer.bypassSecurityTrustUrl(img);
+    }
+};
+ImageSanitizerPipe.ctorParameters = () => [
+    { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["DomSanitizer"] }
+];
+ImageSanitizerPipe = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Pipe"])({
+        name: 'imageSanitizer'
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["DomSanitizer"]])
+], ImageSanitizerPipe);
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/chat.service.ts":
+/*!******************************************!*\
+  !*** ./src/app/services/chat.service.ts ***!
+  \******************************************/
+/*! exports provided: ChatService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ChatService", function() { return ChatService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _websocket_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./websocket.service */ "./src/app/services/websocket.service.ts");
+/* harmony import */ var _usuario_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./usuario.service */ "./src/app/services/usuario.service.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var src_environments_environment__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _ionic_native_file_transfer_ngx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ionic-native/file-transfer/ngx */ "./node_modules/@ionic-native/file-transfer/ngx/index.js");
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @ionic/angular */ "./node_modules/@ionic/angular/dist/fesm5.js");
+/* harmony import */ var _ionic_native_file_ngx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @ionic-native/file/ngx */ "./node_modules/@ionic-native/file/ngx/index.js");
+/* harmony import */ var _ionic_native_file_opener_ngx__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @ionic-native/file-opener/ngx */ "./node_modules/@ionic-native/file-opener/ngx/index.js");
+
+
+
+
+
+
+
+
+
+
+
+let ChatService = class ChatService {
+    constructor(wsService, usuarioService, http, router, fileTransfer, loadingCtrl, file, fileOpener, toastController) {
+        this.wsService = wsService;
+        this.usuarioService = usuarioService;
+        this.http = http;
+        this.router = router;
+        this.fileTransfer = fileTransfer;
+        this.loadingCtrl = loadingCtrl;
+        this.file = file;
+        this.fileOpener = fileOpener;
+        this.toastController = toastController;
+        this.token = null;
+    }
+    cargarToken() {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            this.token = (yield localStorage.getItem('token')) || null;
+        });
+    }
+    sendMessage(mensaje, idGrupo) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            yield this.cargarToken();
+            const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpHeaders"]({
+                'x-token': this.token
+            });
+            this.http.get(`${src_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].url}/token`, { headers })
+                .subscribe(resp => {
+                if (resp['ok']) {
+                    this.usuario = resp['userDB'];
+                    // console.log(this.usuario);
+                    const payload = {
+                        _id: this.usuario._id,
+                        grupo: idGrupo,
+                        texto: mensaje
+                    };
+                    this.wsService.emit('mensaje', payload);
+                }
+                else {
+                    this.router.navigateByUrl('/login');
+                }
+            });
+        });
+    }
+    emitOldMessages() {
+        const payload = {
+            grupo: localStorage.getItem('grupo')
+        };
+        // console.log(localStorage.getItem('grupo'));
+        this.wsService.emit('mensajes-v', payload);
+    }
+    oldMessages(grupo) {
+        const data = { grupo };
+        //console.log(grupo);
+        return this.http.post(`${src_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].url}/mensajes`, data);
+    }
+    emitEscribiendo(grupo) {
+        const payload = { grupo };
+        this.wsService.emit('escribiendo', payload);
+    }
+    getEscribiendo() {
+        return this.wsService.listen('escribiendo');
+    }
+    getMessages() {
+        return this.wsService.listen('mensaje-nuevo');
+    }
+    limpiarMensajes(mensajes) {
+        mensajes = [];
+    }
+    subirImagen(img) {
+        const options = {
+            fileKey: 'image',
+            headers: {
+                'x-token': this.usuarioService.token
+            }
+        };
+        const fileTransfer = this.fileTransfer.create();
+        fileTransfer.upload(img, `${src_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].url}/mensajes/upload`, options)
+            .then(data => {
+            console.log('HECHO' + data);
+            // Llama el mensaje de cargando
+            setTimeout(() => {
+                this.loading.dismiss();
+                this.emitGuardarImagen();
+            }, 1500);
+            this.presentLoading('Cargando');
+        }).catch(err => {
+            console.log('error en carga', err);
+        });
+    }
+    // METODO PARA SUBIR ARCHIVOS
+    subirArchivo(file) {
+        // console.log('FILEEEE'+file);
+        const options = {
+            fileKey: "file",
+            fileName: file,
+            headers: {
+                'x-token': this.usuarioService.token
+            }
+        };
+        const fileTransfer = this.fileTransfer.create();
+        fileTransfer.upload(file, `${src_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].url}/mensajes/upload/file`, options).then(data => {
+            setTimeout(() => {
+                this.loading.dismiss();
+                this.emitGuardarImagen();
+            }, 1500);
+            this.presentLoading('Cargando');
+        }).catch(err => {
+            // console.log(fileTransfer);
+            // console.log('Error', err);
+            this.presentToast();
+        });
+    }
+    presentToast() {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            const toast = yield this.toastController.create({
+                message: 'Este archivo ya existe en la BD, Verificar  NOMBRE',
+                duration: 4000
+            });
+            toast.present();
+        });
+    }
+    // VER Y DESCARGAR ARCHIVO PDF
+    dowloandOpenDocument(docId, msgDoc) {
+        const fileTransfer = this.fileTransfer.create();
+        const url = src_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].url + '/mensajes/' + docId;
+        console.log();
+        console.log(url);
+        fileTransfer.download(url, this.file.dataDirectory + msgDoc).then((entry) => {
+            console.log('DESCARGADO');
+            const urll = entry.toURL();
+            console.log(urll);
+            this.fileOpener.open(urll, 'application/pdf');
+        }, (error) => {
+            console.log(error);
+            // handle error
+        });
+        /*
+        this.fileOpener.open(docId, 'application/pdf')
+        .then(() => console.log('File is opened'))
+        .catch(e => console.log('Error opening file', e));
+        const urlDown = 'http://10.11.124.235:2000/mensajes/5d6402eed109976474764152/g2pc7aqwk2c1sxr6.pdf';
+        const path = this.file.dataDirectory;
+        const transfer = this.fileTransfer.create();
+    
+        transfer.download(urlDown, `${path}myfile.pdf`).then(entry => {
+          console.log(entry);
+          const url = entry.toURL();
+          this.fileOpener.open(url, 'application/pdf');
+        });
+    */
+    }
+    presentLoading(message) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            this.loading = yield this.loadingCtrl.create({
+                message
+                //  duration: 2000
+            });
+            return this.loading.present();
+        });
+    }
+    // SUBE LA IMAGEN
+    guardarImagen(formData) {
+        this.cargarToken();
+        const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpHeaders"]({
+            'x-token': this.token
+        });
+        return this.http.post(`${src_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].url}/mensajes/upload`, formData, { headers });
+    }
+    // CARGA LA IMAGEN
+    emitGuardarImagen() {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            yield this.cargarToken();
+            const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpHeaders"]({
+                'x-token': this.token
+            });
+            this.http.get(`${src_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].url}/token`, { headers })
+                .subscribe(resp => {
+                if (resp['ok']) {
+                    this.usuario = resp['userDB'];
+                    console.log(this.usuario);
+                    const payload = {
+                        _id: this.usuario._id,
+                        grupo: localStorage.getItem('grupo'),
+                    };
+                    this.wsService.emit('imagen', payload);
+                }
+            });
+        });
+    }
+    //// NUEVO METODOS DE RESPONDER
+    // TRAE EL ID DEL MENSAJE SELECCIONADO Y REGRESA EL TEXTO DEL MENSAJE
+    mensajePorId(id) {
+        this.cargarToken();
+        const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpHeaders"]({
+            'x-token': localStorage.getItem('token')
+        });
+        return this.http.get(`${src_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].url}/obtener/mensaje/${id}`, { headers });
+    }
+    // ENVIA LA RESPUES DEL MENSAJE....
+    emitRespuesta(idRes, respuesta, grupo) {
+        this.cargarToken();
+        const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpHeaders"]({
+            'x-token': localStorage.getItem('token')
+        });
+        this.http.get(`${src_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].url}/token`, { headers })
+            .subscribe(resp => {
+            if (resp['ok']) {
+                this.usuario = resp['userDB'];
+                //  console.log('USUARIO  --- ' + this.usuario);
+                const payload = {
+                    idRes,
+                    respuesta,
+                    grupo,
+                    _id: this.usuario._id
+                };
+                //  console.log('PAYLOAD  --- ' + payload);
+                this.wsService.emit('respuesta', payload);
+            }
+        });
+    }
+    // Obtiene los datos del usuario
+    obtenerUsuario() {
+        this.cargarToken();
+        const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpHeaders"]({
+            'x-token': this.token
+        });
+        return this.http.get(`${src_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].url}/token`, { headers });
+    }
+    sendReenviar(payload) {
+        this.wsService.emit('reenviar', payload);
+    }
+    /* ELIMINAR */
+    eliminar(id) {
+        this.cargarToken();
+        const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpHeaders"]({
+            'x-token': this.token
+        });
+        return this.http.get(`${src_environments_environment__WEBPACK_IMPORTED_MODULE_5__["environment"].url}/eliminado/${id}/${localStorage.getItem('grupo')}`, { headers });
+    }
+};
+ChatService.ctorParameters = () => [
+    { type: _websocket_service__WEBPACK_IMPORTED_MODULE_2__["WebsocketService"] },
+    { type: _usuario_service__WEBPACK_IMPORTED_MODULE_3__["UsuarioService"] },
+    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClient"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_6__["Router"] },
+    { type: _ionic_native_file_transfer_ngx__WEBPACK_IMPORTED_MODULE_7__["FileTransfer"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_8__["LoadingController"] },
+    { type: _ionic_native_file_ngx__WEBPACK_IMPORTED_MODULE_9__["File"] },
+    { type: _ionic_native_file_opener_ngx__WEBPACK_IMPORTED_MODULE_10__["FileOpener"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_8__["ToastController"] }
+];
+ChatService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+        providedIn: 'root'
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_websocket_service__WEBPACK_IMPORTED_MODULE_2__["WebsocketService"],
+        _usuario_service__WEBPACK_IMPORTED_MODULE_3__["UsuarioService"],
+        _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClient"],
+        _angular_router__WEBPACK_IMPORTED_MODULE_6__["Router"],
+        _ionic_native_file_transfer_ngx__WEBPACK_IMPORTED_MODULE_7__["FileTransfer"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_8__["LoadingController"],
+        _ionic_native_file_ngx__WEBPACK_IMPORTED_MODULE_9__["File"],
+        _ionic_native_file_opener_ngx__WEBPACK_IMPORTED_MODULE_10__["FileOpener"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_8__["ToastController"]])
+], ChatService);
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/push.service.ts":
+/*!******************************************!*\
+  !*** ./src/app/services/push.service.ts ***!
+  \******************************************/
+/*! exports provided: PushService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PushService", function() { return PushService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _ionic_native_onesignal_ngx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ionic-native/onesignal/ngx */ "./node_modules/@ionic-native/onesignal/ngx/index.js");
+/* harmony import */ var _usuario_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./usuario.service */ "./src/app/services/usuario.service.ts");
+
+
+
+
+let PushService = class PushService {
+    constructor(oneSignal, usuarioService) {
+        this.oneSignal = oneSignal;
+        this.usuarioService = usuarioService;
+        this.mensajes = [
+        /*  {
+            title: 'Titulo de la push',
+            body: 'Este es el body de la push',
+            date: new Date()
+          }*/
+        ];
+        this.pushListener = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+    }
+    configuracionInicial() {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            // ONESIGNAL                          // FireBASE
+            this.oneSignal.startInit('40407aec-b13e-427f-9f55-ffa52e6d8ad6', '144813111422');
+            this.oneSignal.inFocusDisplaying(this.oneSignal.OSInFocusDisplayOption.Notification);
+            this.oneSignal.handleNotificationReceived().subscribe((noti) => {
+                // do something when notification is received
+                console.log('Notificación recibida', noti);
+                this.notificacionRecibida(noti);
+            });
+            this.oneSignal.handleNotificationOpened().subscribe((noti) => tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+                // do something when a notification is opened
+                console.log('Notificación abierta', noti);
+                yield this.notificacionRecibida(noti.notification);
+            }));
+            // Obtener ID del suscriptor
+            this.oneSignal.getIds().then((info) => tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+                this.userId = info.userId;
+                // Guarda el ID en el localstorage
+                yield localStorage.setItem('idOnesignal', this.userId);
+                // GUARDAR ID DENTRO DE LA BD, PARA UN FUTURO ENVIAR NOTIFICACIONES.
+                this.usuarioService.enviaOneSignal(this.userId);
+                console.log(this.userId);
+            }));
+            this.oneSignal.endInit();
+        });
+    }
+    notificacionRecibida(noti) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            const payload = noti.payload;
+            const existePush = this.mensajes.find(mensaje => mensaje.notificationID === payload.notificationID);
+            if (existePush) {
+                return;
+            }
+            this.mensajes.unshift(payload);
+        });
+    }
+};
+PushService.ctorParameters = () => [
+    { type: _ionic_native_onesignal_ngx__WEBPACK_IMPORTED_MODULE_2__["OneSignal"] },
+    { type: _usuario_service__WEBPACK_IMPORTED_MODULE_3__["UsuarioService"] }
+];
+PushService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+        providedIn: 'root'
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_ionic_native_onesignal_ngx__WEBPACK_IMPORTED_MODULE_2__["OneSignal"],
+        _usuario_service__WEBPACK_IMPORTED_MODULE_3__["UsuarioService"]])
+], PushService);
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/usuario.service.ts":
+/*!*********************************************!*\
+  !*** ./src/app/services/usuario.service.ts ***!
+  \*********************************************/
+/*! exports provided: UsuarioService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UsuarioService", function() { return UsuarioService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _ionic_storage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ionic/storage */ "./node_modules/@ionic/storage/fesm2015/ionic-storage.js");
+/* harmony import */ var src_environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ionic/angular */ "./node_modules/@ionic/angular/dist/fesm5.js");
+
+
+
+
+
+
+
+let UsuarioService = class UsuarioService {
+    constructor(http, router, storage, navCtrl, platform) {
+        this.http = http;
+        this.router = router;
+        this.storage = storage;
+        this.navCtrl = navCtrl;
+        this.platform = platform;
+        this.token = null;
+        this.userType = null;
+        this.paginaPosts = 0;
+    }
+    getPosts(pull = false) {
+        if (pull) {
+            this.paginaPosts = 0;
+        }
+        this.paginaPosts++;
+        return this.http.get(`${src_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].url}/posts/?pagina=${this.paginaPosts}`);
+    }
+    /** METODO PRINCIPAL, INICIO DE SESION. */
+    login(email, password) {
+        const data = { email, password };
+        return new Promise(resolve => {
+            this.http.post(`${src_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].url}/login`, data)
+                .subscribe(resp => {
+                // console.log(resp);
+                if (resp['ok']) {
+                    //  console.log(resp);
+                    this.guardarToken(resp['token']);
+                    // this.guardarUtype(resp['uType']);
+                    // Llama al envio
+                    // this.enviaOneSignal();
+                    resolve(true);
+                }
+                else {
+                    this.token = null;
+                    localStorage.clear();
+                    resolve(false);
+                }
+            });
+        });
+    }
+    /* Metodo que realiza la extraccion del Id y token de local Storage para enviar a el Servidor....*/
+    enviaOneSignal(usuarioId) {
+        const signal = {
+            'onesignal': usuarioId
+        };
+        const headers = {
+            'x-token': localStorage.getItem('token')
+        };
+        // console.log(signal);
+        return new Promise(resolve => {
+            this.http.post(`${src_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].url}/updateone`, signal, { headers }).subscribe(resp => {
+                //    console.log(signal);
+            });
+        });
+    }
+    checkUserType(email) {
+        const data = { email };
+        return new Promise(resolve => {
+            this.http.post(`${src_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].url}/checkUserType`, data).subscribe(resp => {
+                //    console.log(resp['ok']);
+                if (resp['ok']) {
+                    resolve(true);
+                }
+                else {
+                    resolve(false);
+                }
+            });
+        });
+    }
+    /// Trae los datos de los usuarios por grupo especifico --> tab2.page.ts
+    buscarUsuarios(grupo) {
+        // console.log('Buscar  USR')
+        const grupos = {
+            'grupos': grupo,
+            'idOneSignal': localStorage.getItem('idOnesignal'),
+            'nombreGrupo': localStorage.getItem('nombreGpo')
+        };
+        return new Promise(resolve => {
+            //    console.log('Promesa')
+            /** Usuarios que perteneces al mismo gruo */
+            this.http.post(`${src_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].url}/buscarUsuarios`, grupos).subscribe(resp => {
+                //      console.log(resp);
+            });
+        });
+    }
+    /** GUARDAR TOKEN */
+    guardarToken(token) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            this.token = token;
+            yield localStorage.setItem('token', token);
+        });
+    }
+    /** TIPO DE USUARIO 01 ADMINISTRADOR, 00 NORMAL */
+    guardarUtype(userType) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            this.userType = userType;
+            yield localStorage.setItem('userType', userType);
+        });
+    }
+    cargarToken() {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            this.token = (yield localStorage.getItem('token')) || null;
+        });
+    }
+    /** VALIDA NUESTRO TOKEN, DE SER CORRECTO NOS DA ACCESO */
+    validaToken() {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            yield this.cargarToken();
+            if (!this.token) {
+                this.router.navigateByUrl('/login');
+                return Promise.resolve(false);
+            }
+            return new Promise(resolve => {
+                const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpHeaders"]({
+                    'x-token': this.token
+                });
+                this.http.get(`${src_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].url}/token`, { headers })
+                    .subscribe(resp => {
+                    if (resp['ok']) {
+                        this.usuario = resp['userDB'];
+                        resolve(true);
+                    }
+                    else {
+                        this.router.navigateByUrl('/login');
+                        resolve(false);
+                    }
+                });
+            });
+        });
+    }
+    /** EXTRAER GRUPOS A LOS QUE PERTECE ESTE USUARIO, MEDIANTE EL EMAIL */
+    traerGruposUsuario(email) {
+        const data = { email };
+        return this.http.post(`${src_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].url}/grupos/usuario`, data);
+    }
+    /** CERRAR SESION, ELIMINAR DATOS DE LOCAL STORAGE */
+    logout() {
+        this.token = null;
+        this.usuario = null;
+        localStorage.clear();
+        this.navCtrl.navigateRoot('/login', { animated: false });
+    }
+};
+UsuarioService.ctorParameters = () => [
+    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClient"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"] },
+    { type: _ionic_storage__WEBPACK_IMPORTED_MODULE_2__["Storage"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_6__["NavController"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_6__["Platform"] }
+];
+UsuarioService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+        providedIn: 'root'
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClient"],
+        _angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"],
+        _ionic_storage__WEBPACK_IMPORTED_MODULE_2__["Storage"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_6__["NavController"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_6__["Platform"]])
+], UsuarioService);
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/websocket.service.ts":
+/*!***********************************************!*\
+  !*** ./src/app/services/websocket.service.ts ***!
+  \***********************************************/
+/*! exports provided: WebsocketService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WebsocketService", function() { return WebsocketService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var ngx_socket_io__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ngx-socket-io */ "./node_modules/ngx-socket-io/fesm2015/ngx-socket-io.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var _usuario_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./usuario.service */ "./src/app/services/usuario.service.ts");
+
+
+
+
+
+let WebsocketService = class WebsocketService {
+    constructor(socket, http, uServece) {
+        this.socket = socket;
+        this.http = http;
+        this.uServece = uServece;
+        this.socketStatus = false;
+        this.checkStatus();
+    }
+    /** VALIDAMOS STATUS DE CONEXION AL SERVIDOR */
+    checkStatus() {
+        // setInterval(envia, 1000);
+        this.socket.on('connect', () => {
+            console.log('Cliente Conenctado - APP');
+            this.socketStatus = true;
+        });
+        this.socket.on('disconnect', () => {
+            console.log('Cliente Desconetado - APP');
+            this.socketStatus = false;
+        });
+        function envia() {
+            console.log('App viva');
+        }
+    }
+    // this.http.post(`${environment.url}/mensajes`);
+    emit(evento, payload, callback) {
+        // console.log('Emitiendo', evento);
+        this.socket.emit(evento, payload, callback);
+    }
+    // mensajesViejos(evento: string) {
+    //   return this.socket.fromEvent(evento);
+    // }
+    listen(evento) {
+        return this.socket.fromEvent(evento);
+    }
+};
+WebsocketService.ctorParameters = () => [
+    { type: ngx_socket_io__WEBPACK_IMPORTED_MODULE_2__["Socket"] },
+    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"] },
+    { type: _usuario_service__WEBPACK_IMPORTED_MODULE_4__["UsuarioService"] }
+];
+WebsocketService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+        providedIn: 'root'
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [ngx_socket_io__WEBPACK_IMPORTED_MODULE_2__["Socket"],
+        _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"],
+        _usuario_service__WEBPACK_IMPORTED_MODULE_4__["UsuarioService"]])
+], WebsocketService);
+
+
+
+/***/ }),
+
+/***/ "./src/app/tab1/tab1.page.scss":
+/*!*************************************!*\
+  !*** ./src/app/tab1/tab1.page.scss ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".welcome-card img {\n  max-height: 35vh;\n  overflow: hidden;\n}\n\nion-content {\n  --background: #cccccc;\n  --background: url(\"/assets/icon/fond2.png\") center no-repeat ;\n}\n\nion-card {\n  --background: #ffffff;\n}\n\nion-toolbar {\n  --background: #0f607d;\n}\n\nion-icon {\n  --background: #cccccc;\n}\n\n/* You can add global styles to this file, and also import other style files */\n\nfooter {\n  position: absolute;\n  bottom: 0px;\n  width: 100%;\n  left: 0px;\n}\n\n.container {\n  max-width: 1170px;\n  margin: auto;\n}\n\nimg {\n  max-width: 100%;\n}\n\n.inbox_people {\n  background: #f8f8f8 none repeat scroll 0 0;\n  float: left;\n  overflow: hidden;\n  width: 30%;\n  border-right: 1px solid #c4c4c4;\n}\n\n.inbox_msg {\n  border: 1px solid #c4c4c4;\n  clear: both;\n  overflow: hidden;\n}\n\n.top_spac {\n  margin: 20px 0 0;\n}\n\n.recent_heading {\n  float: left;\n  width: 40%;\n}\n\n.headind_srch {\n  padding: 10px 29px 10px 20px;\n  overflow: hidden;\n  border-bottom: 1px solid #c4c4c4;\n}\n\n.recent_heading h4 {\n  color: #05728f;\n  font-size: 21px;\n  margin: auto;\n}\n\n.srch_bar input {\n  border: 1px solid #cdcdcd;\n  border-width: 0 0 1px 0;\n  width: 80%;\n  padding: 2px 0 4px 6px;\n  background: none;\n}\n\n.srch_bar .input-group-addon button {\n  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;\n  border: medium none;\n  padding: 0;\n  color: #707070;\n  font-size: 18px;\n}\n\n.srch_bar .input-group-addon {\n  margin: 0 0 0 -27px;\n}\n\n.chat_ib h5 {\n  font-size: 15px;\n  color: #464646;\n  margin: 0 0 8px 0;\n}\n\n.chat_ib h5 span {\n  font-size: 13px;\n  float: right;\n}\n\n.chat_ib p {\n  font-size: 14px;\n  color: #989898;\n  margin: auto;\n}\n\n.chat_img {\n  float: left;\n  width: 11%;\n}\n\n.chat_ib {\n  float: left;\n  padding: 0 0 0 15px;\n  width: 88%;\n}\n\n.chat_stan {\n  background-color: #464646;\n  border-radius: 5px;\n  padding: 10px;\n}\n\n.chat_list {\n  background: #05728f none repeat scroll 0 0;\n  font-size: 14px;\n  margin: 0;\n  color: black;\n  padding: 5px 10px 5px 12px;\n  width: 100%;\n}\n\n.ion_list {\n  border-radius: 20px;\n}\n\n.ion_listgrp {\n  border-radius: 20px;\n}\n\n.transparent-style {\n  background-color: #ffffff;\n  opacity: 0.4;\n}\n\n.inbox_chat {\n  height: 770px;\n  overflow-y: scroll;\n}\n\n.chat_people {\n  overflow: hidden;\n  clear: both;\n  border-radius: 7px;\n}\n\n.mensaje_nuevo {\n  background-color: #ff0000;\n  border-radius: 5px;\n  padding: 10px;\n}\n\n.active_chat {\n  background: #008cff;\n  border-radius: 5px;\n  padding: 10px;\n}\n\n.texto {\n  text-justify: auto;\n}\n\n.incoming_msg_img {\n  display: inline-block;\n  width: 6%;\n}\n\n.received_msg {\n  display: inline-block;\n  padding: 0 0 0 10px;\n  vertical-align: top;\n  width: 92%;\n}\n\n.received_withd_msg p {\n  background: #ebebeb none repeat scroll 0 0;\n  border-radius: 3px;\n  color: #646464;\n  font-size: 14px;\n  margin: 0;\n  padding: 5px 10px 5px 12px;\n  width: 100%;\n}\n\n.time_date {\n  color: #747474;\n  display: block;\n  font-size: 12px;\n  margin: 8px 0 0;\n}\n\n.received_withd_msg {\n  width: 57%;\n}\n\n.mesgs {\n  float: left;\n  padding: 30px 15px 0 25px;\n  width: 70%;\n}\n\n.sent_msg p {\n  background: #05728f none repeat scroll 0 0;\n  border-radius: 3px;\n  font-size: 14px;\n  margin: 0;\n  color: white;\n  padding: 5px 10px 5px 12px;\n  width: 100%;\n}\n\n.outgoing_msg {\n  overflow: hidden;\n  margin: 26px 0 26px;\n}\n\n.sent_msg {\n  float: right;\n  width: 46%;\n}\n\n.input_msg_write input {\n  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;\n  border: medium none;\n  color: #4c4c4c;\n  font-size: 15px;\n  min-height: 48px;\n  width: 100%;\n}\n\n.type_msg {\n  border-top: 1px solid #c4c4c4;\n  position: relative;\n}\n\n.msg_send_btn {\n  background: #05728f none repeat scroll 0 0;\n  border: medium none;\n  border-radius: 50%;\n  color: #fff;\n  cursor: pointer;\n  font-size: 17px;\n  height: 33px;\n  position: absolute;\n  right: 0;\n  top: 11px;\n  width: 33px;\n}\n\n.messaging {\n  padding: 0 0 50px 0;\n}\n\n.msg_history {\n  height: 750px;\n  overflow-y: auto;\n}\n\n.hidden {\n  display: none;\n}\n\n.top-20 {\n  margin-top: 20px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdGFiMS9DOlxcVXNlcnNcXGFkbV91c3JcXERvY3VtZW50c1xcVVNCLU1lbW9yaWFcXGNoYXRDb3Jwb0phbi9zcmNcXGFwcFxcdGFiMVxcdGFiMS5wYWdlLnNjc3MiLCJzcmMvYXBwL3RhYjEvdGFiMS5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxnQkFBQTtFQUNBLGdCQUFBO0FDQ0Y7O0FER0E7RUFDRSxxQkFBQTtFQUNBLDZEQUFBO0FDQUY7O0FESUE7RUFDRSxxQkFBQTtBQ0RGOztBRElBO0VBQ0UscUJBQUE7QUNERjs7QURJQTtFQUNFLHFCQUFBO0FDREY7O0FET0EsOEVBQUE7O0FBRUE7RUFDRSxrQkFBQTtFQUNBLFdBQUE7RUFDQSxXQUFBO0VBQ0EsU0FBQTtBQ0xGOztBRFFBO0VBQVcsaUJBQUE7RUFBa0IsWUFBQTtBQ0g3Qjs7QURJQTtFQUFLLGVBQUE7QUNBTDs7QURDQTtFQUNBLDBDQUFBO0VBQ0EsV0FBQTtFQUNBLGdCQUFBO0VBQ0EsVUFBQTtFQUFZLCtCQUFBO0FDR1o7O0FEREE7RUFDQSx5QkFBQTtFQUNBLFdBQUE7RUFDQSxnQkFBQTtBQ0lBOztBREZBO0VBQVcsZ0JBQUE7QUNNWDs7QURIQTtFQUFpQixXQUFBO0VBQWEsVUFBQTtBQ1E5Qjs7QUROQTtFQUFlLDRCQUFBO0VBQTZCLGdCQUFBO0VBQWlCLGdDQUFBO0FDWTdEOztBRFZBO0VBQ0EsY0FBQTtFQUNBLGVBQUE7RUFDQSxZQUFBO0FDYUE7O0FEWEE7RUFBaUIseUJBQUE7RUFBMEIsdUJBQUE7RUFBd0IsVUFBQTtFQUFXLHNCQUFBO0VBQXVCLGdCQUFBO0FDbUJyRzs7QURsQkE7RUFDQSxtREFBQTtFQUNBLG1CQUFBO0VBQ0EsVUFBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0FDcUJBOztBRG5CQTtFQUErQixtQkFBQTtBQ3VCL0I7O0FEckJBO0VBQWEsZUFBQTtFQUFnQixjQUFBO0VBQWUsaUJBQUE7QUMyQjVDOztBRDFCQTtFQUFrQixlQUFBO0VBQWdCLFlBQUE7QUMrQmxDOztBRDlCQTtFQUFZLGVBQUE7RUFBZ0IsY0FBQTtFQUFlLFlBQUE7QUNvQzNDOztBRG5DQTtFQUNBLFdBQUE7RUFDQSxVQUFBO0FDc0NBOztBRHBDQTtFQUNBLFdBQUE7RUFDQSxtQkFBQTtFQUNBLFVBQUE7QUN1Q0E7O0FEbkNBO0VBQ0UseUJBQUE7RUFDQSxrQkFBQTtFQUNBLGFBQUE7QUNzQ0Y7O0FEbENBO0VBQ0UsMENBQUE7RUFDRSxlQUFBO0VBQ0EsU0FBQTtFQUFXLFlBQUE7RUFDWCwwQkFBQTtFQUNBLFdBQUE7QUNzQ0o7O0FEbkNBO0VBQ0UsbUJBQUE7QUNzQ0Y7O0FEbkNBO0VBQ0UsbUJBQUE7QUNzQ0Y7O0FEbkNBO0VBRUUseUJBQUE7RUFDQSxZQUFBO0FDcUNGOztBRC9CQTtFQUFjLGFBQUE7RUFBZSxrQkFBQTtBQ29DN0I7O0FEaENBO0VBQWMsZ0JBQUE7RUFBaUIsV0FBQTtFQUFZLGtCQUFBO0FDc0MzQzs7QURwQ0E7RUFDSSx5QkFBQTtFQUVBLGtCQUFBO0VBQ0EsYUFBQTtBQ3NDSjs7QURsQ0U7RUFDRSxtQkFBQTtFQUNBLGtCQUFBO0VBQ0EsYUFBQTtBQ3FDSjs7QUQ3QkE7RUFDQSxrQkFBQTtBQ2dDQTs7QUQ3QkE7RUFDQSxxQkFBQTtFQUNBLFNBQUE7QUNnQ0E7O0FEOUJBO0VBQ0EscUJBQUE7RUFDQSxtQkFBQTtFQUNBLG1CQUFBO0VBQ0EsVUFBQTtBQ2lDQTs7QUQvQkE7RUFDQSwwQ0FBQTtFQUNBLGtCQUFBO0VBQ0EsY0FBQTtFQUNBLGVBQUE7RUFDQSxTQUFBO0VBQ0EsMEJBQUE7RUFDQSxXQUFBO0FDa0NBOztBRGhDQTtFQUNBLGNBQUE7RUFDQSxjQUFBO0VBQ0EsZUFBQTtFQUNBLGVBQUE7QUNtQ0E7O0FEakNBO0VBQXNCLFVBQUE7QUNxQ3RCOztBRHBDQTtFQUNBLFdBQUE7RUFDQSx5QkFBQTtFQUNBLFVBQUE7QUN1Q0E7O0FEcENBO0VBQ0EsMENBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxTQUFBO0VBQVcsWUFBQTtFQUNYLDBCQUFBO0VBQ0EsV0FBQTtBQ3dDQTs7QUR0Q0E7RUFBZSxnQkFBQTtFQUFpQixtQkFBQTtBQzJDaEM7O0FEMUNBO0VBQ0EsWUFBQTtFQUNBLFVBQUE7QUM2Q0E7O0FEM0NBO0VBQ0EsbURBQUE7RUFDQSxtQkFBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxXQUFBO0FDOENBOztBRDNDQTtFQUFXLDZCQUFBO0VBQThCLGtCQUFBO0FDZ0R6Qzs7QUQvQ0E7RUFDQSwwQ0FBQTtFQUNBLG1CQUFBO0VBQ0Esa0JBQUE7RUFDQSxXQUFBO0VBQ0EsZUFBQTtFQUNBLGVBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxRQUFBO0VBQ0EsU0FBQTtFQUNBLFdBQUE7QUNrREE7O0FEaERBO0VBQWEsbUJBQUE7QUNvRGI7O0FEbkRBO0VBQ0EsYUFBQTtFQUNBLGdCQUFBO0FDc0RBOztBRG5EQTtFQUNBLGFBQUE7QUNzREE7O0FEbERBO0VBRUUsZ0JBQUE7QUNvREYiLCJmaWxlIjoic3JjL2FwcC90YWIxL3RhYjEucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLndlbGNvbWUtY2FyZCBpbWcge1xuICBtYXgtaGVpZ2h0OiAzNXZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xufVxuXG5cbmlvbi1jb250ZW50e1xuICAtLWJhY2tncm91bmQgOiAjY2NjY2NjO1xuICAtLWJhY2tncm91bmQ6IHVybCgnL2Fzc2V0cy9pY29uL2ZvbmQyLnBuZycpIGNlbnRlciAgbm8tcmVwZWF0IDtcblxufVxuXG5pb24tY2FyZHtcbiAgLS1iYWNrZ3JvdW5kIDogI2ZmZmZmZjtcbn1cblxuaW9uLXRvb2xiYXJ7XG4gIC0tYmFja2dyb3VuZCA6ICMwZjYwN2Q7XG59XG5cbmlvbi1pY29ue1xuICAtLWJhY2tncm91bmQgOiAjY2NjY2NjO1xufVxuXG5cblxuXG4vKiBZb3UgY2FuIGFkZCBnbG9iYWwgc3R5bGVzIHRvIHRoaXMgZmlsZSwgYW5kIGFsc28gaW1wb3J0IG90aGVyIHN0eWxlIGZpbGVzICovXG5cbmZvb3RlciB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgYm90dG9tOiAwcHg7XG4gIHdpZHRoOiAxMDAlO1xuICBsZWZ0OiAwcHg7XG59XG5cbi5jb250YWluZXJ7bWF4LXdpZHRoOjExNzBweDsgbWFyZ2luOmF1dG87fVxuaW1neyBtYXgtd2lkdGg6MTAwJTt9XG4uaW5ib3hfcGVvcGxlIHtcbmJhY2tncm91bmQ6ICNmOGY4Zjggbm9uZSByZXBlYXQgc2Nyb2xsIDAgMDtcbmZsb2F0OiBsZWZ0O1xub3ZlcmZsb3c6IGhpZGRlbjtcbndpZHRoOiAzMCU7IGJvcmRlci1yaWdodDoxcHggc29saWQgI2M0YzRjNDtcbn1cbi5pbmJveF9tc2cge1xuYm9yZGVyOiAxcHggc29saWQgI2M0YzRjNDtcbmNsZWFyOiBib3RoO1xub3ZlcmZsb3c6IGhpZGRlbjtcbn1cbi50b3Bfc3BhY3sgbWFyZ2luOiAyMHB4IDAgMDt9XG5cblxuLnJlY2VudF9oZWFkaW5nIHtmbG9hdDogbGVmdDsgd2lkdGg6NDAlO31cblxuLmhlYWRpbmRfc3JjaHsgcGFkZGluZzoxMHB4IDI5cHggMTBweCAyMHB4OyBvdmVyZmxvdzpoaWRkZW47IGJvcmRlci1ib3R0b206MXB4IHNvbGlkICNjNGM0YzQ7fVxuXG4ucmVjZW50X2hlYWRpbmcgaDQge1xuY29sb3I6ICMwNTcyOGY7XG5mb250LXNpemU6IDIxcHg7XG5tYXJnaW46IGF1dG87XG59XG4uc3JjaF9iYXIgaW5wdXR7IGJvcmRlcjoxcHggc29saWQgI2NkY2RjZDsgYm9yZGVyLXdpZHRoOjAgMCAxcHggMDsgd2lkdGg6ODAlOyBwYWRkaW5nOjJweCAwIDRweCA2cHg7IGJhY2tncm91bmQ6bm9uZTt9XG4uc3JjaF9iYXIgLmlucHV0LWdyb3VwLWFkZG9uIGJ1dHRvbiB7XG5iYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDApIG5vbmUgcmVwZWF0IHNjcm9sbCAwIDA7XG5ib3JkZXI6IG1lZGl1bSBub25lO1xucGFkZGluZzogMDtcbmNvbG9yOiAjNzA3MDcwO1xuZm9udC1zaXplOiAxOHB4O1xufVxuLnNyY2hfYmFyIC5pbnB1dC1ncm91cC1hZGRvbiB7IG1hcmdpbjogMCAwIDAgLTI3cHg7fVxuXG4uY2hhdF9pYiBoNXsgZm9udC1zaXplOjE1cHg7IGNvbG9yOiM0NjQ2NDY7IG1hcmdpbjowIDAgOHB4IDA7fVxuLmNoYXRfaWIgaDUgc3BhbnsgZm9udC1zaXplOjEzcHg7IGZsb2F0OnJpZ2h0O31cbi5jaGF0X2liIHB7IGZvbnQtc2l6ZToxNHB4OyBjb2xvcjojOTg5ODk4OyBtYXJnaW46YXV0b31cbi5jaGF0X2ltZyB7XG5mbG9hdDogbGVmdDtcbndpZHRoOiAxMSU7XG59XG4uY2hhdF9pYiB7XG5mbG9hdDogbGVmdDtcbnBhZGRpbmc6IDAgMCAwIDE1cHg7XG53aWR0aDogODglO1xufVxuXG5cbi5jaGF0X3N0YW57IFxuICBiYWNrZ3JvdW5kLWNvbG9yOiM0NjQ2NDY7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgcGFkZGluZzogMTBweDtcbn1cblxuXG4uY2hhdF9saXN0IHtcbiAgYmFja2dyb3VuZDogIzA1NzI4ZiBub25lIHJlcGVhdCBzY3JvbGwgMCAwO1xuICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICBtYXJnaW46IDA7IGNvbG9yOmJsYWNrO1xuICAgIHBhZGRpbmc6IDVweCAxMHB4IDVweCAxMnB4O1xuICAgIHdpZHRoOjEwMCU7XG59XG5cbi5pb25fbGlzdHtcbiAgYm9yZGVyLXJhZGl1czogMjBweFxufVxuXG4uaW9uX2xpc3RncnB7XG4gIGJvcmRlci1yYWRpdXM6IDIwcHg7XG59XG5cbi50cmFuc3BhcmVudC1zdHlsZXtcblxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmZmZmO1xuICBvcGFjaXR5OiAuNDtcblxufVxuXG5cblxuLmluYm94X2NoYXQgeyBoZWlnaHQ6IDc3MHB4OyBvdmVyZmxvdy15OiBzY3JvbGw7fVxuXG5cblxuLmNoYXRfcGVvcGxleyBvdmVyZmxvdzpoaWRkZW47IGNsZWFyOmJvdGg7IGJvcmRlci1yYWRpdXM6IDdweDt9XG5cbi5tZW5zYWplX251ZXZveyBcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiNmZjAwMDA7XG4gICAvLyBmaWxsOiAjZmYwMDAwO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwYWRkaW5nOiAxMHB4O1xuICB9XG5cblxuICAuYWN0aXZlX2NoYXR7IFxuICAgIGJhY2tncm91bmQ6IzAwOGNmZjtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcGFkZGluZzogMTBweDtcbiAgfVxuXG5cblxuXG5cblxuLnRleHRvIHtcbnRleHQtanVzdGlmeTogYXV0bztcbn1cblxuLmluY29taW5nX21zZ19pbWcge1xuZGlzcGxheTogaW5saW5lLWJsb2NrO1xud2lkdGg6IDYlO1xufVxuLnJlY2VpdmVkX21zZyB7XG5kaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG5wYWRkaW5nOiAwIDAgMCAxMHB4O1xudmVydGljYWwtYWxpZ246IHRvcDtcbndpZHRoOiA5MiU7XG59XG4ucmVjZWl2ZWRfd2l0aGRfbXNnIHAge1xuYmFja2dyb3VuZDogI2ViZWJlYiBub25lIHJlcGVhdCBzY3JvbGwgMCAwO1xuYm9yZGVyLXJhZGl1czogM3B4O1xuY29sb3I6ICM2NDY0NjQ7XG5mb250LXNpemU6IDE0cHg7XG5tYXJnaW46IDA7XG5wYWRkaW5nOiA1cHggMTBweCA1cHggMTJweDtcbndpZHRoOiAxMDAlO1xufVxuLnRpbWVfZGF0ZSB7XG5jb2xvcjogIzc0NzQ3NDtcbmRpc3BsYXk6IGJsb2NrO1xuZm9udC1zaXplOiAxMnB4O1xubWFyZ2luOiA4cHggMCAwO1xufVxuLnJlY2VpdmVkX3dpdGhkX21zZyB7IHdpZHRoOiA1NyU7fVxuLm1lc2dzIHtcbmZsb2F0OiBsZWZ0O1xucGFkZGluZzogMzBweCAxNXB4IDAgMjVweDtcbndpZHRoOiA3MCU7XG59XG5cbi5zZW50X21zZyBwIHtcbmJhY2tncm91bmQ6ICMwNTcyOGYgbm9uZSByZXBlYXQgc2Nyb2xsIDAgMDtcbmJvcmRlci1yYWRpdXM6IDNweDtcbmZvbnQtc2l6ZTogMTRweDtcbm1hcmdpbjogMDsgY29sb3I6cmdiKDI1NSwgMjU1LCAyNTUpO1xucGFkZGluZzogNXB4IDEwcHggNXB4IDEycHg7XG53aWR0aDoxMDAlO1xufVxuLm91dGdvaW5nX21zZ3sgb3ZlcmZsb3c6aGlkZGVuOyBtYXJnaW46MjZweCAwIDI2cHg7fVxuLnNlbnRfbXNnIHtcbmZsb2F0OiByaWdodDtcbndpZHRoOiA0NiU7XG59XG4uaW5wdXRfbXNnX3dyaXRlIGlucHV0IHtcbmJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMCkgbm9uZSByZXBlYXQgc2Nyb2xsIDAgMDtcbmJvcmRlcjogbWVkaXVtIG5vbmU7XG5jb2xvcjogIzRjNGM0YztcbmZvbnQtc2l6ZTogMTVweDtcbm1pbi1oZWlnaHQ6IDQ4cHg7XG53aWR0aDogMTAwJTtcbn1cblxuLnR5cGVfbXNnIHtib3JkZXItdG9wOiAxcHggc29saWQgI2M0YzRjNDtwb3NpdGlvbjogcmVsYXRpdmU7fVxuLm1zZ19zZW5kX2J0biB7XG5iYWNrZ3JvdW5kOiAjMDU3MjhmIG5vbmUgcmVwZWF0IHNjcm9sbCAwIDA7XG5ib3JkZXI6IG1lZGl1bSBub25lO1xuYm9yZGVyLXJhZGl1czogNTAlO1xuY29sb3I6ICNmZmY7XG5jdXJzb3I6IHBvaW50ZXI7XG5mb250LXNpemU6IDE3cHg7XG5oZWlnaHQ6IDMzcHg7XG5wb3NpdGlvbjogYWJzb2x1dGU7XG5yaWdodDogMDtcbnRvcDogMTFweDtcbndpZHRoOiAzM3B4O1xufVxuLm1lc3NhZ2luZyB7IHBhZGRpbmc6IDAgMCA1MHB4IDA7fVxuLm1zZ19oaXN0b3J5IHtcbmhlaWdodDogNzUwcHg7XG5vdmVyZmxvdy15OiBhdXRvO1xufVxuXG4uaGlkZGVuIHtcbmRpc3BsYXk6IG5vbmU7XG59XG5cblxuLnRvcC0yMHtcblxuICBtYXJnaW4tdG9wOiAyMHB4O1xuXG59IiwiLndlbGNvbWUtY2FyZCBpbWcge1xuICBtYXgtaGVpZ2h0OiAzNXZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xufVxuXG5pb24tY29udGVudCB7XG4gIC0tYmFja2dyb3VuZDogI2NjY2NjYztcbiAgLS1iYWNrZ3JvdW5kOiB1cmwoXCIvYXNzZXRzL2ljb24vZm9uZDIucG5nXCIpIGNlbnRlciBuby1yZXBlYXQgO1xufVxuXG5pb24tY2FyZCB7XG4gIC0tYmFja2dyb3VuZDogI2ZmZmZmZjtcbn1cblxuaW9uLXRvb2xiYXIge1xuICAtLWJhY2tncm91bmQ6ICMwZjYwN2Q7XG59XG5cbmlvbi1pY29uIHtcbiAgLS1iYWNrZ3JvdW5kOiAjY2NjY2NjO1xufVxuXG4vKiBZb3UgY2FuIGFkZCBnbG9iYWwgc3R5bGVzIHRvIHRoaXMgZmlsZSwgYW5kIGFsc28gaW1wb3J0IG90aGVyIHN0eWxlIGZpbGVzICovXG5mb290ZXIge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGJvdHRvbTogMHB4O1xuICB3aWR0aDogMTAwJTtcbiAgbGVmdDogMHB4O1xufVxuXG4uY29udGFpbmVyIHtcbiAgbWF4LXdpZHRoOiAxMTcwcHg7XG4gIG1hcmdpbjogYXV0bztcbn1cblxuaW1nIHtcbiAgbWF4LXdpZHRoOiAxMDAlO1xufVxuXG4uaW5ib3hfcGVvcGxlIHtcbiAgYmFja2dyb3VuZDogI2Y4ZjhmOCBub25lIHJlcGVhdCBzY3JvbGwgMCAwO1xuICBmbG9hdDogbGVmdDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgd2lkdGg6IDMwJTtcbiAgYm9yZGVyLXJpZ2h0OiAxcHggc29saWQgI2M0YzRjNDtcbn1cblxuLmluYm94X21zZyB7XG4gIGJvcmRlcjogMXB4IHNvbGlkICNjNGM0YzQ7XG4gIGNsZWFyOiBib3RoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xufVxuXG4udG9wX3NwYWMge1xuICBtYXJnaW46IDIwcHggMCAwO1xufVxuXG4ucmVjZW50X2hlYWRpbmcge1xuICBmbG9hdDogbGVmdDtcbiAgd2lkdGg6IDQwJTtcbn1cblxuLmhlYWRpbmRfc3JjaCB7XG4gIHBhZGRpbmc6IDEwcHggMjlweCAxMHB4IDIwcHg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjYzRjNGM0O1xufVxuXG4ucmVjZW50X2hlYWRpbmcgaDQge1xuICBjb2xvcjogIzA1NzI4ZjtcbiAgZm9udC1zaXplOiAyMXB4O1xuICBtYXJnaW46IGF1dG87XG59XG5cbi5zcmNoX2JhciBpbnB1dCB7XG4gIGJvcmRlcjogMXB4IHNvbGlkICNjZGNkY2Q7XG4gIGJvcmRlci13aWR0aDogMCAwIDFweCAwO1xuICB3aWR0aDogODAlO1xuICBwYWRkaW5nOiAycHggMCA0cHggNnB4O1xuICBiYWNrZ3JvdW5kOiBub25lO1xufVxuXG4uc3JjaF9iYXIgLmlucHV0LWdyb3VwLWFkZG9uIGJ1dHRvbiB7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMCkgbm9uZSByZXBlYXQgc2Nyb2xsIDAgMDtcbiAgYm9yZGVyOiBtZWRpdW0gbm9uZTtcbiAgcGFkZGluZzogMDtcbiAgY29sb3I6ICM3MDcwNzA7XG4gIGZvbnQtc2l6ZTogMThweDtcbn1cblxuLnNyY2hfYmFyIC5pbnB1dC1ncm91cC1hZGRvbiB7XG4gIG1hcmdpbjogMCAwIDAgLTI3cHg7XG59XG5cbi5jaGF0X2liIGg1IHtcbiAgZm9udC1zaXplOiAxNXB4O1xuICBjb2xvcjogIzQ2NDY0NjtcbiAgbWFyZ2luOiAwIDAgOHB4IDA7XG59XG5cbi5jaGF0X2liIGg1IHNwYW4ge1xuICBmb250LXNpemU6IDEzcHg7XG4gIGZsb2F0OiByaWdodDtcbn1cblxuLmNoYXRfaWIgcCB7XG4gIGZvbnQtc2l6ZTogMTRweDtcbiAgY29sb3I6ICM5ODk4OTg7XG4gIG1hcmdpbjogYXV0bztcbn1cblxuLmNoYXRfaW1nIHtcbiAgZmxvYXQ6IGxlZnQ7XG4gIHdpZHRoOiAxMSU7XG59XG5cbi5jaGF0X2liIHtcbiAgZmxvYXQ6IGxlZnQ7XG4gIHBhZGRpbmc6IDAgMCAwIDE1cHg7XG4gIHdpZHRoOiA4OCU7XG59XG5cbi5jaGF0X3N0YW4ge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjNDY0NjQ2O1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIHBhZGRpbmc6IDEwcHg7XG59XG5cbi5jaGF0X2xpc3Qge1xuICBiYWNrZ3JvdW5kOiAjMDU3MjhmIG5vbmUgcmVwZWF0IHNjcm9sbCAwIDA7XG4gIGZvbnQtc2l6ZTogMTRweDtcbiAgbWFyZ2luOiAwO1xuICBjb2xvcjogYmxhY2s7XG4gIHBhZGRpbmc6IDVweCAxMHB4IDVweCAxMnB4O1xuICB3aWR0aDogMTAwJTtcbn1cblxuLmlvbl9saXN0IHtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbn1cblxuLmlvbl9saXN0Z3JwIHtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbn1cblxuLnRyYW5zcGFyZW50LXN0eWxlIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZmZmZjtcbiAgb3BhY2l0eTogMC40O1xufVxuXG4uaW5ib3hfY2hhdCB7XG4gIGhlaWdodDogNzcwcHg7XG4gIG92ZXJmbG93LXk6IHNjcm9sbDtcbn1cblxuLmNoYXRfcGVvcGxlIHtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgY2xlYXI6IGJvdGg7XG4gIGJvcmRlci1yYWRpdXM6IDdweDtcbn1cblxuLm1lbnNhamVfbnVldm8ge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmYwMDAwO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIHBhZGRpbmc6IDEwcHg7XG59XG5cbi5hY3RpdmVfY2hhdCB7XG4gIGJhY2tncm91bmQ6ICMwMDhjZmY7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgcGFkZGluZzogMTBweDtcbn1cblxuLnRleHRvIHtcbiAgdGV4dC1qdXN0aWZ5OiBhdXRvO1xufVxuXG4uaW5jb21pbmdfbXNnX2ltZyB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgd2lkdGg6IDYlO1xufVxuXG4ucmVjZWl2ZWRfbXNnIHtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICBwYWRkaW5nOiAwIDAgMCAxMHB4O1xuICB2ZXJ0aWNhbC1hbGlnbjogdG9wO1xuICB3aWR0aDogOTIlO1xufVxuXG4ucmVjZWl2ZWRfd2l0aGRfbXNnIHAge1xuICBiYWNrZ3JvdW5kOiAjZWJlYmViIG5vbmUgcmVwZWF0IHNjcm9sbCAwIDA7XG4gIGJvcmRlci1yYWRpdXM6IDNweDtcbiAgY29sb3I6ICM2NDY0NjQ7XG4gIGZvbnQtc2l6ZTogMTRweDtcbiAgbWFyZ2luOiAwO1xuICBwYWRkaW5nOiA1cHggMTBweCA1cHggMTJweDtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbi50aW1lX2RhdGUge1xuICBjb2xvcjogIzc0NzQ3NDtcbiAgZGlzcGxheTogYmxvY2s7XG4gIGZvbnQtc2l6ZTogMTJweDtcbiAgbWFyZ2luOiA4cHggMCAwO1xufVxuXG4ucmVjZWl2ZWRfd2l0aGRfbXNnIHtcbiAgd2lkdGg6IDU3JTtcbn1cblxuLm1lc2dzIHtcbiAgZmxvYXQ6IGxlZnQ7XG4gIHBhZGRpbmc6IDMwcHggMTVweCAwIDI1cHg7XG4gIHdpZHRoOiA3MCU7XG59XG5cbi5zZW50X21zZyBwIHtcbiAgYmFja2dyb3VuZDogIzA1NzI4ZiBub25lIHJlcGVhdCBzY3JvbGwgMCAwO1xuICBib3JkZXItcmFkaXVzOiAzcHg7XG4gIGZvbnQtc2l6ZTogMTRweDtcbiAgbWFyZ2luOiAwO1xuICBjb2xvcjogd2hpdGU7XG4gIHBhZGRpbmc6IDVweCAxMHB4IDVweCAxMnB4O1xuICB3aWR0aDogMTAwJTtcbn1cblxuLm91dGdvaW5nX21zZyB7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIG1hcmdpbjogMjZweCAwIDI2cHg7XG59XG5cbi5zZW50X21zZyB7XG4gIGZsb2F0OiByaWdodDtcbiAgd2lkdGg6IDQ2JTtcbn1cblxuLmlucHV0X21zZ193cml0ZSBpbnB1dCB7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMCkgbm9uZSByZXBlYXQgc2Nyb2xsIDAgMDtcbiAgYm9yZGVyOiBtZWRpdW0gbm9uZTtcbiAgY29sb3I6ICM0YzRjNGM7XG4gIGZvbnQtc2l6ZTogMTVweDtcbiAgbWluLWhlaWdodDogNDhweDtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbi50eXBlX21zZyB7XG4gIGJvcmRlci10b3A6IDFweCBzb2xpZCAjYzRjNGM0O1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG59XG5cbi5tc2dfc2VuZF9idG4ge1xuICBiYWNrZ3JvdW5kOiAjMDU3MjhmIG5vbmUgcmVwZWF0IHNjcm9sbCAwIDA7XG4gIGJvcmRlcjogbWVkaXVtIG5vbmU7XG4gIGJvcmRlci1yYWRpdXM6IDUwJTtcbiAgY29sb3I6ICNmZmY7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgZm9udC1zaXplOiAxN3B4O1xuICBoZWlnaHQ6IDMzcHg7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgcmlnaHQ6IDA7XG4gIHRvcDogMTFweDtcbiAgd2lkdGg6IDMzcHg7XG59XG5cbi5tZXNzYWdpbmcge1xuICBwYWRkaW5nOiAwIDAgNTBweCAwO1xufVxuXG4ubXNnX2hpc3Rvcnkge1xuICBoZWlnaHQ6IDc1MHB4O1xuICBvdmVyZmxvdy15OiBhdXRvO1xufVxuXG4uaGlkZGVuIHtcbiAgZGlzcGxheTogbm9uZTtcbn1cblxuLnRvcC0yMCB7XG4gIG1hcmdpbi10b3A6IDIwcHg7XG59Il19 */"
+
+/***/ }),
+
+/***/ "./src/app/tab1/tab1.page.ts":
+/*!***********************************!*\
+  !*** ./src/app/tab1/tab1.page.ts ***!
+  \***********************************/
+/*! exports provided: Tab1Page */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Tab1Page", function() { return Tab1Page; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _services_usuario_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/usuario.service */ "./src/app/services/usuario.service.ts");
+/* harmony import */ var _services_chat_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../services/chat.service */ "./src/app/services/chat.service.ts");
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ionic/angular */ "./node_modules/@ionic/angular/dist/fesm5.js");
+/* harmony import */ var _tab2_tab2_page__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../tab2/tab2.page */ "./src/app/tab2/tab2.page.ts");
+/* harmony import */ var _ionic_native_local_notifications_ngx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ionic-native/local-notifications/ngx */ "./node_modules/@ionic-native/local-notifications/ngx/index.js");
+/* harmony import */ var _services_push_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../services/push.service */ "./src/app/services/push.service.ts");
+/* harmony import */ var _ionic_native_splash_screen_ngx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @ionic-native/splash-screen/ngx */ "./node_modules/@ionic-native/splash-screen/ngx/index.js");
+/* harmony import */ var _pages_chat_admin_chat_admin_page__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../pages/chat-admin/chat-admin.page */ "./src/app/pages/chat-admin/chat-admin.page.ts");
+
+
+
+
+
+
+
+
+
+
+let Tab1Page = class Tab1Page {
+    constructor(pushService, aplicationRef, platform, splashScreen, usuarioService, chatService, modal, chat, chatAdminPage, navController, localNotifications) {
+        this.pushService = pushService;
+        this.aplicationRef = aplicationRef;
+        this.platform = platform;
+        this.splashScreen = splashScreen;
+        this.usuarioService = usuarioService;
+        this.chatService = chatService;
+        this.modal = modal;
+        this.chat = chat;
+        this.chatAdminPage = chatAdminPage;
+        this.navController = navController;
+        this.localNotifications = localNotifications;
+        this.grupos = [];
+        this.selected = false;
+        this.nombre = '';
+        this.grupo = '';
+        this.grupoSelect = '';
+        this.escribiendo = false;
+        this.url = '';
+        this.null = '';
+        this.mensajes = [];
+    }
+    ngOnInit() {
+        /** NOS AYUDA A TRAER TODOS LOS DATOS DE LOS GRUPOS A LOS QUE PERTENECE EL USUARIO */
+        localStorage.setItem('grupo', localStorage.getItem(''));
+        this.usuarioService.traerGruposUsuario(localStorage.getItem('email')).subscribe(resp => {
+            if (resp['ok']) {
+                const usuarioStorage = resp['usuario'];
+                this.grupos = usuarioStorage['grupos'];
+            }
+        });
+        this.chatService.getMessages().subscribe(msg => {
+            this.grupo = msg['grupo'];
+            this.nombre = this.grupo['nombre'];
+            // nombre del grupo
+            // console.log(this.nombre);
+            if (this.mensajeNuevo === null) {
+                return;
+            }
+            else {
+                this.mensajeNuevo = document.getElementById(this.grupo['_id']);
+            }
+            this.newMessage();
+        });
+        /** ECRIBIENDO NOS AVISA CUANDO SE ESTA ESCRIBIENDO EN EL GRUPO */
+        this.chatService.getEscribiendo().subscribe(esc => {
+            this.mensajeNuevo = document.getElementById(esc.toString());
+            //  console.log(this.mensajeNuevo.id + 1);
+            if (this.mensajeNuevo == null) {
+                return;
+            }
+            else {
+                this.span = document.getElementById(this.mensajeNuevo.id + 1);
+            }
+            // console.log('span' + this.span);
+            this.span.className = 'chat_date text-success';
+            setTimeout(() => {
+                this.span.className = 'chat_date text-success hidden';
+            }, 1000);
+        });
+    } ///////////////////////
+    /** NOS MUESTRA EL NUEVO MENSAJE */
+    newMessage() {
+        const grp = localStorage;
+        const q = grp['grupo'];
+        // console.log(q);
+        // console.log(this.mensajeNuevo.id);
+        if (q !== this.mensajeNuevo.id) {
+            if (this.mensajeNuevo.id !== localStorage.getItem['grupo']) {
+                this.elem = document.getElementById(this.mensajeNuevo.id);
+                this.elem.className = ' mensaje_nuevo';
+                // manda llamar el servicio de notificaciones. En este lugar solo funciona abierta la APP
+                //this.usuarioService.notificacion();
+                if (this.elem.className === 'chat_people') {
+                }
+                /*this.localNotifications.schedule([{
+                  id: 2,
+                  title: 'Nuevo Mensaje',
+                  text: this.nombre,
+                  icon: '/assets/icon/imagen1.png'
+               }]);
+                */
+            }
+            else {
+                // this.mensajeNuevo.className = 'chat_people active_chat';
+                return;
+            }
+        }
+        else {
+            // console.log('No hay notificacion');
+        }
+    }
+    /** ABRIMOS EL CHAT Y GUARDAMOS LOS DATOS EN EL LOCALSTORAGE */
+    openChat(grupo, nombreGrupo) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            // console.log(grupo);
+            // console.log(nombreGrupo);
+            this.grupoSelect = grupo;
+            localStorage.setItem('nombreGpo', nombreGrupo);
+            localStorage.setItem('anterior', localStorage.getItem('grupo'));
+            localStorage.setItem('grupo', grupo);
+            this.chat.mensajes = [];
+            this.chat.elemento = document.getElementById('chat-mensaje');
+            this.id = document.getElementById(grupo);
+            this.idAnterior = document.getElementById(localStorage.getItem('anterior'));
+            // this.idAnterior.className = 'chat_people';
+            if (this.id.id === localStorage.getItem('grupo')) {
+                this.id.className = 'chat_people ';
+            }
+            const valido = yield this.usuarioService.checkUserType(localStorage.getItem('email'));
+            //console.log('tab1' + valido) ;
+            if (valido) {
+                this.modal.create({
+                    component: _pages_chat_admin_chat_admin_page__WEBPACK_IMPORTED_MODULE_9__["ChatAdminPage"]
+                }).then((modal) => modal.present());
+            }
+            else {
+                this.modal.create({
+                    component: _tab2_tab2_page__WEBPACK_IMPORTED_MODULE_5__["Tab2Page"]
+                }).then((modal) => modal.present());
+            }
+        });
+    }
+    /** SALIMOS DE LA SALA DE CHATS */
+    salir() {
+        this.usuarioService.enviaOneSignal(this.null);
+        this.usuarioService.paginaPosts = 0;
+        this.usuarioService.logout();
+    }
+};
+Tab1Page.ctorParameters = () => [
+    { type: _services_push_service__WEBPACK_IMPORTED_MODULE_7__["PushService"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ApplicationRef"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["Platform"] },
+    { type: _ionic_native_splash_screen_ngx__WEBPACK_IMPORTED_MODULE_8__["SplashScreen"] },
+    { type: _services_usuario_service__WEBPACK_IMPORTED_MODULE_2__["UsuarioService"] },
+    { type: _services_chat_service__WEBPACK_IMPORTED_MODULE_3__["ChatService"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["ModalController"] },
+    { type: _tab2_tab2_page__WEBPACK_IMPORTED_MODULE_5__["Tab2Page"] },
+    { type: _pages_chat_admin_chat_admin_page__WEBPACK_IMPORTED_MODULE_9__["ChatAdminPage"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["NavController"] },
+    { type: _ionic_native_local_notifications_ngx__WEBPACK_IMPORTED_MODULE_6__["LocalNotifications"] }
+];
+Tab1Page = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-tab1',
+        template: __webpack_require__(/*! raw-loader!./tab1.page.html */ "./node_modules/raw-loader/index.js!./src/app/tab1/tab1.page.html"),
+        styles: [__webpack_require__(/*! ./tab1.page.scss */ "./src/app/tab1/tab1.page.scss")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_services_push_service__WEBPACK_IMPORTED_MODULE_7__["PushService"],
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ApplicationRef"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["Platform"],
+        _ionic_native_splash_screen_ngx__WEBPACK_IMPORTED_MODULE_8__["SplashScreen"],
+        _services_usuario_service__WEBPACK_IMPORTED_MODULE_2__["UsuarioService"],
+        _services_chat_service__WEBPACK_IMPORTED_MODULE_3__["ChatService"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["ModalController"],
+        _tab2_tab2_page__WEBPACK_IMPORTED_MODULE_5__["Tab2Page"],
+        _pages_chat_admin_chat_admin_page__WEBPACK_IMPORTED_MODULE_9__["ChatAdminPage"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["NavController"],
+        _ionic_native_local_notifications_ngx__WEBPACK_IMPORTED_MODULE_6__["LocalNotifications"]])
+], Tab1Page);
+
+/////////////////////////////////////////////////////////////
+/*
+  newMessage() {
+    if (this.mensajeNuevo.id !== localStorage.getItem['grupo']) {
+      this.mensajeNuevo.className = 'chat_people mensaje_nuevo';
+    } else {
+      this.mensajeNuevo.className = 'chat_people active_chat';
+    }
+  }
+  */
+/*
+// metodo para recibir los mensajes viejos del localStorage!
+
+this.chatService.oldMessages(localStorage.getItem('grupo')).subscribe( msg => {
+
+      this.chat.mensajes = msg['mensajes'];
+
+      //console.log(this.chat.mensajes);
+
+      this.modal.create({
+        component : Tab2Page,
+        componentProps : {
+          chat: grupo
+        }
+      }).then((modal) => modal.present());
+
+
+    });
+
+*/
+/*
+   // Va dentro de open chat, ayuda a dejar seleccionado el grupo. Asignar las clases al ion-item
+
+  this.idAnterior.className = 'chat_people';
+
+    if ( this.id.id === localStorage.getItem('grupo')) {
+      this.id.className = 'chat_people active_chat';
+    }
+    */
+////////////////////////////////////////////////////////////
+/*
+  openChat( id: string) {
+
+    localStorage.setItem('anterior', localStorage.getItem('grupo'));
+
+    localStorage.setItem('grupo', id);
+    this.chat.mensajes = [];
+
+    this.chat.elemento = document.getElementById('chat-mansaje');
+
+    this.id = document.getElementById(id);
+    this.idAnterior = document.getElementById(localStorage.getItem('anterior'));
+
+
+    this.chatService.oldMessages(localStorage.getItem('grupo')).subscribe( msg => {
+      console.log(msg['mensajes']);
+
+      this.chat.mensajes = msg['mensajes'];
+
+      setTimeout(() => {
+        this.chat.elemento.scrollTop = this.chat.elemento.scrollHeight;
+      }, 50);
+    });
+
+    this.idAnterior.className = 'chat_people';
+
+    if ( this.id.id === localStorage.getItem('grupo')) {
+      this.id.className = 'chat_people active_chat';
+    }
+
+  }
+*/
+
+
+/***/ }),
+
+/***/ "./src/app/tab2/tab2.page.scss":
+/*!*************************************!*\
+  !*** ./src/app/tab2/tab2.page.scss ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".ion_toolbar {\n  border-radius: 20px;\n}\n\n.incoming_msg_img {\n  display: inline-block;\n  width: 6%;\n  margin: 0px 0px 0px;\n  padding: 27px 0px 20px 0;\n}\n\n.received_msg {\n  display: inline-block;\n  padding: 0 0 0 10px;\n  vertical-align: top;\n  width: 92%;\n}\n\n.received_withd_msg p {\n  background: #ebebeb none repeat scroll 0 0;\n  border-radius: 10px;\n  color: #646464;\n  font-size: 14px;\n  margin: 0;\n  padding: 5px 10px 5px 12px;\n  width: 100%;\n}\n\n.time_date {\n  color: #747474;\n  display: block;\n  font-size: 12px;\n  font-style: italic;\n  margin: 8px 14px 0;\n}\n\n.received_withd_msg {\n  width: 90%;\n}\n\n.mesgs {\n  float: left;\n  width: 70%;\n}\n\n.sent_msg p {\n  background: #05728f none repeat scroll 0 0;\n  border-radius: 20px;\n  font-size: 14px;\n  margin: 0;\n  color: #fff;\n  padding: 5px 10px 5px 12px;\n  width: 100%;\n}\n\n.outgoing_msg {\n  overflow: hidden;\n  margin: 26px 0 26px;\n}\n\n.sent_msg {\n  float: right;\n  width: 70%;\n}\n\n.input_msg_write input {\n  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;\n  border: medium none;\n  color: #4c4c4c;\n  font-size: 15px;\n  min-height: 48px;\n  width: 100%;\n}\n\n.type_msg {\n  border-top: 1px solid #c4c4c4;\n  position: relative;\n}\n\n.msg_send_btn {\n  background: #05728f none repeat scroll 0 0;\n  border: medium none;\n  border-radius: 50%;\n  color: #fff;\n  cursor: pointer;\n  font-size: 17px;\n  height: 33px;\n  position: absolute;\n  right: 0;\n  top: 11px;\n  width: 33px;\n}\n\n.messaging {\n  padding: 0 0 50px 0;\n}\n\n.msg_history {\n  overflow-y: auto;\n}\n\n.hidden {\n  display: none;\n}\n\n.incoming_msg_img {\n  display: inline-block;\n  width: 6%;\n}\n\n.example-card {\n  max-width: 200px;\n  max-height: 300px;\n}\n\n.sent_img {\n  float: right;\n}\n\n.sent_msg p {\n  background: #05728f none repeat scroll 0 0;\n  border-radius: 10px;\n  font-size: 14px;\n  margin: 0;\n  color: #fff;\n  padding: 5px 10px 5px 12px;\n  width: 100%;\n}\n\n.sent_msg {\n  float: right;\n  width: 75%;\n}\n\n.time_date_res {\n  color: rgba(255, 255, 255, 0.74);\n  display: block;\n  font-size: 12px;\n  margin: 1px 0 2px;\n}\n\n.time_date2 {\n  color: red;\n  display: block;\n  font-size: 12px;\n  font-style: normal;\n  margin: 8px 14px 0;\n}\n\n.rojo span, .rojo .sc-ion-action-sheet-md {\n  color: red !important;\n}\n\n.send_res {\n  background: #05718fcb none repeat scroll 0 0;\n  border-radius: 10px;\n  font-size: 14px;\n  margin: 0;\n  color: rgba(255, 255, 255, 0.74);\n  padding: 5px 10px 5px 12px;\n  width: 100%;\n  border: 5px solid #05728f;\n}\n\n.received_withd_msg_res {\n  background: #ebebeb28 none repeat scroll 0 0;\n  border-radius: 10px;\n  font-size: 14px;\n  margin: 0;\n  color: #646464d7;\n  padding: 5px 10px 5px 12px;\n  width: 100%;\n  border: 5px solid #ebebeb;\n}\n\n.fab-color {\n  /*border-style: solid;\n  border-radius: 50%;\n  border-width: 2px;\n  border-color: rgba(24, 170, 36, 0.712);*/\n  width: 30px !important;\n  height: 30px !important;\n  top: 100px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdGFiMi9DOlxcVXNlcnNcXGFkbV91c3JcXERvY3VtZW50c1xcVVNCLU1lbW9yaWFcXGNoYXRDb3Jwb0phbi9zcmNcXGFwcFxcdGFiMlxcdGFiMi5wYWdlLnNjc3MiLCJzcmMvYXBwL3RhYjIvdGFiMi5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0E7RUFDQSxtQkFBQTtBQ0FBOztBREdBO0VBQ0kscUJBQUE7RUFDQSxTQUFBO0VBQ0EsbUJBQUE7RUFDQSx3QkFBQTtBQ0FKOztBREVFO0VBQ0UscUJBQUE7RUFDQSxtQkFBQTtFQUNBLG1CQUFBO0VBQ0EsVUFBQTtBQ0NKOztBRENHO0VBQ0MsMENBQUE7RUFDQSxtQkFBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0VBQ0EsU0FBQTtFQUNBLDBCQUFBO0VBQ0EsV0FBQTtBQ0VKOztBREFFO0VBQ0UsY0FBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxrQkFBQTtBQ0dKOztBRERFO0VBQXNCLFVBQUE7QUNLeEI7O0FESkU7RUFDRSxXQUFBO0VBQ0EsVUFBQTtBQ09KOztBREpHO0VBQ0MsMENBQUE7RUFDQSxtQkFBQTtFQUNBLGVBQUE7RUFDQSxTQUFBO0VBQVcsV0FBQTtFQUNYLDBCQUFBO0VBQ0EsV0FBQTtBQ1FKOztBRE5FO0VBQWUsZ0JBQUE7RUFBaUIsbUJBQUE7QUNXbEM7O0FEVEU7RUFDRSxZQUFBO0VBQ0EsVUFBQTtBQ1lKOztBRFZFO0VBQ0UsbURBQUE7RUFDQSxtQkFBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxXQUFBO0FDYUo7O0FEVkU7RUFBVyw2QkFBQTtFQUE4QixrQkFBQTtBQ2UzQzs7QURkRTtFQUNFLDBDQUFBO0VBQ0EsbUJBQUE7RUFDQSxrQkFBQTtFQUNBLFdBQUE7RUFDQSxlQUFBO0VBQ0EsZUFBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLFFBQUE7RUFDQSxTQUFBO0VBQ0EsV0FBQTtBQ2lCSjs7QURmRTtFQUFhLG1CQUFBO0FDbUJmOztBRGpCRTtFQUNFLGdCQUFBO0FDb0JKOztBRGpCRTtFQUNFLGFBQUE7QUNvQko7O0FEZkU7RUFDRSxxQkFBQTtFQUNBLFNBQUE7QUNrQko7O0FEZEU7RUFDRSxnQkFBQTtFQUNBLGlCQUFBO0FDaUJKOztBRGJFO0VBQ0UsWUFBQTtBQ2dCSjs7QURaRTtFQUNFLDBDQUFBO0VBQ0EsbUJBQUE7RUFDQSxlQUFBO0VBQ0EsU0FBQTtFQUFXLFdBQUE7RUFDWCwwQkFBQTtFQUNBLFdBQUE7QUNnQko7O0FEYkU7RUFDRSxZQUFBO0VBQ0EsVUFBQTtBQ2dCSjs7QURiRTtFQUNFLGdDQUFBO0VBQ0EsY0FBQTtFQUNBLGVBQUE7RUFDQSxpQkFBQTtBQ2dCSjs7QURiRTtFQUNFLFVBQUE7RUFDQSxjQUFBO0VBQ0EsZUFBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7QUNnQko7O0FEWkU7RUFDRSxxQkFBQTtBQ2VKOztBRFpBO0VBQ0UsNENBQUE7RUFDQSxtQkFBQTtFQUNBLGVBQUE7RUFDQSxTQUFBO0VBQ0EsZ0NBQUE7RUFDQSwwQkFBQTtFQUNBLFdBQUE7RUFDQSx5QkFBQTtBQ2VGOztBRFhBO0VBQ0UsNENBQUE7RUFDQSxtQkFBQTtFQUNBLGVBQUE7RUFDQSxTQUFBO0VBQ0EsZ0JBQUE7RUFDQSwwQkFBQTtFQUNBLFdBQUE7RUFDQSx5QkFBQTtBQ2NGOztBRFhBO0VBQ007OzswQ0FBQTtFQUtBLHNCQUFBO0VBQ0EsdUJBQUE7RUFDQSxVQUFBO0FDYU4iLCJmaWxlIjoic3JjL2FwcC90YWIyL3RhYjIucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXG4uaW9uX3Rvb2xiYXJ7XG5ib3JkZXItcmFkaXVzOiAyMHB4O1xufVxuXG4uaW5jb21pbmdfbXNnX2ltZyB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIHdpZHRoOiA2JTtcbiAgICBtYXJnaW46IDBweCAwcHggMHB4O1xuICAgIHBhZGRpbmc6IDI3cHggMHB4IDIwcHggMDtcbiAgfVxuICAucmVjZWl2ZWRfbXNnIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgcGFkZGluZzogMCAwIDAgMTBweDtcbiAgICB2ZXJ0aWNhbC1hbGlnbjogdG9wO1xuICAgIHdpZHRoOiA5MiU7XG4gICB9XG4gICAucmVjZWl2ZWRfd2l0aGRfbXNnIHAge1xuICAgIGJhY2tncm91bmQ6ICNlYmViZWIgbm9uZSByZXBlYXQgc2Nyb2xsIDAgMDtcbiAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICAgIGNvbG9yOiAjNjQ2NDY0O1xuICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICBtYXJnaW46IDA7XG4gICAgcGFkZGluZzogNXB4IDEwcHggNXB4IDEycHg7XG4gICAgd2lkdGg6IDEwMCU7XG4gIH1cbiAgLnRpbWVfZGF0ZSB7XG4gICAgY29sb3I6ICM3NDc0NzQ7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgZm9udC1zaXplOiAxMnB4O1xuICAgIGZvbnQtc3R5bGU6IGl0YWxpYztcbiAgICBtYXJnaW46IDhweCAxNHB4IDA7XG4gIH1cbiAgLnJlY2VpdmVkX3dpdGhkX21zZyB7IHdpZHRoOiA5MCU7fVxuICAubWVzZ3Mge1xuICAgIGZsb2F0OiBsZWZ0O1xuICAgIHdpZHRoOiA3MCU7XG4gIH1cbiAgXG4gICAuc2VudF9tc2cgcCB7XG4gICAgYmFja2dyb3VuZDogIzA1NzI4ZiBub25lIHJlcGVhdCBzY3JvbGwgMCAwO1xuICAgIGJvcmRlci1yYWRpdXM6IDIwcHg7XG4gICAgZm9udC1zaXplOiAxNHB4O1xuICAgIG1hcmdpbjogMDsgY29sb3I6I2ZmZjtcbiAgICBwYWRkaW5nOiA1cHggMTBweCA1cHggMTJweDtcbiAgICB3aWR0aDoxMDAlO1xuICB9XG4gIC5vdXRnb2luZ19tc2d7IG92ZXJmbG93OmhpZGRlbjsgbWFyZ2luOjI2cHggMCAyNnB4O31cbiAgXG4gIC5zZW50X21zZyB7XG4gICAgZmxvYXQ6IHJpZ2h0O1xuICAgIHdpZHRoOiA3MCU7XG4gIH1cbiAgLmlucHV0X21zZ193cml0ZSBpbnB1dCB7XG4gICAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwKSBub25lIHJlcGVhdCBzY3JvbGwgMCAwO1xuICAgIGJvcmRlcjogbWVkaXVtIG5vbmU7XG4gICAgY29sb3I6ICM0YzRjNGM7XG4gICAgZm9udC1zaXplOiAxNXB4O1xuICAgIG1pbi1oZWlnaHQ6IDQ4cHg7XG4gICAgd2lkdGg6IDEwMCU7XG4gIH1cbiAgXG4gIC50eXBlX21zZyB7Ym9yZGVyLXRvcDogMXB4IHNvbGlkICNjNGM0YzQ7cG9zaXRpb246IHJlbGF0aXZlO31cbiAgLm1zZ19zZW5kX2J0biB7XG4gICAgYmFja2dyb3VuZDogIzA1NzI4ZiBub25lIHJlcGVhdCBzY3JvbGwgMCAwO1xuICAgIGJvcmRlcjogbWVkaXVtIG5vbmU7XG4gICAgYm9yZGVyLXJhZGl1czogNTAlO1xuICAgIGNvbG9yOiAjZmZmO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBmb250LXNpemU6IDE3cHg7XG4gICAgaGVpZ2h0OiAzM3B4O1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICByaWdodDogMDtcbiAgICB0b3A6IDExcHg7XG4gICAgd2lkdGg6IDMzcHg7XG4gIH1cbiAgLm1lc3NhZ2luZyB7IHBhZGRpbmc6IDAgMCA1MHB4IDA7fVxuICBcbiAgLm1zZ19oaXN0b3J5IHtcbiAgICBvdmVyZmxvdy15OiBhdXRvO1xuICB9XG4gIFxuICAuaGlkZGVuIHtcbiAgICBkaXNwbGF5OiBub25lO1xuICB9XG4gIFxuXG5cbiAgLmluY29taW5nX21zZ19pbWcge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICB3aWR0aDogNiU7XG4gIH1cblxuXG4gIC5leGFtcGxlLWNhcmQge1xuICAgIG1heC13aWR0aDogMjAwcHg7XG4gICAgbWF4LWhlaWdodDogMzAwcHg7XG4gIH1cbiAgXG5cbiAgLnNlbnRfaW1nIHtcbiAgICBmbG9hdDogcmlnaHQ7XG4gIH1cblxuLy8vLy8gTnVldm9cbiAgLnNlbnRfbXNnIHAge1xuICAgIGJhY2tncm91bmQ6ICMwNTcyOGYgbm9uZSByZXBlYXQgc2Nyb2xsIDAgMDtcbiAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICBtYXJnaW46IDA7IGNvbG9yOiNmZmY7XG4gICAgcGFkZGluZzogNXB4IDEwcHggNXB4IDEycHg7XG4gICAgd2lkdGg6MTAwJTtcbiAgfVxuXG4gIC5zZW50X21zZyB7XG4gICAgZmxvYXQ6IHJpZ2h0O1xuICAgIHdpZHRoOiA3NSU7XG4gIH1cblxuICAudGltZV9kYXRlX3JlcyB7XG4gICAgY29sb3I6IHJnYmEoMjU1LCAyNTUsIDI1NSwgMC43NCk7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgZm9udC1zaXplOiAxMnB4O1xuICAgIG1hcmdpbjogMXB4IDAgMnB4O1xuICB9XG5cbiAgLnRpbWVfZGF0ZTIge1xuICAgIGNvbG9yOiByZWQ7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgZm9udC1zaXplOiAxMnB4O1xuICAgIGZvbnQtc3R5bGU6IG5vcm1hbDtcbiAgICBtYXJnaW46IDhweCAxNHB4IDA7XG4gICAgXG4gIH1cblxuICAucm9qbyBzcGFuLCAucm9qbyAuc2MtaW9uLWFjdGlvbi1zaGVldC1tZCB7XG4gICAgY29sb3I6IHJlZCAhaW1wb3J0YW50O1xufVxuXG4uc2VuZF9yZXMge1xuICBiYWNrZ3JvdW5kOiAjMDU3MThmY2Igbm9uZSByZXBlYXQgc2Nyb2xsIDAgMDtcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgZm9udC1zaXplOiAxNHB4O1xuICBtYXJnaW46IDA7IFxuICBjb2xvcjpyZ2JhKDI1NSwgMjU1LCAyNTUsIDAuNzQpO1xuICBwYWRkaW5nOiA1cHggMTBweCA1cHggMTJweDtcbiAgd2lkdGg6MTAwJTtcbiAgYm9yZGVyOiA1cHggc29saWQgIzA1NzI4Zjtcbn1cblxuXG4ucmVjZWl2ZWRfd2l0aGRfbXNnX3JlcyB7XG4gIGJhY2tncm91bmQ6ICNlYmViZWIyOCBub25lIHJlcGVhdCBzY3JvbGwgMCAwO1xuICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICBmb250LXNpemU6IDE0cHg7XG4gIG1hcmdpbjogMDsgIFxuICBjb2xvcjogIzY0NjQ2NGQ3O1xuICBwYWRkaW5nOiA1cHggMTBweCA1cHggMTJweDtcbiAgd2lkdGg6IDEwMCU7XG4gIGJvcmRlcjogNXB4IHNvbGlkICNlYmViZWI7XG59XG5cbi5mYWItY29sb3J7XG4gICAgICAvKmJvcmRlci1zdHlsZTogc29saWQ7XG4gICAgICBib3JkZXItcmFkaXVzOiA1MCU7XG4gICAgICBib3JkZXItd2lkdGg6IDJweDtcbiAgICAgIGJvcmRlci1jb2xvcjogcmdiYSgyNCwgMTcwLCAzNiwgMC43MTIpOyovXG4gICAgIC8vc2l6ZTogMTAlO1xuICAgICAgd2lkdGg6IDMwcHggIWltcG9ydGFudDtcbiAgICAgIGhlaWdodDogMzBweCAhaW1wb3J0YW50O1xuICAgICAgdG9wOiAxMDBweDtcbiAgICAgLy8gYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNCwgMTcwLCAzNiwgMC43MTIpO1xufSIsIi5pb25fdG9vbGJhciB7XG4gIGJvcmRlci1yYWRpdXM6IDIwcHg7XG59XG5cbi5pbmNvbWluZ19tc2dfaW1nIHtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB3aWR0aDogNiU7XG4gIG1hcmdpbjogMHB4IDBweCAwcHg7XG4gIHBhZGRpbmc6IDI3cHggMHB4IDIwcHggMDtcbn1cblxuLnJlY2VpdmVkX21zZyB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgcGFkZGluZzogMCAwIDAgMTBweDtcbiAgdmVydGljYWwtYWxpZ246IHRvcDtcbiAgd2lkdGg6IDkyJTtcbn1cblxuLnJlY2VpdmVkX3dpdGhkX21zZyBwIHtcbiAgYmFja2dyb3VuZDogI2ViZWJlYiBub25lIHJlcGVhdCBzY3JvbGwgMCAwO1xuICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICBjb2xvcjogIzY0NjQ2NDtcbiAgZm9udC1zaXplOiAxNHB4O1xuICBtYXJnaW46IDA7XG4gIHBhZGRpbmc6IDVweCAxMHB4IDVweCAxMnB4O1xuICB3aWR0aDogMTAwJTtcbn1cblxuLnRpbWVfZGF0ZSB7XG4gIGNvbG9yOiAjNzQ3NDc0O1xuICBkaXNwbGF5OiBibG9jaztcbiAgZm9udC1zaXplOiAxMnB4O1xuICBmb250LXN0eWxlOiBpdGFsaWM7XG4gIG1hcmdpbjogOHB4IDE0cHggMDtcbn1cblxuLnJlY2VpdmVkX3dpdGhkX21zZyB7XG4gIHdpZHRoOiA5MCU7XG59XG5cbi5tZXNncyB7XG4gIGZsb2F0OiBsZWZ0O1xuICB3aWR0aDogNzAlO1xufVxuXG4uc2VudF9tc2cgcCB7XG4gIGJhY2tncm91bmQ6ICMwNTcyOGYgbm9uZSByZXBlYXQgc2Nyb2xsIDAgMDtcbiAgYm9yZGVyLXJhZGl1czogMjBweDtcbiAgZm9udC1zaXplOiAxNHB4O1xuICBtYXJnaW46IDA7XG4gIGNvbG9yOiAjZmZmO1xuICBwYWRkaW5nOiA1cHggMTBweCA1cHggMTJweDtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbi5vdXRnb2luZ19tc2cge1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBtYXJnaW46IDI2cHggMCAyNnB4O1xufVxuXG4uc2VudF9tc2cge1xuICBmbG9hdDogcmlnaHQ7XG4gIHdpZHRoOiA3MCU7XG59XG5cbi5pbnB1dF9tc2dfd3JpdGUgaW5wdXQge1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDApIG5vbmUgcmVwZWF0IHNjcm9sbCAwIDA7XG4gIGJvcmRlcjogbWVkaXVtIG5vbmU7XG4gIGNvbG9yOiAjNGM0YzRjO1xuICBmb250LXNpemU6IDE1cHg7XG4gIG1pbi1oZWlnaHQ6IDQ4cHg7XG4gIHdpZHRoOiAxMDAlO1xufVxuXG4udHlwZV9tc2cge1xuICBib3JkZXItdG9wOiAxcHggc29saWQgI2M0YzRjNDtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xufVxuXG4ubXNnX3NlbmRfYnRuIHtcbiAgYmFja2dyb3VuZDogIzA1NzI4ZiBub25lIHJlcGVhdCBzY3JvbGwgMCAwO1xuICBib3JkZXI6IG1lZGl1bSBub25lO1xuICBib3JkZXItcmFkaXVzOiA1MCU7XG4gIGNvbG9yOiAjZmZmO1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gIGZvbnQtc2l6ZTogMTdweDtcbiAgaGVpZ2h0OiAzM3B4O1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHJpZ2h0OiAwO1xuICB0b3A6IDExcHg7XG4gIHdpZHRoOiAzM3B4O1xufVxuXG4ubWVzc2FnaW5nIHtcbiAgcGFkZGluZzogMCAwIDUwcHggMDtcbn1cblxuLm1zZ19oaXN0b3J5IHtcbiAgb3ZlcmZsb3cteTogYXV0bztcbn1cblxuLmhpZGRlbiB7XG4gIGRpc3BsYXk6IG5vbmU7XG59XG5cbi5pbmNvbWluZ19tc2dfaW1nIHtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB3aWR0aDogNiU7XG59XG5cbi5leGFtcGxlLWNhcmQge1xuICBtYXgtd2lkdGg6IDIwMHB4O1xuICBtYXgtaGVpZ2h0OiAzMDBweDtcbn1cblxuLnNlbnRfaW1nIHtcbiAgZmxvYXQ6IHJpZ2h0O1xufVxuXG4uc2VudF9tc2cgcCB7XG4gIGJhY2tncm91bmQ6ICMwNTcyOGYgbm9uZSByZXBlYXQgc2Nyb2xsIDAgMDtcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgZm9udC1zaXplOiAxNHB4O1xuICBtYXJnaW46IDA7XG4gIGNvbG9yOiAjZmZmO1xuICBwYWRkaW5nOiA1cHggMTBweCA1cHggMTJweDtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbi5zZW50X21zZyB7XG4gIGZsb2F0OiByaWdodDtcbiAgd2lkdGg6IDc1JTtcbn1cblxuLnRpbWVfZGF0ZV9yZXMge1xuICBjb2xvcjogcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjc0KTtcbiAgZGlzcGxheTogYmxvY2s7XG4gIGZvbnQtc2l6ZTogMTJweDtcbiAgbWFyZ2luOiAxcHggMCAycHg7XG59XG5cbi50aW1lX2RhdGUyIHtcbiAgY29sb3I6IHJlZDtcbiAgZGlzcGxheTogYmxvY2s7XG4gIGZvbnQtc2l6ZTogMTJweDtcbiAgZm9udC1zdHlsZTogbm9ybWFsO1xuICBtYXJnaW46IDhweCAxNHB4IDA7XG59XG5cbi5yb2pvIHNwYW4sIC5yb2pvIC5zYy1pb24tYWN0aW9uLXNoZWV0LW1kIHtcbiAgY29sb3I6IHJlZCAhaW1wb3J0YW50O1xufVxuXG4uc2VuZF9yZXMge1xuICBiYWNrZ3JvdW5kOiAjMDU3MThmY2Igbm9uZSByZXBlYXQgc2Nyb2xsIDAgMDtcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgZm9udC1zaXplOiAxNHB4O1xuICBtYXJnaW46IDA7XG4gIGNvbG9yOiByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuNzQpO1xuICBwYWRkaW5nOiA1cHggMTBweCA1cHggMTJweDtcbiAgd2lkdGg6IDEwMCU7XG4gIGJvcmRlcjogNXB4IHNvbGlkICMwNTcyOGY7XG59XG5cbi5yZWNlaXZlZF93aXRoZF9tc2dfcmVzIHtcbiAgYmFja2dyb3VuZDogI2ViZWJlYjI4IG5vbmUgcmVwZWF0IHNjcm9sbCAwIDA7XG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XG4gIGZvbnQtc2l6ZTogMTRweDtcbiAgbWFyZ2luOiAwO1xuICBjb2xvcjogIzY0NjQ2NGQ3O1xuICBwYWRkaW5nOiA1cHggMTBweCA1cHggMTJweDtcbiAgd2lkdGg6IDEwMCU7XG4gIGJvcmRlcjogNXB4IHNvbGlkICNlYmViZWI7XG59XG5cbi5mYWItY29sb3Ige1xuICAvKmJvcmRlci1zdHlsZTogc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDUwJTtcbiAgYm9yZGVyLXdpZHRoOiAycHg7XG4gIGJvcmRlci1jb2xvcjogcmdiYSgyNCwgMTcwLCAzNiwgMC43MTIpOyovXG4gIHdpZHRoOiAzMHB4ICFpbXBvcnRhbnQ7XG4gIGhlaWdodDogMzBweCAhaW1wb3J0YW50O1xuICB0b3A6IDEwMHB4O1xufSJdfQ== */"
+
+/***/ }),
+
+/***/ "./src/app/tab2/tab2.page.ts":
+/*!***********************************!*\
+  !*** ./src/app/tab2/tab2.page.ts ***!
+  \***********************************/
+/*! exports provided: Tab2Page */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Tab2Page", function() { return Tab2Page; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ionic/angular */ "./node_modules/@ionic/angular/dist/fesm5.js");
+/* harmony import */ var _services_usuario_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../services/usuario.service */ "./src/app/services/usuario.service.ts");
+/* harmony import */ var _services_chat_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../services/chat.service */ "./src/app/services/chat.service.ts");
+/* harmony import */ var _ionic_native_local_notifications_ngx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ionic-native/local-notifications/ngx */ "./node_modules/@ionic-native/local-notifications/ngx/index.js");
+/* harmony import */ var _ionic_native_camera_ngx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ionic-native/camera/ngx */ "./node_modules/@ionic-native/camera/ngx/index.js");
+/* harmony import */ var _components_chat_chat_page__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/chat/chat.page */ "./src/app/components/chat/chat.page.ts");
+/* harmony import */ var _pages_reenvia_grupo_reenvia_grupo_page__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../pages/reenvia-grupo/reenvia-grupo.page */ "./src/app/pages/reenvia-grupo/reenvia-grupo.page.ts");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../environments/environment */ "./src/environments/environment.ts");
+
+
+
+
+
+
+
+
+
+
+/*
+PARTE DEL CHAT DE UN USUARIO NORMAL
+
+*/
+let Tab2Page = class Tab2Page {
+    constructor(modals, modal, modalService, chatService, usuarioService, camera, localNotifications, alertController, actionSheerCtrl, loadingCtrl) {
+        this.modals = modals;
+        this.modal = modal;
+        this.modalService = modalService;
+        this.chatService = chatService;
+        this.usuarioService = usuarioService;
+        this.camera = camera;
+        this.localNotifications = localNotifications;
+        this.alertController = alertController;
+        this.actionSheerCtrl = actionSheerCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.url = _environments_environment__WEBPACK_IMPORTED_MODULE_9__["environment"].url;
+        this.tempImages = [];
+        this.mensajes = [];
+        this.grupos = []; // encargado de almacenar los grupos
+        this.email = localStorage.getItem('email');
+        this.grup = localStorage.getItem('nombreGpo');
+        this.mensajeNuevo = '';
+        // url = '';
+        this.imagen = '';
+        this.archivo = null;
+        // VARIABLES NUEVAS
+        this.usuarioRes = '';
+        this.referencia = '';
+        this.imagenRes = [];
+        this.idRes = '';
+        this.respuesta = '';
+        this.usuarioGrupos = [];
+        this.mensajeReenviar = '';
+        this.imagenReenviar = [];
+        this.idRen = '';
+    }
+    // BORRRADO DE LOCAL STORAGE
+    closeChat() {
+        this.modal.dismiss();
+        localStorage.setItem('grupo', localStorage.getItem('0000'));
+        localStorage.setItem('nombreGpo', localStorage.getItem('0000'));
+    }
+    ngOnInit() {
+        // this.backgroundMode.enable();
+        this.chatService.getEscribiendo().subscribe(esc => {
+            this.mensajeNew = document.getElementById(esc.toString());
+            //  console.log(this.mensajeNew.id + 1);
+            this.span = document.getElementById(this.mensajeNew.id + 1);
+            this.span.className = 'chat_date text-success';
+            setTimeout(() => {
+                this.span.className = 'chat_date text-success hidden';
+            }, 1000);
+            if (this.span !== null) {
+                this.ecribiendo = 'escr';
+                // console.log(this.ecribiendo);
+            }
+            else {
+                console.log('vacio');
+            }
+        });
+        this.chatService.getMessages().subscribe(msg => {
+            const grupo = msg['grupo'];
+            if (this.mensajeNew == null) {
+                return;
+            }
+            else {
+                this.mensajeNew = document.getElementById(grupo['_id']);
+                ///////// Llamar la notificacion de un nuevo mensaje
+            }
+        });
+        /////////////////////////////////////
+        this.usuarioService.traerGruposUsuario(localStorage.getItem('email')).subscribe(resp => {
+            if (resp['ok']) {
+                const usuarioStorage = resp['usuario'];
+                this.grupos = usuarioStorage['grupos'];
+                //    console.log(this.grupos);
+            }
+        });
+        this.elemento = document.getElementById('chat-mensaje');
+        // console.log('ELEMENTO'+this.elemento);
+        this.mensajesSubscription = this.chatService.getMessages().subscribe(msg => {
+            const mensaje = msg['grupo'];
+            // console.log(mensaje['_id']);
+            const grupo = mensaje['id'];
+            if (localStorage.getItem('grupo') === mensaje['_id']) {
+                this.mensajes.push(msg);
+                //  console.log(this.mensajes);
+            }
+            this.mensajeNew = mensaje['id'];
+            // Movimiento del scroll
+            setTimeout(() => {
+                this.elemento.scrollTop = this.elemento.scrollHeight;
+            }, 50);
+            ///////// Llamar la notificacion de un nuevo mensaje
+            // this.newMessage();
+        });
+        //////////////// Mensajes almacenados
+        this.chatService.oldMessages(localStorage.getItem('grupo')).subscribe(msg => {
+            this.mensajes = msg['mensajes'];
+            /////
+            // console.log(this.mensajes);
+            // Movimiento del scroll
+            setTimeout(() => {
+                this.elemento.scrollTop = this.elemento.scrollHeight;
+            }, 50);
+        });
+        this.chatService.getMessages().subscribe(msg => {
+            const grupo = msg['grupo'];
+        });
+    } // ngOnInit
+    newMessage() {
+        if (this.mensajeNew.id !== localStorage.getItem['grupo']) {
+            this.localNotifications.schedule([{
+                    id: 2,
+                    title: 'Nuevo Mensaje',
+                    text: '',
+                    icon: '/assets/icon/imagen1.png'
+                }]);
+        }
+        else {
+            return;
+        }
+    }
+    ngOnDestroy() {
+        this.mensajesSubscription.unsubscribe();
+    }
+    // ENVIO DE MENSAJE  A TRAVES DE LA VARIABLE MSGG 
+    enviar() {
+        const grp = localStorage;
+        const q = grp['grupo'];
+        if (this.msgg.trim().length === 0) {
+            return;
+        }
+        // console.log(this.msgg);
+        /** ENVIAR MENSAJE POR MEDIO DEL GRUPO */
+        this.chatService.sendMessage(this.msgg, localStorage.getItem('grupo'));
+        /* BUSCA USUARIOS POR MEDIO DEL GRUPO */
+        this.usuarioService.buscarUsuarios(localStorage.getItem('grupo'));
+        this.msgg = '';
+    }
+    escribir(event) {
+        this.chatService.emitEscribiendo(localStorage.getItem('grupo'));
+        //console.log(event);
+    }
+    /** ABRE LA GALERIA */
+    galeria() {
+        const options = {
+            quality: 70,
+            destinationType: this.camera.DestinationType.FILE_URI,
+            encodingType: this.camera.EncodingType.JPEG,
+            mediaType: this.camera.MediaType.PICTURE,
+            correctOrientation: true,
+            sourceType: this.camera.PictureSourceType.PHOTOLIBRARY
+        };
+        this.procesarImagen(options);
+    }
+    /** PROCESA IMAGEN */
+    procesarImagen(options) {
+        this.camera.getPicture(options).then((imageData) => {
+            // imageData is either a base64 encoded string or a file URI
+            // If it's base64 (DATA_URL):
+            // ruta!
+            // console.log('IMAGEN 2' + imageData);
+            const img = window.Ionic.WebView.convertFileSrc(imageData);
+            // console.log(img);
+            this.chatService.subirImagen(imageData);
+            this.usuarioService.buscarUsuarios(localStorage.getItem('grupo'));
+            // console.log('CHECK I -' + imageData);
+            //console.log('CHECK II -' + img);
+            // this.tempImages.push( img );
+        }, (err) => {
+            console.log('ERROR ----  ' + err);
+        });
+    }
+    //////////// METODO DE RESPONDER MENSAJE /////////////
+    presentActionSheet(id) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            console.log(id);
+            this.chatService.mensajePorId(id).subscribe(resp => {
+                if (resp['ok']) {
+                    const mensaje = resp['mensaje'][0];
+                    this.referencia = mensaje.texto;
+                    if (mensaje.reenviar) {
+                        this.usuarioRes = mensaje.reenviar;
+                    }
+                    else {
+                        this.usuarioRes = mensaje.usuario;
+                    }
+                    this.imagenRes = mensaje.img;
+                    this.idRes = mensaje._id;
+                }
+            });
+            const actionSheet = yield this.actionSheerCtrl.create({
+                // sirve para obligar a seleccionar una opcion
+                // si no lo tuviera puedes tocar afuera del las
+                // opciones y cerrar el cuatro. (FALSE)
+                backdropDismiss: false,
+                header: 'Action Mensaje',
+                buttons: [{
+                        text: 'Responder',
+                        icon: 'send',
+                        handler: () => {
+                            this.presentMensaje(this.referencia);
+                        }
+                    }, {
+                        text: 'Reenviar',
+                        icon: 'share',
+                        handler: () => {
+                            this.reenviarMsj(id);
+                        }
+                    }, {
+                        text: 'Eliminar',
+                        role: 'destructive',
+                        icon: 'trash',
+                        // agrega css al boton, la propiedas se guardan
+                        // en el archivo .scss
+                        cssClass: 'rojo',
+                        handler: () => {
+                            this.eliminar(id);
+                        }
+                    }, {
+                        text: 'Cancel',
+                        icon: 'close',
+                        role: 'cancel',
+                        handler: () => {
+                            console.log('Cancel clicked');
+                        }
+                    }]
+            });
+            yield actionSheet.present();
+        });
+    }
+    /*  --------------- PRSENTACTIONSHEET DOCUMENTO DE ENVIADO (DE SALIDA) ------------------------------------------------------------------------------ */
+    presentActionSheetDocument(docId, msgId, msgDoc) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            console.log(docId); // ruta de imagen
+            console.log(msgId); // Id de imagen
+            console.log(msgDoc);
+            this.chatService.mensajePorId(msgId).subscribe(resp => {
+                if (resp['ok']) {
+                    const mensaje = resp['mensaje'][0];
+                    this.referencia = mensaje.texto;
+                    if (mensaje.reenviar) {
+                        this.usuarioRes = mensaje.reenviar;
+                    }
+                    else {
+                        this.usuarioRes = mensaje.usuario;
+                    }
+                    this.imagenRes = mensaje.img;
+                    this.idRes = mensaje._id;
+                }
+            });
+            const actionSheet = yield this.actionSheerCtrl.create({
+                // sirve para obligar a seleccionar una opcion
+                // si no lo tuviera puedes tocar afuera del las
+                // opciones y cerrar el cuatro. (FALSE)
+                backdropDismiss: false,
+                header: 'Action Mensaje - Documento',
+                buttons: [
+                    {
+                        text: 'Ver Documento',
+                        icon: 'document',
+                        handler: () => {
+                            this.chatService.dowloandOpenDocument(docId, msgDoc);
+                            console.log('ok, Abrir');
+                        }
+                    },
+                    {
+                        text: 'Responder',
+                        icon: 'send',
+                        handler: () => {
+                            this.presentMensaje(this.referencia);
+                        }
+                    },
+                    {
+                        text: 'Eliminar',
+                        role: 'destructive',
+                        icon: 'trash',
+                        // agrega css al boton, la propiedas se guardan
+                        // en el archivo .scss
+                        cssClass: 'rojo',
+                        handler: () => {
+                            this.eliminar(msgId);
+                        }
+                    }, {
+                        text: 'Cancel',
+                        icon: 'close',
+                        role: 'cancel',
+                        handler: () => {
+                            //    console.log('Cancel clicked');
+                        }
+                    }
+                ]
+            });
+            yield actionSheet.present();
+        });
+    }
+    // DOCUMENTO DE LLEGADA ---------------------------------------------------
+    presentActionSheetDocumentRecive(docId, msgId, msgDoc) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            //  console.log(docId); // ruta de imagen
+            //  console.log(msgId); // Id de imagen
+            this.chatService.mensajePorId(msgId).subscribe(resp => {
+                if (resp['ok']) {
+                    const mensaje = resp['mensaje'][0];
+                    this.referencia = mensaje.texto;
+                    if (mensaje.reenviar) {
+                        this.usuarioRes = mensaje.reenviar;
+                    }
+                    else {
+                        this.usuarioRes = mensaje.usuario;
+                    }
+                    this.imagenRes = mensaje.img;
+                    this.idRes = mensaje._id;
+                }
+            });
+            const actionSheet = yield this.actionSheerCtrl.create({
+                // sirve para obligar a seleccionar una opcion
+                // si no lo tuviera puedes tocar afuera del las
+                // opciones y cerrar el cuatro. (FALSE)
+                backdropDismiss: false,
+                header: 'Action Mensaje - Documento',
+                buttons: [{
+                        text: 'Ver Documento',
+                        icon: 'document',
+                        handler: () => {
+                            this.chatService.dowloandOpenDocument(docId, msgDoc);
+                        }
+                    },
+                    {
+                        text: 'Responder',
+                        icon: 'send',
+                        handler: () => {
+                            this.presentMensaje(this.referencia);
+                        }
+                    },
+                    {
+                        text: 'Cancel',
+                        icon: 'close',
+                        role: 'cancel',
+                        handler: () => {
+                            //    console.log('Cancel clicked');
+                        }
+                    }]
+            });
+            yield actionSheet.present();
+        });
+    }
+    // Metodo que muestra cuadro de dialogo para respuesta de texto   <html> <body> <b>MOTIVO</b> </body> </html>
+    presentMensaje(referencia) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            const alert = yield this.alertController.create({
+                header: 'Mensaje a Responder',
+                subHeader: referencia,
+                inputs: [
+                    {
+                        name: 'txtRespuesta',
+                        type: 'text',
+                        placeholder: 'Respuesta'
+                    },
+                ],
+                buttons: [
+                    {
+                        text: 'Cancelar',
+                        role: 'cancel',
+                        cssClass: 'secondary',
+                        handler: () => {
+                            console.log('Confirmar cancelar');
+                        }
+                    }, {
+                        text: 'Enviar',
+                        handler: (data) => {
+                            /* Mensaje, CARGANDO para esperar que cargue la imagen al responder */
+                            this.respuesta = data.txtRespuesta;
+                            setTimeout(() => {
+                                this.loading.dismiss();
+                                this.enviarRespuesta();
+                            }, 1500);
+                            this.presentLoading('Cargando');
+                        }
+                    }
+                ]
+            });
+            yield alert.present();
+        });
+    }
+    // Metodo de para enviar Respuesta
+    enviarRespuesta() {
+        if (this.respuesta.trim().length === 0) {
+            return;
+        }
+        this.chatService.emitRespuesta(this.idRes, this.respuesta, localStorage.getItem('grupo'));
+        this.referencia = '';
+        this.usuarioRes = '';
+        this.imagenRes = [];
+        this.idRes = '';
+        this.respuesta = '';
+        this.usuarioService.buscarUsuarios(localStorage.getItem('grupo'));
+    }
+    // Metodo que muestra grupos a Reenviar el mensaje
+    reenviarMsj(id) {
+        this.chatService.obtenerUsuario().subscribe(resp => {
+            if (resp['ok']) {
+                this.usuarioGrupos = resp['userDB']['grupos'];
+                this.id = resp['userDB']._id;
+            }
+        });
+        this.chatService.mensajePorId(id).subscribe(resp => {
+            if (resp['ok']) {
+                const mensaje = resp['mensaje'][0];
+                this.mensajeReenviar = mensaje.texto || '';
+                this.imagenReenviar = mensaje.img;
+                if (mensaje.reenviar) {
+                    this.idRen = mensaje.reenviar;
+                }
+                else {
+                    this.idRen = mensaje.usuario;
+                }
+                this.abrirModal(id);
+            }
+        });
+    }
+    /** MODAL DE REENCIO DE MENSAJE */
+    abrirModal(idGrup) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            const modal = yield this.modalService.create({
+                cssClass: 'my-custom-modal-css',
+                component: _pages_reenvia_grupo_reenvia_grupo_page__WEBPACK_IMPORTED_MODULE_8__["ReenviaGrupoPage"],
+                componentProps: {
+                    id: idGrup,
+                    _id: this.id,
+                    reenviar: this.idRen,
+                    img: this.imagenReenviar,
+                    texto: this.mensajeReenviar
+                }
+            });
+            yield modal.present();
+        });
+    }
+    /** METODO DE ELIMINAR MENSAJE */
+    eliminar(id) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            const alert = this.alertController.create({
+                header: 'Confirmar',
+                message: '¿Estas seguro que deseas <strong>eliminarlo</strong>?',
+                buttons: [
+                    {
+                        text: 'No, Cancelar',
+                        role: 'cancel',
+                        cssClass: 'secondary',
+                        handler: (blah) => {
+                            return;
+                        }
+                    }, {
+                        text: 'Si, Borrarlo',
+                        handler: () => {
+                            this.chatService.eliminar(id).subscribe(resp => {
+                                this.mensajes = [];
+                                if (resp['ok']) {
+                                    this.mensajes = resp['mensajes'];
+                                }
+                            });
+                        }
+                    }
+                ]
+            });
+            (yield alert).present();
+        });
+    }
+    /// RESPONDE IMAGEN OPCIONES
+    presentActionSheetImage(imgId, msgId) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            console.log(imgId); // ruta de imagen
+            console.log(msgId); // Id de imagen
+            this.chatService.mensajePorId(msgId).subscribe(resp => {
+                if (resp['ok']) {
+                    const mensaje = resp['mensaje'][0];
+                    this.referencia = mensaje.texto;
+                    if (mensaje.reenviar) {
+                        this.usuarioRes = mensaje.reenviar;
+                    }
+                    else {
+                        this.usuarioRes = mensaje.usuario;
+                    }
+                    this.imagenRes = mensaje.img;
+                    this.idRes = mensaje._id;
+                }
+            });
+            const actionSheet = yield this.actionSheerCtrl.create({
+                // sirve para obligar a seleccionar una opcion
+                // si no lo tuviera puedes tocar afuera del las
+                // opciones y cerrar el cuatro. (FALSE)
+                backdropDismiss: false,
+                header: 'Action Mensaje - Imagen',
+                buttons: [{
+                        text: 'Abrir Imagen',
+                        icon: 'image',
+                        handler: () => {
+                            this.openImage(imgId);
+                        }
+                    }, {
+                        text: 'Responder',
+                        icon: 'send',
+                        handler: () => {
+                            this.presentMensaje(this.referencia);
+                        }
+                    }, {
+                        text: 'Reenviar',
+                        icon: 'share',
+                        handler: () => {
+                            this.reenviarMsj(msgId);
+                        }
+                    }, {
+                        text: 'Eliminar',
+                        role: 'destructive',
+                        icon: 'trash',
+                        // agrega css al boton, la propiedas se guardan
+                        // en el archivo .scss
+                        cssClass: 'rojo',
+                        handler: () => {
+                            this.eliminar(msgId);
+                        }
+                    }, {
+                        text: 'Cancel',
+                        icon: 'close',
+                        role: 'cancel',
+                        handler: () => {
+                            console.log('Cancel clicked');
+                        }
+                    }]
+            });
+            yield actionSheet.present();
+        });
+    }
+    presentLoading(message) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            this.loading = yield this.loadingCtrl.create({
+                message
+                //  duration: 2000
+            });
+            return this.loading.present();
+        });
+    }
+    // Metodo para abrir imagen
+    openImage(images) {
+        //  console.log('IMAGEN' + images);
+        this.modals.create({
+            component: _components_chat_chat_page__WEBPACK_IMPORTED_MODULE_7__["ChatPage"],
+            componentProps: {
+                imagen: images
+            }
+        }).then(modal => modal.present());
+    }
+    /********************* OPCIONES PARA LOS MENSAJES DE LLEGADA*****************************/
+    presentActionSheetMsgLlegada(msgId) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            this.chatService.mensajePorId(msgId).subscribe(resp => {
+                if (resp['ok']) {
+                    const mensaje = resp['mensaje'][0];
+                    this.referencia = mensaje.texto;
+                    if (mensaje.reenviar) {
+                        this.usuarioRes = mensaje.reenviar;
+                    }
+                    else {
+                        this.usuarioRes = mensaje.usuario;
+                    }
+                    this.imagenRes = mensaje.img;
+                    this.idRes = mensaje._id;
+                }
+            });
+            const actionSheet = yield this.actionSheerCtrl.create({
+                // sirve para obligar a seleccionar una opcion
+                // si no lo tuviera puedes tocar afuera del las
+                // opciones y cerrar el cuatro. (FALSE)
+                backdropDismiss: false,
+                header: 'Action Mensaje - Recepcion',
+                buttons: [{
+                        text: 'Responder',
+                        icon: 'send',
+                        handler: () => {
+                            this.presentMensaje(this.referencia);
+                        }
+                    }, {
+                        text: 'Reenviar',
+                        icon: 'share',
+                        handler: () => {
+                            this.reenviarMsj(msgId);
+                        }
+                    }, {
+                        text: 'Cancel',
+                        icon: 'close',
+                        role: 'cancel',
+                        handler: () => {
+                            console.log('Cancel clicked');
+                        }
+                    }]
+            });
+            yield actionSheet.present();
+        });
+    }
+    // Action Sheet Imagen de llegada
+    presentActionSheetImgLlegada(imgId, msgId) {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
+            console.log(imgId);
+            console.log(msgId);
+            this.chatService.mensajePorId(msgId).subscribe(resp => {
+                if (resp['ok']) {
+                    const mensaje = resp['mensaje'][0];
+                    this.referencia = mensaje.texto;
+                    if (mensaje.reenviar) {
+                        this.usuarioRes = mensaje.reenviar;
+                    }
+                    else {
+                        this.usuarioRes = mensaje.usuario;
+                    }
+                    this.imagenRes = mensaje.img;
+                    this.idRes = mensaje._id;
+                }
+            });
+            const actionSheet = yield this.actionSheerCtrl.create({
+                // sirve para obligar a seleccionar una opcion
+                // si no lo tuviera puedes tocar afuera del las
+                // opciones y cerrar el cuatro. (FALSE)
+                backdropDismiss: false,
+                header: 'Action Mensaje - Recepcion',
+                buttons: [{
+                        text: 'Abrir Imagen',
+                        icon: 'image',
+                        handler: () => {
+                            this.openImage(imgId);
+                        }
+                    }, {
+                        text: 'Responder',
+                        icon: 'send',
+                        handler: () => {
+                            this.presentMensaje(this.referencia);
+                        }
+                    }, {
+                        text: 'Reenviar',
+                        icon: 'share',
+                        handler: () => {
+                            this.reenviarMsj(msgId);
+                        }
+                    }, {
+                        text: 'Cancel',
+                        icon: 'close',
+                        role: 'cancel',
+                        handler: () => {
+                            console.log('Cancel clicked');
+                        }
+                    }]
+            });
+            yield actionSheet.present();
+        });
+    }
+};
+Tab2Page.ctorParameters = () => [
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ModalController"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ModalController"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ModalController"] },
+    { type: _services_chat_service__WEBPACK_IMPORTED_MODULE_4__["ChatService"] },
+    { type: _services_usuario_service__WEBPACK_IMPORTED_MODULE_3__["UsuarioService"] },
+    { type: _ionic_native_camera_ngx__WEBPACK_IMPORTED_MODULE_6__["Camera"] },
+    { type: _ionic_native_local_notifications_ngx__WEBPACK_IMPORTED_MODULE_5__["LocalNotifications"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["AlertController"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ActionSheetController"] },
+    { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["LoadingController"] }
+];
+Tab2Page = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-tab2',
+        template: __webpack_require__(/*! raw-loader!./tab2.page.html */ "./node_modules/raw-loader/index.js!./src/app/tab2/tab2.page.html"),
+        styles: [__webpack_require__(/*! ./tab2.page.scss */ "./src/app/tab2/tab2.page.scss")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ModalController"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ModalController"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ModalController"],
+        _services_chat_service__WEBPACK_IMPORTED_MODULE_4__["ChatService"],
+        _services_usuario_service__WEBPACK_IMPORTED_MODULE_3__["UsuarioService"],
+        _ionic_native_camera_ngx__WEBPACK_IMPORTED_MODULE_6__["Camera"],
+        _ionic_native_local_notifications_ngx__WEBPACK_IMPORTED_MODULE_5__["LocalNotifications"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["AlertController"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["ActionSheetController"],
+        _ionic_angular__WEBPACK_IMPORTED_MODULE_2__["LoadingController"]])
+], Tab2Page);
+
+
+
+/***/ }),
+
+/***/ "./src/app/tab3/tab3.page.scss":
+/*!*************************************!*\
+  !*** ./src/app/tab3/tab3.page.scss ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3RhYjMvdGFiMy5wYWdlLnNjc3MifQ== */"
+
+/***/ }),
+
+/***/ "./src/app/tab3/tab3.page.ts":
+/*!***********************************!*\
+  !*** ./src/app/tab3/tab3.page.ts ***!
+  \***********************************/
+/*! exports provided: Tab3Page */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Tab3Page", function() { return Tab3Page; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let Tab3Page = class Tab3Page {
+    /** CLASE SIN USO */
+    constructor() { }
+};
+Tab3Page = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-tab3',
+        template: __webpack_require__(/*! raw-loader!./tab3.page.html */ "./node_modules/raw-loader/index.js!./src/app/tab3/tab3.page.html"),
+        styles: [__webpack_require__(/*! ./tab3.page.scss */ "./src/app/tab3/tab3.page.scss")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+], Tab3Page);
+
+
+
+/***/ }),
+
+/***/ "./src/environments/environment.ts":
+/*!*****************************************!*\
+  !*** ./src/environments/environment.ts ***!
+  \*****************************************/
+/*! exports provided: environment */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
+// This file can be replaced during build by using the `fileReplacements` array.
+// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
+// The list of file replacements can be found in `angular.json`.
+const environment = {
+    production: false,
+    // url: 'http://189.254.158.196:8080',
+    url: 'http://10.11.124.235:2000',
+    noti: 'https://onesignal.com/api/v1/notifications',
+};
+/*
+ * For easier debugging in development mode, you can import the following file
+ * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
+
+ * This import should be commented out in production mode because it will have a negative impact
+ * on performance if an error is thrown.
+ */
+// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+
+/***/ }),
+
+/***/ "./src/main.ts":
+/*!*********************!*\
+  !*** ./src/main.ts ***!
+  \*********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm2015/platform-browser-dynamic.js");
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
+
+
+
+
+if (_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].production) {
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["enableProdMode"])();
+}
+Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformBrowserDynamic"])().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"])
+    .catch(err => console.log(err));
+
+
+/***/ }),
+
+/***/ 0:
+/*!***************************!*\
+  !*** multi ./src/main.ts ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! C:\Users\adm_usr\Documents\USB-Memoria\chatCorpoJan\src\main.ts */"./src/main.ts");
+
+
+/***/ }),
+
+/***/ 1:
+/*!********************!*\
+  !*** ws (ignored) ***!
+  \********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ })
+
+},[[0,"runtime","vendor"]]]);
+//# sourceMappingURL=main-es2015.js.map

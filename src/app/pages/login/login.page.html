@@ -1,0 +1,112 @@
+<ion-content class="ion-padding" scroll="false">
+  
+    <ion-list-header>
+        <ion-label color="dark" >Inicio de Sesion</ion-label>
+      </ion-list-header>
+
+    <img src="/assets/icon/imagen1.png" class="center"/>
+
+
+  <form class="p-4" #formulario="ngForm" (ngSubmit)="login()" class="border"  >
+
+
+                
+
+      <ion-item  color="transparent">
+          <ion-label position="floating">Email</ion-label>
+            <ion-input color="dark"  type="email"
+                        name="email"
+                        pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
+                        [(ngModel)]="loginUser.email"
+                        requiered>
+              </ion-input>
+       </ion-item> 
+
+       <ion-item color="transparent">
+          <ion-label position="floating">Password</ion-label>
+            <ion-input color="dark"   type="password"
+                        name="password"
+                        pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
+                        [(ngModel)]="loginUser.password"
+                        requiered>
+              </ion-input>
+       </ion-item>
+
+
+
+    <ion-button expand="block" type="submit"
+                [disabled]="formulario.valid" >
+                Ingresar
+    </ion-button>
+
+  </form>
+
+
+</ion-content>
+
+<!--
+  <ion-content>
+
+
+    <ion-slides class="mainSlide" #slidePrincipal>
+      
+      <ion-slide>
+  
+        <form (ngSubmit)="login( fLogin )" #fLogin="ngForm">
+          <ion-grid fixed>
+  
+            <ion-row>
+              <ion-col>
+                <img src="/assets/avatars/av-1.png">
+              </ion-col>
+            </ion-row>
+          
+            <ion-row>
+              <ion-col>
+                
+                  <ion-list>
+                    
+                    <ion-item>
+                      <ion-label>Email</ion-label>
+                      <ion-input name="email"
+                                  type="email"
+                                  [(ngModel)]="loginUser.email"
+                                  required></ion-input>
+                    </ion-item>
+  
+                    <ion-item>
+                      <ion-label>Password</ion-label>
+                      <ion-input name="password"
+                                  type="password"
+                                  [(ngModel)]="loginUser.password"
+                                  required></ion-input>
+                    </ion-item>
+  
+                  </ion-list>
+              </ion-col>
+            </ion-row>
+  
+            <ion-row>
+              <ion-col>
+                <ion-button type="submit"
+                            color="tertiary"
+                            shape="round">
+                  Login
+                </ion-button>
+              </ion-col>
+            </ion-row>
+  
+          </ion-grid>
+        </form>
+      
+  
+  
+      </ion-slide>
+    </ion-slides>
+</ion-content>
+
+
+
+
+
+-->

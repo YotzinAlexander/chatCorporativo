@@ -1,3 +1,368 @@
+
+
+<ion-header class="ion_toolbar"  >
+
+    <ion-toolbar color="light" >
+        <ion-button slot="start" fill="clear" (click)="closeChat()"  >
+            <ion-icon style="color:rgb(104, 88, 88); font-size: 25px" name="arrow-round-back"> </ion-icon>
+        </ion-button>         
+      <ion-title>Chat <b>{{grup}}</b> </ion-title>
+
+      <ion-fab-button color="danger" (click)="galeria()" slot="end" ><ion-icon  name="ios-images"></ion-icon></ion-fab-button>
+
+    </ion-toolbar>
+<!--
+<ion-fab vertical="center" horizontal="end" edge  slot="fixed"   >
+        <ion-fab-button  color="grey">
+          <ion-icon  style="font-size: 25px" name="md-add-circle"></ion-icon>
+        </ion-fab-button>
+
+        <ion-fab-list side="back">
+            <ion-fab-button color="danger" (click)="galeria()" ><ion-icon  name="ios-images"> </ion-icon></ion-fab-button>
+        </ion-fab-list>
+    </ion-fab>
+
+-->
+    
+
+</ion-header>
+
+
+<!--
+    <div  id="chat-messagess" >
+      <ion-card mode="ios" slot="start" >
+        <ion-icon slot="start" color="dark" name="pin"></ion-icon> 
+          <ion-card-content>
+          adasd
+          </ion-card-content>
+          </ion-card>
+  </div>  
+-->
+
+
+      <div  padding class="msg_history" id="chat-mensaje"  >
+      <div *ngFor="let msg of mensajes" >
+
+
+          
+
+
+        <!-- 
+          MENSAJES DE SALIDA  --------------------------------------------------------------------------
+        -->
+        <div class="outgoing_msg" *ngIf="msg.usuario.email === email && msg.texto" >
+          
+            <div class="sent_msg" *ngIf="msg.eliminar">
+              <span class="time_date"><b>{{msg.usuario.nombre}}</b></span>
+              <p>Mensaje Eliminado</p>            
+              <span class="time_date">{{msg.created | date: 'medium'}}</span> 
+            </div>
+  
+            <div class="sent_msg" id="dropdownBasic1" ngbDropdownToggle *ngIf="!msg.eliminar">
+              <span class="time_date"><b>{{msg.usuario.nombre}}</b></span>
+              <div class="send_res" *ngIf="msg.responder">
+                  <span class="time_date_res"><b>{{msg.responder.usuario.nombre}}</b></span>
+                  <!-- cuando se responde un mensaje de reenvio o de otro usuario-->
+                  <img
+                    *ngIf="msg.responder.img.length > 0 && !msg.responder.reenviar"
+                    (click)="presentActionSheetImage(msg.responder.usuario._id+'/'+msg.responder.img,msg._id)"
+                    src="{{url}}/mensajes/{{msg.responder.usuario._id}}/{{msg.responder.img}}" >
+
+
+                    <!-- Cuado se responde un mensaje propio-->
+                  <img
+                    *ngIf="msg.responder.img.length > 0 && msg.responder.reenviar"
+                    (click)="presentActionSheetImage(msg.responder.reenviar+'/'+msg.responder.img,msg._id)"
+                    src="{{url}}/mensajes/{{msg.responder.reenviar}}/{{msg.responder.img}}" >
+
+                     <!--TEXTO QUE SE RESPONDIO-->
+                <div [innerHTML]="msg.responder.texto"></div>
+
+                <!-- DOCUMENTO QUE SE RESPONDIO-->
+                <div class="time_date2"
+                (click)="presentActionSheetDocument(msg.responder.usuario._id+'/'+msg.responder.doc,msg._id, msg.doc)"
+                >{{msg.responder.doc}}</div>
+                
+              </div>
+              <p (click)="presentActionSheet(msg._id)" [innerHTML]="msg.texto"></p>
+              <span class="time_date"> {{msg.created | date: 'medium'}} </span> 
+            </div>
+        </div>
+
+        <!--
+
+          
+                <b>MOTIVO:</b> NOTIFICACION DE CIBER INCIDENTE 
+                <b>FECHA:</b> 07/01/2020
+                <b>HORA:</b> 09:42:36
+                <b>DIRECCION:</b> 
+                <b>COLONIA:</b> COL JUAN LIRA BRACHO, 
+                <b>CALLE:</b> EDUARDO RUIZ, 
+                <b>Y ENTRE CALLE:</b> ANDRES MELLADO
+                <b>DESCRIPCION:</b> VIVIRIDIANA DELGADO LOERA SE PASA LLAMADA A POLICIA CIBERNETICA 
+        -->
+
+         <!----------------------ENVIO DE DOCUMENTOS -- VISTA ------------------->
+      <div class="outgoing_msg" *ngIf="msg.usuario.email === email && !msg.texto && msg.doc.length ">
+          <div class="sent_msg" *ngIf="msg.eliminar">
+            <span class="time_date"><b>{{msg.usuario.nombre}}</b></span>
+            <p>Mensaje Eliminado</p>
+            <span class="time_date"> {{msg.created | date: 'medium'}} </span>
+          </div>
+  
+          <ion-card class="example-card sent_img" *ngIf="!msg.eliminar" >
+            <span class="time_date"><b>{{msg.usuario.nombre }}</b></span>
+            <img mat-card-image *ngIf="!msg.reenviar"
+            (click)="presentActionSheetDocument(msg.usuario._id+'/'+msg.doc,msg._id, msg.doc)"
+            src="assets/icon/icon_pdf.png"
+            height="100" width="50"
+            alt="Error al cargar imagen rn">
+        
+            <img *ngIf="msg.reenviar"
+            (click)="presentActionSheetDocument(msg.reenviar+'/'+msg.doc,msg._id, msg.doc)"
+            src="assets/icon/icon_pdf.png"
+            height="100" width="50"
+            alt="Error al cargar imagen">
+            <span class="time_date2"> {{msg.doc }}</span>
+            <span class="time_date"> {{msg.created | date: 'medium'}} </span>
+          </ion-card>
+        </div>  
+
+        
+        <!--
+          Envio de Imagen          ------------------------------------------------------------------------
+        -->
+
+
+        <div class="outgoing_msg" *ngIf="msg.usuario.email === email && !msg.texto">
+            <div class="sent_msg" *ngIf="msg.eliminar">
+                <span class="time_date"><b>{{msg.usuario.nombre}}</b></span>
+                <p>Mensaje Eliminado</p>
+                <span class="time_date"> {{msg.created | date: 'medium'}} </span>
+            </div>
+
+            <ion-card class="example-card sent_img" *ngIf="!msg.eliminar" >
+              
+              <span class="time_date"><b>{{msg.usuario.nombre}}</b></span>
+              <img mat-card-image *ngIf="!msg.reenviar" 
+              (click)="presentActionSheetImage(msg.usuario._id+'/'+msg.img,msg._id)"
+              src="{{url}}/mensajes/{{msg.usuario._id}}/{{msg.img}}"
+                   height="200" width="200"
+                   alt="Error al cargar imagen reen">
+              <img *ngIf="msg.reenviar"
+              (click)="presentActionSheetImage(msg.reenviar+'/'+msg.img,msg._id)"
+              src="{{url}}/mensajes/{{msg.reenviar}}/{{msg.img}}"
+                   height="200" width="200"
+                   alt="Error al cargar imagen">
+
+              <span class="time_date"> {{msg.created | date: 'medium'}} </span>
+            </ion-card>
+        </div>    
+        <!-- 
+          MENSAJES DE LLEGADA ---------------------------------------------------------------------------------------------------------------------------------------------
+        -->
+        <div class="incoming_msg"  *ngIf="msg.usuario.email !== email && msg.texto" >
+         <!-- <div class="incoming_msg_img"> <img src="/assets/icon/imagen1.png" alt="sunil"> </div>-->
+          <div class="received_msg">
+
+              <div class="received_withd_msg" *ngIf="msg.eliminar">
+                  <span class="time_date"><b>{{msg.usuario.nombre}}</b></span>
+                  <p>Mensaje Eliminado</p>
+                  <span class="time_date"> {{msg.created | date: 'medium'}}</span>
+              </div>
+                  <!--Mensaje de respuesta-->
+            <div class="received_withd_msg" *ngIf="!msg.eliminar">
+              <span class="time_date"><b>{{msg.usuario.nombre}}</b></span>
+              
+              <!--Mensaje imagen que se respondio-->
+
+              <!--                    src="{{url}}/mensajes/{{msg.responder.reenviar}}/{{msg.responder.img}}" >   ---------------------------------------------------  -->
+              <div class="received_withd_msg_res" *ngIf="msg.responder">
+                  <span class="time_date"><b>{{msg.responder.usuario.nombre}}</b></span>
+
+                  <!--Imagen con respuesta -->
+                  <img
+                    *ngIf="msg.responder.img.length > 0 && !msg.responder.reenviar"
+                    (click)="presentActionSheetImage(msg.responder.usuario._id+'/'+msg.responder.img,msg._id)"
+                    src="{{url}}/mensajes/{{msg.responder.usuario._id}}/{{msg.responder.img}}" >
+                    
+                  <img
+                    *ngIf="msg.responder.img.length > 0 && msg.responder.reenviar"
+                    (click)="presentActionSheetImage(msg.responder.reenviar+'/'+msg.responder.img,msg._id)"
+                    src="{{url}}/mensajes/{{msg.responder.reenviar}}/{{msg.responder.img}}" >
+                    
+                    <!--TEXTO QUE SE RESPONDIO-->
+                    <div class="time_date" [innerHTML]="msg.responder.texto"></div>
+                
+                    <!-- DOCUMENTO QUE SE RESPONDIO-->
+                    <div class="time_date2"
+                    (click)="presentActionSheetDocumentRecive(msg.usuario._id+'/'+msg.responder.doc,msg._id)"
+                    >{{msg.responder.doc}}</div>
+              </div>
+              <p (click)="presentActionSheetMsgLlegada(msg._id)" [innerHTML]="msg.texto"></p>
+              <span class="time_date"> {{msg.created | date: 'medium'}}</span>
+            </div>
+          </div>
+        </div>
+
+        <!----------------------RECEPCION DE DOCUMENTOS -- VISTA ------------------->
+      <div *ngIf="msg.usuario.email !== email && !msg.texto && msg.doc.length ">
+          <div class="incoming_msg_img"></div>
+          <div class="received_msg">
+        <!--          --------------Mensaje de eliminado------------        -->
+              <div class="received_withd_msg" *ngIf="msg.eliminar">
+                  <span class="time_date"><b>{{msg.usuario.nombre}}</b></span>
+                  <p>Mensaje Eliminado</p>
+                  <span class="time_date"> {{msg.created | date: 'medium'}} </span>
+              </div>
+        <!--          --------------Muestra imagen------------        -->      
+            <ion-card class="example-card received_withd_msg" *ngIf="!msg.eliminar">
+                <span class="time_date"><b>{{msg.usuario.nombre}}</b></span>   
+                <!-- Valida imagen y abre Action Sheet -->             
+                <img mat-card-image *ngIf="!msg.reenviar"
+                (click)="presentActionSheetDocumentRecive(msg.usuario._id+'/'+msg.doc,msg._id,msg.doc)"
+                src="assets/icon/icon_pdf.png"
+                height="100" width="50"
+                alt="Error al cargar imagen rn">
+
+                <img *ngIf="msg.reenviar"
+                (click)="presentActionSheetDocumentRecive(msg.reenviar+'/'+msg.doc,msg._id,msg.doc)"
+                src="assets/icon/icon_pdf.png"
+                alt="Error al cargar imagen">  
+
+                <span class="time_date2"> {{msg.doc }}</span>
+                <span class="time_date"> {{msg.created | date: 'medium'}} </span>
+            </ion-card>
+          </div>
+        </div>
+
+
+        <!--          --------------Recepcion de Imagen------------  -----------------------------------------      -->
+        <div *ngIf="msg.usuario.email !== email && !msg.texto && msg.img.length">
+          <div class="incoming_msg_img"></div>
+          <div class="received_msg">
+        <!--          --------------Mensaje de eliminado------------        -->
+              <div class="received_withd_msg" *ngIf="msg.eliminar">
+                  <span class="time_date"><b>{{msg.usuario.nombre}}</b></span>
+                  <p>Mensaje Eliminado</p>
+                  <span class="time_date"> {{msg.created | date: 'medium'}} </span>
+              </div>
+        <!--          --------------Muestra imagen------------        -->      
+            <ion-card class="example-card received_withd_msg" *ngIf="!msg.eliminar">
+                <span class="time_date"><b>{{msg.usuario.nombre}}</b></span>   
+                <!-- Valida imagen y abre Action Sheet -->             
+                <img *ngIf="!msg.reenviar"
+                (click)="presentActionSheetImgLlegada(msg.usuario._id+'/'+msg.img,msg._id)"
+                src="{{url}}/mensajes/{{msg.usuario._id}}/{{msg.img}}"
+                   height="200" width="200"
+                   alt="Error al cargar imagen">
+                <img *ngIf="msg.reenviar"
+                (click)="presentActionSheetImgLlegada(msg.reenviar+'/'+msg.img,msg._id)"
+                src="{{url}}/mensajes/{{msg.reenviar}}/{{msg.img}}" 
+                height="200" width="200"
+                alt="Error al cargar imagen">  
+                   
+                
+                <span class="time_date"> {{msg.created | date: 'medium'}} </span>
+            </ion-card>
+          </div>
+
+            
+        </div>
+
+      </div>
+      </div >
+
+      
+<ion-footer class="ion-padding">
+  <ion-toolbar>
+   <ion-item>
+      <ion-textarea [(ngModel)]="msgg" (keypress)="escribir($event)" placeholder="Mensaje...."></ion-textarea> 
+      <ion-button color="success" (click)="enviar()">
+       <ion-icon name="send"></ion-icon>
+     </ion-button>
+
+   </ion-item>
+</ion-toolbar>
+
+
+
+  
+</ion-footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <button class="msg_send_btn" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button> 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+-->
+
+<!--
+    <div class="type_msg">
+        <div class="input_msg_write">
+            <form (ngSubmit)="enviar()">
+               <input type="text" class="write_msg" name="texto" (ngModel)="texto" (keypress)="escribir($event)" placeholder="Mensaje...." autofocus autocomplete="off" />
+               
+            </form>
+          
+          
+        </div>
+      </div>
+      -->
+      
+
+
+
+<!--
+
 <ion-header>
   <ion-toolbar>
     <ion-title>
@@ -7,3 +372,5 @@
 </ion-header>
 
 <ion-content></ion-content>
+
+-->

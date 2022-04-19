@@ -1,0 +1,36 @@
+
+<ion-header>
+    <ion-toolbar>
+        <ion-button slot="start" fill="clear" (click)="close()" >
+            <ion-icon style="color:rgb(104, 88, 88); font-size: 25px" name="arrow-round-back"> Cancelar </ion-icon>
+          </ion-button>
+         
+
+      <ion-title> Reenviar </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  
+    <ion-label> Grupos A Enviar</ion-label>
+    <ion-select color="danger" [(ngModel)]="userGrupos" multiple="true" placeholder="Selecciona los grupos a reenviar">
+      <ion-select-option  *ngFor="let grupos of usuarioGrupos" [value]="grupos._id">{{grupos.nombre}}</ion-select-option>
+    </ion-select>
+  
+<ion-button class="top-20" expand="full" fill="solid" (click)="enviarGrupo()" >Enviar
+    <ion-icon name="send"></ion-icon>
+</ion-button>
+
+</ion-content>
+
+
+<!--  
+    <ion-list>
+      <ion-item  *ngFor="let grupos of usuarioGrupos" (click)="onClick(grupos)"  >
+          <ion-label>{{grupos.nombre}}</ion-label>
+          <ion-checkbox   [(ngModel)]="userGrupos"  name="userGrupos" value="grupos._id"></ion-checkbox>
+      </ion-item>
+    </ion-list>
+        
+-->
