@@ -4,22 +4,13 @@
 
 export const environment = {
   production: false,
-  // url: 'http://189.254.158.196:8080',
-   url: 'http://10.11.124.235:2000',
+   url: 'http://0.0.0.0:2000',
    noti: 'https://onesignal.com/api/v1/notifications',
 
 
 
 
 
-
-
-  // 189.211.127.34:8080
-
-  // 10.11.118.67:27017 IP DE LA BASE DE DATOS. Conectada mediante robo en MongoDB
-
- // url: 'http://localhost:2000'
- // siempre es necesario que lleve el Http://
 
 };
 
